@@ -1,0 +1,12 @@
+﻿IDX,NAME,TYPE,AD,AP,AS,DF,MANA,LIFE,LIFERECOVERY,MANARECOVERY,CLI,AVOID,QUALITY,PRICE,SPRITE,LOER
+0,Sword,WEAPON,p5,n,n,n,n,n,n,n,n,n,Common,100,ItemIcon/Sword,Just Sword
+1,HardShield,ARMOR,n,n,n,p5,n,n,n,n,n,n,Common,100,ItemIcon/HardShield,too Hard
+2,Ring of Heal,TRINKET,n,n,n,n,n,n,p5,n,n,n,Common,200,ItemIcon/Ring of Regenerration,Heros Never Die
+3,ManaStone,TRINKET,n,n,n,n,p10,n,n,m50,n,n,Common,300,ItemIcon/ManaStone,ManaStom
+4,MagiStaff,WEAPON,p2,p3,n,n,n,n,n,n,n,n,Common,150,ItemIcon/MagiStaff,Snap!
+5,HealthBelt,ARMOR,n,n,n,p2,n,p30,n,n,n,n,Common,150,ItemIcon/HealthBelt,Thick and Big Belt
+6,SpeedDagger,WEAPON,p2,n,m10,n,n,n,n,n,n,n,Common,150,ItemIcon/SpeedDagger,Whoosh~
+7,PlateMail,ARMOR,n,n,n,p12,n,n,n,n,n,n,Rare,400,ItemIcon/PlateMail,Play t E Mail~
+8,WarAxe,WEAPON,p12,n,n,n,n,n,n,n,n,n,Rare,400,ItemIcon/WarAxe,Warrrr
+9,Javelin,WEAPON,p5,n,m25,n,n,n,n,n,n,n,Rare,400,ItemIcon/Javelin,<----
+10,VikingHelm,ARMOR,n,n,n,p5,n,p70,n,n,n,n,Rare,400,ItemIcon/VikingHelm,^._.^

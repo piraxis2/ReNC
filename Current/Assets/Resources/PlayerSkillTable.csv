@@ -1,0 +1,10 @@
+﻿IDX,NAME,INFO,COST,ICON
+0,회복 지원,모든 아군 모험가의 체력을 회복시킵니다.,3,PlayerSkillIcon/0
+1,사기 진작,모든 아군 모험가의 공격력을 5초간 상승시킵니다.,2,PlayerSkillIcon/1
+2,숙영 지원,전투가 끝난 후 캠핑합니다.,4,PlayerSkillIcon/2
+3,화력 지원,모든 적에게 15의 데미지를 가합니다.,2,PlayerSkillIcon/3
+4,저격수 배치,무작위 적에게 50의 데미지를 가합니다.,3,PlayerSkillIcon/4
+5,불기둥 소환,무작위 적 주변에 커다란 불기둥을 소환합니다.,4,PlayerSkillIcon/5
+6,도주경로 확보,획득한 모든 재화를 포기하고 도망칩니다.,2,PlayerSkillIcon/6
+7,보상 증가,던전 완료시 획득하는 재화가 조금 증가합니다.,3,PlayerSkillIcon/7
+8,귀환석,획득한 모든 재화를 가지고 안전하게 귀환합니다.,5,PlayerSkillIcon/8

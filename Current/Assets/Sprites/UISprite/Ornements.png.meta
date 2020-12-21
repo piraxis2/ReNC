@@ -1,0 +1,1096 @@
+fileFormatVersion: 2
+guid: 217ac6178773c9c4088c702fa7f6ac9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2342702931833637865
+    second: Ornements_0
+  - first:
+      213: -5152365288648006031
+    second: Ornements_1
+  - first:
+      213: -3754815894673043388
+    second: Ornements_2
+  - first:
+      213: 6016217029659239304
+    second: Ornements_3
+  - first:
+      213: -4535529853750710824
+    second: Ornements_4
+  - first:
+      213: 8951320658457908822
+    second: Ornements_5
+  - first:
+      213: 243060620619323799
+    second: Ornements_6
+  - first:
+      213: -5760784377787230985
+    second: Ornements_7
+  - first:
+      213: -967548182524292291
+    second: Ornements_8
+  - first:
+      213: -4191716113894424355
+    second: Ornements_9
+  - first:
+      213: 5251410113009314109
+    second: Ornements_10
+  - first:
+      213: -4319036282976818184
+    second: Ornements_11
+  - first:
+      213: -8816476988824188848
+    second: Ornements_12
+  - first:
+      213: 310582963400666469
+    second: Ornements_13
+  - first:
+      213: -6466213609303521871
+    second: Ornements_14
+  - first:
+      213: 8543576636227536439
+    second: Ornements_15
+  - first:
+      213: 5877359731565615688
+    second: Ornements_16
+  - first:
+      213: 1077077253401665590
+    second: Ornements_17
+  - first:
+      213: -8266631558491743429
+    second: Ornements_18
+  - first:
+      213: 7926823526866652894
+    second: Ornements_19
+  - first:
+      213: 5762877880444838290
+    second: Ornements_20
+  - first:
+      213: 445580578246758107
+    second: Ornements_21
+  - first:
+      213: -8393970469147100973
+    second: Ornements_22
+  - first:
+      213: 6202388889366377002
+    second: Ornements_23
+  - first:
+      213: 8229275554006063344
+    second: Ornements_24
+  - first:
+      213: -6821798347756461858
+    second: Ornements_25
+  - first:
+      213: -2365614575149952650
+    second: Ornements_26
+  - first:
+      213: 8661995485572064538
+    second: Ornements_27
+  - first:
+      213: 6207988997113253126
+    second: Ornements_28
+  - first:
+      213: -9019803054757532518
+    second: Ornements_29
+  - first:
+      213: -113990019519621054
+    second: Ornements_30
+  - first:
+      213: 8775836664112973034
+    second: Ornements_31
+  - first:
+      213: 3260755055744291324
+    second: Ornements_32
+  - first:
+      213: 5251717999904366065
+    second: Ornements_33
+  - first:
+      213: -4098886246831529199
+    second: Ornements_34
+  - first:
+      213: 5020651050960144496
+    second: Ornements_35
+  - first:
+      213: 4167639318245952498
+    second: Ornements_36
+  - first:
+      213: -9079069432344088756
+    second: Ornements_37
+  - first:
+      213: 2635422951795636111
+    second: Ornements_38
+  - first:
+      213: -7541876290398563656
+    second: Ornements_39
+  - first:
+      213: 3890122189031873381
+    second: Ornements_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ornements_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2696
+        width: 244
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8d8cc4d4f4c2459ac07e8e7d749b7
+      internalID: 2342702931833637865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_1
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2696
+        width: 244
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6dbaf95b8e81b46ab4969644f8a782
+      internalID: -5152365288648006031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 2696
+        width: 243
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc1b3734fc00d4b845e35e773b6d09
+      internalID: -3754815894673043388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2398
+        width: 324
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 54, y: 12, z: 55, w: 35}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fecf44e061747b43b1d92b91cba26a3
+      internalID: 6016217029659239304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_4
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2391
+        width: 325
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 55, y: 20, z: 55, w: 41}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ed33f97a28984b887ff80a718fdae
+      internalID: -4535529853750710824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_5
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2333
+        width: 325
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 54, y: 96, z: 55, w: 84}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d7712d3cbfb349801de2aef08b821
+      internalID: 8951320658457908822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2099
+        width: 273
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd87eb99c783ac46b12cd2f3abaf31e
+      internalID: 243060620619323799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2090
+        width: 366
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0679ccb0de7b2d34b92f7e0307cc4ee6
+      internalID: -5760784377787230985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_8
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2062
+        width: 300
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0e8318e7aa5c479ab3ee7260126f5
+      internalID: -967548182524292291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1833
+        width: 249
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec31d3182452b214a81ade234431f3c2
+      internalID: -4191716113894424355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1817
+        width: 358
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c2694d9a6af72459139d6d4c817834
+      internalID: 5251410113009314109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_11
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1777
+        width: 357
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40d2354090609b449ac9936fa13db35
+      internalID: -4319036282976818184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1533
+        width: 299
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5cff50ba667ee44b39d09cf70e7b9d
+      internalID: -8816476988824188848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_13
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1535
+        width: 299
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f139701f0dba014ba9e337b2dbaf976
+      internalID: 310582963400666469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_14
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1496
+        width: 342
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820996ab8587bad41a9a45b19296e3aa
+      internalID: -6466213609303521871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1240
+        width: 309
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863be5c8a4cc46d498649375bc867231
+      internalID: 8543576636227536439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_16
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1231
+        width: 348
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be833ecb34aadde4abfc07388c1ce731
+      internalID: 5877359731565615688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_17
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1216
+        width: 347
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43198ab7d6b766b4480a6d1be220843d
+      internalID: 1077077253401665590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_18
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1199
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898625e3b2137c49aac74c1307be527
+      internalID: -8266631558491743429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 976
+        width: 323
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff7e137ffef32349b23b251c4234312
+      internalID: 7926823526866652894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1004
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ada6104545a954787eed7b5977309e
+      internalID: 5762877880444838290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_21
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 948
+        width: 323
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dca82c2d476c7428b70b51a176c88c
+      internalID: 445580578246758107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_22
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1004
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef24c4c74b53e84a8e8423ae4d8df99
+      internalID: -8393970469147100973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_23
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 996
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e9b54e6b12cf24bbf63da8e90c24e3
+      internalID: 6202388889366377002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_24
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 931
+        width: 322
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dda9fec3cca9d47af8140d0da84420
+      internalID: 8229275554006063344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_25
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 997
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb8080a6a2617942bbbd027b11f0cb4
+      internalID: -6821798347756461858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_26
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 917
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef65179555ae7d499c781ff3b771b76
+      internalID: -2365614575149952650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_27
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 930
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f27145287e5d04193b3933f2591617
+      internalID: 8661995485572064538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_28
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 671
+        width: 279
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4064cc0ebf7184c8e12c0f4dac370d
+      internalID: 6207988997113253126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_29
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 700
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d757f746e00824294e139322aff8c4
+      internalID: -9019803054757532518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_30
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 668
+        width: 280
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e53afa0b55ca96498890a030390c170
+      internalID: -113990019519621054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_31
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 700
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a339df1ab5a484f8e704034e92f1c5
+      internalID: 8775836664112973034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_32
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 666
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d2222cd411ed344a56cc882556192b
+      internalID: 3260755055744291324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_33
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 633
+        width: 279
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eee6686b64dc646a440c8438d9a68b
+      internalID: 5251717999904366065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_34
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 666
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a442bdc1ce7fb124f958538fc7a8ecca
+      internalID: -4098886246831529199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 402
+        width: 249
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688c0ab0ec768a94ca7ab6b7471908b8
+      internalID: 5020651050960144496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_36
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 375
+        width: 249
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2387e52baaedc9145b10aad96968a236
+      internalID: 4167639318245952498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_37
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 358
+        width: 443
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f668674f8edee646a1b0bbdcd3e3721
+      internalID: -9079069432344088756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 114
+        width: 261
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 12, z: 21, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fbdce8c4328e94eb5ead9dce4d57a9
+      internalID: 2635422951795636111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_39
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 90
+        width: 378
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461c1d0feb1d4824284bf3a0c12f370c
+      internalID: -7541876290398563656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ornements_40
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 66
+        width: 379
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52420eb714d9f54abcd469c5dc7c147
+      internalID: 3890122189031873381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24946737cc2e3184fb16bb8016238d8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

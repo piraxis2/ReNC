@@ -1,0 +1,3568 @@
+fileFormatVersion: 2
+guid: b842d90caee4e3840bb2d501f16f0576
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2947047711362013255
+    second: brawler_0
+  - first:
+      213: -7293673786968992280
+    second: brawler_1
+  - first:
+      213: -1172644466420943672
+    second: brawler_2
+  - first:
+      213: -89212475610892226
+    second: brawler_3
+  - first:
+      213: 3862743595300715108
+    second: brawler_4
+  - first:
+      213: -7331155831367997549
+    second: brawler_5
+  - first:
+      213: -6489674995054363479
+    second: brawler_6
+  - first:
+      213: 4724251520460364742
+    second: brawler_7
+  - first:
+      213: -3378412310311381593
+    second: brawler_8
+  - first:
+      213: 5185919128136867398
+    second: brawler_9
+  - first:
+      213: -7932689426825436269
+    second: brawler_10
+  - first:
+      213: 8910780650879537816
+    second: brawler_11
+  - first:
+      213: 923754111222231605
+    second: brawler_12
+  - first:
+      213: -7743676284680030253
+    second: brawler_13
+  - first:
+      213: -4128461605838845575
+    second: brawler_14
+  - first:
+      213: 5138447811955642905
+    second: brawler_15
+  - first:
+      213: 5227505385149725263
+    second: brawler_16
+  - first:
+      213: 5539015716493285945
+    second: brawler_17
+  - first:
+      213: -2833903684795993002
+    second: brawler_18
+  - first:
+      213: -9036451221496241098
+    second: brawler_19
+  - first:
+      213: 5925306765147445284
+    second: brawler_20
+  - first:
+      213: 5977779164982348843
+    second: brawler_21
+  - first:
+      213: -116950057970984169
+    second: brawler_22
+  - first:
+      213: 6839745566991809762
+    second: brawler_23
+  - first:
+      213: 8353504705104164195
+    second: brawler_24
+  - first:
+      213: 663346952943285341
+    second: brawler_25
+  - first:
+      213: -6557645247247815816
+    second: brawler_26
+  - first:
+      213: 9030064228399069663
+    second: brawler_27
+  - first:
+      213: 3626382019708470935
+    second: brawler_28
+  - first:
+      213: 2628114263287605610
+    second: brawler_29
+  - first:
+      213: 6671531615889299535
+    second: brawler_30
+  - first:
+      213: 6287656572644520738
+    second: brawler_31
+  - first:
+      213: 6454201074645136026
+    second: brawler_32
+  - first:
+      213: -7103377011671898714
+    second: brawler_33
+  - first:
+      213: -3246452999173929241
+    second: brawler_34
+  - first:
+      213: 5434396761806225989
+    second: brawler_35
+  - first:
+      213: 6556432853085229475
+    second: brawler_36
+  - first:
+      213: 7562212894976113871
+    second: brawler_37
+  - first:
+      213: 4828849739103463557
+    second: brawler_38
+  - first:
+      213: -6421178013293867433
+    second: brawler_39
+  - first:
+      213: -1704259220520739198
+    second: brawler_40
+  - first:
+      213: 3945487471115947686
+    second: brawler_41
+  - first:
+      213: 1698533029649648289
+    second: brawler_42
+  - first:
+      213: 4378373104086195050
+    second: brawler_43
+  - first:
+      213: -1735936927891434139
+    second: brawler_44
+  - first:
+      213: -8305460350566422480
+    second: brawler_45
+  - first:
+      213: -1530909871801896458
+    second: brawler_46
+  - first:
+      213: 1270508409178764384
+    second: brawler_47
+  - first:
+      213: -6646878642585872555
+    second: brawler_48
+  - first:
+      213: 8294038641294309123
+    second: brawler_49
+  - first:
+      213: 2719162221505573245
+    second: brawler_50
+  - first:
+      213: 9038660911265660511
+    second: brawler_51
+  - first:
+      213: 3137383712429697508
+    second: brawler_52
+  - first:
+      213: -5974073700811937380
+    second: brawler_53
+  - first:
+      213: 8166551494497702981
+    second: brawler_54
+  - first:
+      213: 6849397162872341115
+    second: brawler_55
+  - first:
+      213: 2454613445604975548
+    second: brawler_56
+  - first:
+      213: 2758958986555598903
+    second: brawler_57
+  - first:
+      213: 6535071096198336732
+    second: brawler_58
+  - first:
+      213: 7191602190505678711
+    second: brawler_59
+  - first:
+      213: 7673743366781371714
+    second: brawler_60
+  - first:
+      213: -6062539872938556371
+    second: brawler_61
+  - first:
+      213: -473321832760353300
+    second: brawler_62
+  - first:
+      213: -2716989938839911239
+    second: brawler_63
+  - first:
+      213: -2940898964881167894
+    second: brawler_64
+  - first:
+      213: -7281633398153181252
+    second: brawler_65
+  - first:
+      213: 4023261136571709766
+    second: brawler_66
+  - first:
+      213: -5731875664580169763
+    second: brawler_67
+  - first:
+      213: 6135456136116332759
+    second: brawler_68
+  - first:
+      213: 4026464167460823579
+    second: brawler_69
+  - first:
+      213: 6051167214748863648
+    second: brawler_70
+  - first:
+      213: -8655663728997567575
+    second: brawler_71
+  - first:
+      213: -645224749224573398
+    second: brawler_72
+  - first:
+      213: 7377120392073778778
+    second: brawler_73
+  - first:
+      213: -1149117594438390113
+    second: brawler_74
+  - first:
+      213: -8870447232748893837
+    second: brawler_75
+  - first:
+      213: 412617711496990598
+    second: brawler_76
+  - first:
+      213: -4745597675450339255
+    second: brawler_77
+  - first:
+      213: 1779478293535279433
+    second: brawler_78
+  - first:
+      213: -4312443811844915186
+    second: brawler_79
+  - first:
+      213: -6552850394311172365
+    second: brawler_80
+  - first:
+      213: 4714240102927376903
+    second: brawler_81
+  - first:
+      213: -7203049933519951409
+    second: brawler_82
+  - first:
+      213: 3540078383068924920
+    second: brawler_83
+  - first:
+      213: -5883401439095974930
+    second: brawler_84
+  - first:
+      213: 5025256460748523422
+    second: brawler_85
+  - first:
+      213: -413930749677236444
+    second: brawler_86
+  - first:
+      213: 6261122062242736490
+    second: brawler_87
+  - first:
+      213: 6650473038593360558
+    second: brawler_88
+  - first:
+      213: 125894314550145914
+    second: brawler_89
+  - first:
+      213: 2201859158200321529
+    second: brawler_90
+  - first:
+      213: -7129533897179344943
+    second: brawler_91
+  - first:
+      213: -5762005011053817307
+    second: brawler_92
+  - first:
+      213: -6945374351850811434
+    second: brawler_93
+  - first:
+      213: -226496950776909940
+    second: brawler_94
+  - first:
+      213: 3534508297469261183
+    second: brawler_95
+  - first:
+      213: -2633085787402141009
+    second: brawler_96
+  - first:
+      213: -2193076581121324863
+    second: brawler_97
+  - first:
+      213: -8382980261044185391
+    second: brawler_98
+  - first:
+      213: -8681275083407609474
+    second: brawler_99
+  - first:
+      213: 5887961178114464494
+    second: brawler_100
+  - first:
+      213: 5350390021136435587
+    second: brawler_101
+  - first:
+      213: -7189046269741179067
+    second: brawler_102
+  - first:
+      213: 5070703857918134919
+    second: brawler_103
+  - first:
+      213: 5636975783241383942
+    second: brawler_104
+  - first:
+      213: 3671259841461851873
+    second: brawler_105
+  - first:
+      213: -1157342502330289856
+    second: brawler_106
+  - first:
+      213: -1843452870239098816
+    second: brawler_107
+  - first:
+      213: -4011078877900831045
+    second: brawler_108
+  - first:
+      213: -6260763635076880769
+    second: brawler_109
+  - first:
+      213: 7318455479676243745
+    second: brawler_110
+  - first:
+      213: -6743054038655511326
+    second: brawler_111
+  - first:
+      213: 3031314805351616406
+    second: brawler_112
+  - first:
+      213: 9036471968253025371
+    second: brawler_113
+  - first:
+      213: 245925500048622852
+    second: brawler_114
+  - first:
+      213: -5565518427118740628
+    second: brawler_115
+  - first:
+      213: -8920618599363890793
+    second: brawler_116
+  - first:
+      213: -6936826609333210098
+    second: brawler_117
+  - first:
+      213: -1410228545059994398
+    second: brawler_118
+  - first:
+      213: 7710929991807319749
+    second: brawler_119
+  - first:
+      213: 2636521497801730387
+    second: brawler_120
+  - first:
+      213: -8458841307393849212
+    second: brawler_121
+  - first:
+      213: -264828355989871812
+    second: brawler_122
+  - first:
+      213: 5786760715613559710
+    second: brawler_123
+  - first:
+      213: 7788848508455071071
+    second: brawler_124
+  - first:
+      213: 979492892701190612
+    second: brawler_125
+  - first:
+      213: -5297917308672338437
+    second: brawler_126
+  - first:
+      213: -8763200596494609179
+    second: brawler_127
+  - first:
+      213: -97561473971039298
+    second: brawler_128
+  - first:
+      213: 6605189347646257393
+    second: brawler_129
+  - first:
+      213: 4489418175662712079
+    second: brawler_130
+  - first:
+      213: -4533336296724359868
+    second: brawler_131
+  - first:
+      213: 8636548938330616267
+    second: brawler_132
+  - first:
+      213: -7804117841229070760
+    second: brawler_133
+  - first:
+      213: 7910170492496312300
+    second: brawler_134
+  - first:
+      213: 2079823762886206181
+    second: brawler_135
+  - first:
+      213: 386992020815520653
+    second: brawler_136
+  - first:
+      213: 1118523662628322566
+    second: brawler_137
+  - first:
+      213: -6399495922765158971
+    second: brawler_138
+  - first:
+      213: 8851438680857777631
+    second: brawler_139
+  - first:
+      213: -4357445220434964571
+    second: brawler_140
+  - first:
+      213: 9087560413396927909
+    second: brawler_141
+  - first:
+      213: 2136947986215170049
+    second: brawler_142
+  - first:
+      213: -4113374615876917853
+    second: brawler_143
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brawler_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1165
+        width: 28
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bea3632f0fb754a8258b497d4dc3a1
+      internalID: 2947047711362013255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1165
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a661550430144468be1caffa9041fd
+      internalID: -7293673786968992280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1166
+        width: 21
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d4ddd913068148aafbe30e0f5b777
+      internalID: -1172644466420943672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1167
+        width: 27
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1faed33f747e8e4895a9777ca0563e3
+      internalID: -89212475610892226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1167
+        width: 28
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1a0b918355dfa45950a128143be75f
+      internalID: 3862743595300715108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1108
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b8b5d071a8eec418e89467827ccf99
+      internalID: -7331155831367997549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1108
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acafed2b0d3c06428f9b32be8e5a3e2
+      internalID: -6489674995054363479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1108
+        width: 33
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720638e42d4cf46478630539ba24f8c8
+      internalID: 4724251520460364742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1108
+        width: 33
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6bf02e7e9220d4eb853154b65712e3
+      internalID: -3378412310311381593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1108
+        width: 32
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7826a7908f4d3eb4783621c6ae05379d
+      internalID: 5185919128136867398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1109
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859148962f0a49f478a2fe3efbf9db4e
+      internalID: -7932689426825436269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1108
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d7f7bc6987d3344ab84a5373555e4c
+      internalID: 8910780650879537816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1108
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a1e0d6cf45b6a4387617a315f8dab6
+      internalID: 923754111222231605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1108
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87809982c252e224db64336dd6b44c9b
+      internalID: -7743676284680030253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1108
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eece195594b2f4380cd75e754b316d
+      internalID: -4128461605838845575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_15
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1108
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504799a7f4e2ecc4e8dd7562a91c1ea7
+      internalID: 5138447811955642905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1109
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9563105fa2dc31f4bb339ffb973b62c3
+      internalID: 5227505385149725263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_17
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1117
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c8aa2354171cb43a78988010aba554
+      internalID: 5539015716493285945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1051
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c2fc2735df55d45932158c2d418917
+      internalID: -2833903684795993002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1053
+        width: 29
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5465960735e854c4eae41520e30a19cc
+      internalID: -9036451221496241098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1054
+        width: 26
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f654f5f1549fd4791541b3b9438a55
+      internalID: 5925306765147445284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1055
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6dc05bdb1fdfc4daa857b1dfaa07d0
+      internalID: 5977779164982348843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1055
+        width: 28
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7824690e04d93a249ad1fb1890d05ea4
+      internalID: -116950057970984169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1052
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ca78b5f8ecdba45a63271dbfe183c4
+      internalID: 6839745566991809762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1053
+        width: 27
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f8d3e74ca584748b4f12b48c1d8179
+      internalID: 8353504705104164195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1052
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219460c0f176ea243a14d67e9bc0d204
+      internalID: 663346952943285341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_26
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1052
+        width: 28
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bace683959cb74bb31d5a9c3392305
+      internalID: -6557645247247815816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_27
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1053
+        width: 27
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55255faff2fe44443bdd967079b9c0f8
+      internalID: 9030064228399069663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_28
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1055
+        width: 28
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a3b4e07da3394193a6a143ce15157
+      internalID: 3626382019708470935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_29
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1054
+        width: 25
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836aa3261f85ae04d9824d4eec2fc5fc
+      internalID: 2628114263287605610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 994
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f53d5f301f277941ae1cffe385f59f6
+      internalID: 6671531615889299535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_31
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 995
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f2adac11fcdb141a568fefefd090d9
+      internalID: 6287656572644520738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_32
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 994
+        width: 27
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272ac88b3cf93a4f91b96e2eb5c2640
+      internalID: 6454201074645136026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 997
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea1ceb33a2f271459ec16b29f35dc11
+      internalID: -7103377011671898714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 939
+        width: 29
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f71dfbfdb5a5e43b0850067ca692af
+      internalID: -3246452999173929241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_35
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 937
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4023598667c0cc45aefc155f672bdc1
+      internalID: 5434396761806225989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_36
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 941
+        width: 29
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd590f270c20894dafd1b718f337c37
+      internalID: 6556432853085229475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_37
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 937
+        width: 25
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85207b613f8f004abb1cb790bd00efa
+      internalID: 7562212894976113871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 880
+        width: 22
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b4b2a6bc500cd4d86acf4a41477815
+      internalID: 4828849739103463557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 880
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe591eff92c864543b57513c3bdd4eb5
+      internalID: -6421178013293867433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 881
+        width: 27
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e175bc8b2d8bc2949a960e9c02aca4b1
+      internalID: -1704259220520739198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 882
+        width: 27
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d490c54a7e35d4cb2dd5df667d6b92
+      internalID: 3945487471115947686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 823
+        width: 26
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0560bdae4696c4d884d4739d06ea20
+      internalID: 1698533029649648289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 823
+        width: 25
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28811ae133db4144875ffc643f1f795
+      internalID: 4378373104086195050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_44
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 825
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e617b35816c3146bc22e75d1658349
+      internalID: -1735936927891434139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_45
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 825
+        width: 28
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b594dbd3758e164591400d00a4de4cc
+      internalID: -8305460350566422480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 774
+        width: 29
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773f534ec306b6b4980182415e6a5132
+      internalID: -1530909871801896458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 774
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ce265f9025be40a00842882153b73
+      internalID: 1270508409178764384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_48
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 774
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352a5a0717be6694f8bbc26eba594193
+      internalID: -6646878642585872555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_49
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 774
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19baf0c44b0ce5945a4e99570f0c1eb7
+      internalID: 8294038641294309123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 718
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d12df4846f2fb24c89a0fca73b577d6
+      internalID: 2719162221505573245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 718
+        width: 30
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8b1d8d3c82f3b4ca388934bf03f174
+      internalID: 9038660911265660511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 721
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8921844cf15588d4689c8122a0d379a7
+      internalID: 3137383712429697508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_53
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 721
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75039b460881e7347b9ff8ae979c98f7
+      internalID: -5974073700811937380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_54
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 717
+        width: 28
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80107b722a6f864fb23de31bd8c0def
+      internalID: 8166551494497702981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_55
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 717
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e7c0505804437448dc3d75f105ac90
+      internalID: 6849397162872341115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_56
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 718
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c58051b62e8ed946b75583239a42688
+      internalID: 2454613445604975548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_57
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 718
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806c47867370b84c914daff6b2e8e5e
+      internalID: 2758958986555598903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 661
+        width: 28
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdc584961e36c7458073292de37bd58
+      internalID: 6535071096198336732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_59
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 661
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea82cb6fb81dc448ff900c82a68493
+      internalID: 7191602190505678711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 661
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5693e1e7f4642904a8688197e15f1175
+      internalID: 7673743366781371714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_61
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 661
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a237652a72ad3045953d0a4a4557d1b
+      internalID: -6062539872938556371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_62
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 661
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7576516e7b9f374ebaf0abf32ddad51
+      internalID: -473321832760353300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_63
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 661
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c19a758ca44f0042a1014b25eee0e30
+      internalID: -2716989938839911239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_64
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 661
+        width: 29
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e271b6f401ad69f458dc1476da4e8d4a
+      internalID: -2940898964881167894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_65
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 661
+        width: 30
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace03025355758c48b42aec087d6db6b
+      internalID: -7281633398153181252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 607
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbae99ebf93fa5742af233ada852e53f
+      internalID: 4023261136571709766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_67
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 607
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e52ec201dfc86d41838f10ab4896282
+      internalID: -5731875664580169763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_68
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 607
+        width: 30
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2686e96cabe2747499c8bb68ea19c9e9
+      internalID: 6135456136116332759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_69
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 607
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7299b5b064cd1bc40bcc5a1fe2fb51d8
+      internalID: 4026464167460823579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_70
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 607
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585e862722aefdc42921eea2b8c26b88
+      internalID: 6051167214748863648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_71
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 607
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dfdb21596aed2468cd468160d9e96e
+      internalID: -8655663728997567575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_72
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 607
+        width: 28
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11fe857dbf74c04ba1c8f2f3e8a6042
+      internalID: -645224749224573398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_73
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 607
+        width: 29
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b39056398fa154e86c2d9694498971
+      internalID: 7377120392073778778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 549
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eab4f94e449c7e48834ba8f2f4ae32b
+      internalID: -1149117594438390113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 548
+        width: 28
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db4d506d73cf8a44bc72e8a11f27f3c
+      internalID: -8870447232748893837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_76
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 548
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac0c34b54cf04b478d990cdf77b0138
+      internalID: 412617711496990598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_77
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 548
+        width: 33
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078bcf877db555347b828cd236b5fd2f
+      internalID: -4745597675450339255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_78
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 547
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9499c077f189934419af93b3799210d2
+      internalID: 1779478293535279433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 547
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b8de02e4322647875b81a51d0a1b7
+      internalID: -4312443811844915186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_80
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 547
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ecb9177c6ca554699a84ceb8c853fd
+      internalID: -6552850394311172365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_81
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 547
+        width: 35
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaab44b0fd7e8741a14815c71075e43
+      internalID: 4714240102927376903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 30
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4af89f59e5a949810f2fd734d6497
+      internalID: -7203049933519951409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 490
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d71df5f840be2a4cac3d56d469b822b
+      internalID: 3540078383068924920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_84
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 490
+        width: 29
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10314d140a5e58e4b95bfb2705a37c14
+      internalID: -5883401439095974930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_85
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 490
+        width: 29
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afdc1b4c5ca8d047b6a283cd60347d5
+      internalID: 5025256460748523422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_86
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 492
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e6cc1a5aab33c4e8a1da82c28e9bd9
+      internalID: -413930749677236444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_87
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 490
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cab83c9377393d4f9f398a1760286b8
+      internalID: 6261122062242736490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_88
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 491
+        width: 30
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904ecec5e16a7ae4c86a6c4471f4caa8
+      internalID: 6650473038593360558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_89
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 492
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6821a768bd7db4f8981e01fe999fe2
+      internalID: 125894314550145914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 433
+        width: 28
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa315c48bfb507445b1fc4acd6979ec1
+      internalID: 2201859158200321529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 433
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9198d7251a5a264e96ff6ca109f132d
+      internalID: -7129533897179344943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_92
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 443
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f675b0604c7582345ab2b7503c75d6bc
+      internalID: -5762005011053817307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_93
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 441
+        width: 33
+        height: 40
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d1e6c33725a1944bae52ddf35c9afd
+      internalID: -6945374351850811434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_94
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 436
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17d3a1f67151fa4e9313c09d85552ac
+      internalID: -226496950776909940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_95
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 436
+        width: 30
+        height: 47
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851ee2724773df5409d6f8cc4a0ef9c7
+      internalID: 3534508297469261183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_96
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 441
+        width: 32
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951e30c03f37b8f4f9ea06bfbbae6fd0
+      internalID: -2633085787402141009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_97
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 440
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05896386e84c3046b0be7183b6195ff
+      internalID: -2193076581121324863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_98
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 377
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37141e44f56f9a44daa526d9e099eb05
+      internalID: -8382980261044185391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_99
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 377
+        width: 30
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148465e5c9e37674baa69b07d6479ea1
+      internalID: -8681275083407609474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_100
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 377
+        width: 24
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97b60dc42af43142b04621e25719397
+      internalID: 5887961178114464494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_101
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 377
+        width: 26
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f745dd4f083748a449d48e3196bdce83
+      internalID: 5350390021136435587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 377
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bed01d95f327c458e3ff1ca842e09c
+      internalID: -7189046269741179067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 377
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a5c4c5612a679439ab618d834bd582
+      internalID: 5070703857918134919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_104
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 375
+        width: 27
+        height: 54
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3be9934885871a4499d16782bd40bca
+      internalID: 5636975783241383942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_105
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 376
+        width: 26
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab22df6b8a08ee4f9b623b1bd007062
+      internalID: 3671259841461851873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_106
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 327
+        width: 40
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b54607248c3844afb8cccd987004b
+      internalID: -1157342502330289856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_107
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 320
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b12897745658ab48836094514a916de
+      internalID: -1843452870239098816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 269
+        width: 37
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b00e625b7d5b74d825792d7a751005
+      internalID: -4011078877900831045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_109
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 274
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b5fe6ebae690d40be602a63537991d
+      internalID: -6260763635076880769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_110
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 269
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e834122fab1a54a8ae46e45768d0a2
+      internalID: 7318455479676243745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_111
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 269
+        width: 35
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec1d38b5dd71134c9674ab42c27c0d3
+      internalID: -6743054038655511326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_112
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 271
+        width: 43
+        height: 33
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9de1975eea602240b5d1848c0809631
+      internalID: 3031314805351616406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_113
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 264
+        width: 33
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec675cfa645ff8645ad297e3bd78d25c
+      internalID: 9036471968253025371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_114
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 51
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768158683fa35b24a814489b38f8f14e
+      internalID: 245925500048622852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_115
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 262
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9649b5037d4a204c90ae69ef6132f7a
+      internalID: -5565518427118740628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 220
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ed742d2f8fdfd42b0387a0de17347a
+      internalID: -8920618599363890793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_117
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 220
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f480c085eef5459d1dd2c0c26eb0d
+      internalID: -6936826609333210098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_118
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 221
+        width: 35
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668cda4a95f0e6142beadecc1036780a
+      internalID: -1410228545059994398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_119
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 220
+        width: 26
+        height: 38
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759dcd2b5ea370248a4e263d978e9fd2
+      internalID: 7710929991807319749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_120
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 221
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d41bb82cdd618045b8f5ab3e5c61b51
+      internalID: 2636521497801730387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 222
+        width: 37
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7276580b94311da41952751f11204457
+      internalID: -8458841307393849212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_122
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 52
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33401decc120fa24195a9440b0ea89e5
+      internalID: -264828355989871812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_123
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 166
+        width: 52
+        height: 43
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666387bffbd06447bef0305a2e67932
+      internalID: 5786760715613559710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_124
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 164
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de836fb8e8191648b85a070754c8d80
+      internalID: 7788848508455071071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_125
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94296e4aa37768046b9feae1c25b0947
+      internalID: 979492892701190612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_126
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 163
+        width: 51
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adc972c31c0ce4aae6a2dfda129426
+      internalID: -5297917308672338437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_127
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 168
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59110b5e8c0db6a4dbf879fd21b1baf9
+      internalID: -8763200596494609179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_128
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 172
+        width: 37
+        height: 40
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89ec8fd5b58c2f4f9e9f5fca82c2346
+      internalID: -97561473971039298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_129
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 165
+        width: 49
+        height: 51
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8781629609ee9fa4d861a3dd2ff5522f
+      internalID: 6605189347646257393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 30
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19bdf2bf3c3a5247b3e0af981d5ca78
+      internalID: 4489418175662712079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_131
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 106
+        width: 30
+        height: 34
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993764c6affc57c4ba20c0162e3ab910
+      internalID: -4533336296724359868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_132
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 106
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ed524d927dd40498e5daff5fb1c57d
+      internalID: 8636548938330616267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_133
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 106
+        width: 28
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844fd30067272e547adb646ef1632bce
+      internalID: -7804117841229070760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_134
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 106
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6ff5767b7716148a431c6ebd911a35
+      internalID: 7910170492496312300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_135
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 106
+        width: 25
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4441aa26d7f7b4993034b743a74f99
+      internalID: 2079823762886206181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_136
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 106
+        width: 26
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c923e49936575664aa2503fb981c3bc0
+      internalID: 386992020815520653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_137
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 106
+        width: 26
+        height: 41
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dd925ecd9710349a5192b315d31ba6
+      internalID: 1118523662628322566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_138
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 110
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7d345cfe304634c954412e479a7c1d
+      internalID: -6399495922765158971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_139
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 110
+        width: 30
+        height: 35
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a9bb67310359b48b7db359017b7370
+      internalID: 8851438680857777631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a416b757b51bf4eb9be1d511b6b5a6
+      internalID: -4357445220434964571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_141
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 57
+        width: 29
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9e666f1650e9409f472e3f451371b
+      internalID: 9087560413396927909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_142
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 33
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3760fbb3e621444ba3ed8e651955302
+      internalID: 2136947986215170049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brawler_143
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b6476bf623ca479c79e1449697115
+      internalID: -4113374615876917853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bd468c375c918b14ba4184202d217c25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

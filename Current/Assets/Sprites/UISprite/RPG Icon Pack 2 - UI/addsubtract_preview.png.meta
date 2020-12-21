@@ -1,0 +1,4720 @@
+fileFormatVersion: 2
+guid: 0f299bf4a36dfa14385ca0abca30137b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1645918150891317253
+    second: addsubtract_preview_0
+  - first:
+      213: -944887529801884238
+    second: addsubtract_preview_1
+  - first:
+      213: -4270501343965819606
+    second: addsubtract_preview_2
+  - first:
+      213: -509736398704101288
+    second: addsubtract_preview_3
+  - first:
+      213: -3473528877730365362
+    second: addsubtract_preview_4
+  - first:
+      213: -7915252691010975575
+    second: addsubtract_preview_5
+  - first:
+      213: -7580771913622088626
+    second: addsubtract_preview_6
+  - first:
+      213: 7908146498765022273
+    second: addsubtract_preview_7
+  - first:
+      213: -1623787656074980794
+    second: addsubtract_preview_8
+  - first:
+      213: 988876454254722754
+    second: addsubtract_preview_9
+  - first:
+      213: 4375381421785770482
+    second: addsubtract_preview_10
+  - first:
+      213: -756450962591451063
+    second: addsubtract_preview_11
+  - first:
+      213: -1574857935169246626
+    second: addsubtract_preview_12
+  - first:
+      213: 7997118026813162481
+    second: addsubtract_preview_13
+  - first:
+      213: 6668235869859570452
+    second: addsubtract_preview_14
+  - first:
+      213: 1651997450601603524
+    second: addsubtract_preview_15
+  - first:
+      213: -7323865468134241670
+    second: addsubtract_preview_16
+  - first:
+      213: -2950136366252167596
+    second: addsubtract_preview_17
+  - first:
+      213: -4949657806556704307
+    second: addsubtract_preview_18
+  - first:
+      213: -6562453021144273267
+    second: addsubtract_preview_19
+  - first:
+      213: 2187506929803401840
+    second: addsubtract_preview_20
+  - first:
+      213: -5875814740651740293
+    second: addsubtract_preview_21
+  - first:
+      213: 4024030207534363178
+    second: addsubtract_preview_22
+  - first:
+      213: 6144705202844206528
+    second: addsubtract_preview_23
+  - first:
+      213: 9035267467363398065
+    second: addsubtract_preview_24
+  - first:
+      213: -1981954683376880922
+    second: addsubtract_preview_25
+  - first:
+      213: 5207715426495565150
+    second: addsubtract_preview_26
+  - first:
+      213: -2163918128524256398
+    second: addsubtract_preview_27
+  - first:
+      213: -8023345738413954611
+    second: addsubtract_preview_28
+  - first:
+      213: -5630700037480714388
+    second: addsubtract_preview_29
+  - first:
+      213: -2560170256107471848
+    second: addsubtract_preview_30
+  - first:
+      213: -994463260923255237
+    second: addsubtract_preview_31
+  - first:
+      213: -1927802014841405671
+    second: addsubtract_preview_32
+  - first:
+      213: 3985171052138700007
+    second: addsubtract_preview_33
+  - first:
+      213: -6282918258445870603
+    second: addsubtract_preview_34
+  - first:
+      213: 6538316209649111558
+    second: addsubtract_preview_35
+  - first:
+      213: 3176604767576632297
+    second: addsubtract_preview_36
+  - first:
+      213: -3251031605523010883
+    second: addsubtract_preview_37
+  - first:
+      213: 7372931908758987062
+    second: addsubtract_preview_38
+  - first:
+      213: 3322423509681533143
+    second: addsubtract_preview_39
+  - first:
+      213: -3253927342152519270
+    second: addsubtract_preview_40
+  - first:
+      213: 2408375565742488318
+    second: addsubtract_preview_41
+  - first:
+      213: 9183260774158073269
+    second: addsubtract_preview_42
+  - first:
+      213: 1639986477484924477
+    second: addsubtract_preview_43
+  - first:
+      213: -4976162575341107345
+    second: addsubtract_preview_44
+  - first:
+      213: -3448568518251582838
+    second: addsubtract_preview_45
+  - first:
+      213: -5522398578583177701
+    second: addsubtract_preview_46
+  - first:
+      213: 2649315880081399785
+    second: addsubtract_preview_47
+  - first:
+      213: 4493563472393527313
+    second: addsubtract_preview_48
+  - first:
+      213: 2282967683082246488
+    second: addsubtract_preview_49
+  - first:
+      213: -9210774240166687402
+    second: addsubtract_preview_50
+  - first:
+      213: -437655970693859371
+    second: addsubtract_preview_51
+  - first:
+      213: -2186584574770044706
+    second: addsubtract_preview_52
+  - first:
+      213: 2729983017374166564
+    second: addsubtract_preview_53
+  - first:
+      213: 3961854555586749057
+    second: addsubtract_preview_54
+  - first:
+      213: -2463683413722055568
+    second: addsubtract_preview_55
+  - first:
+      213: 5213512737296224222
+    second: addsubtract_preview_56
+  - first:
+      213: -3181749628713883137
+    second: addsubtract_preview_57
+  - first:
+      213: -5470406040197005235
+    second: addsubtract_preview_58
+  - first:
+      213: -4210848914048369918
+    second: addsubtract_preview_59
+  - first:
+      213: 2143936325367912373
+    second: addsubtract_preview_60
+  - first:
+      213: -5785087840768432817
+    second: addsubtract_preview_61
+  - first:
+      213: 4864416113242143695
+    second: addsubtract_preview_62
+  - first:
+      213: 487183393136838330
+    second: addsubtract_preview_63
+  - first:
+      213: -2070251560925304684
+    second: addsubtract_preview_64
+  - first:
+      213: -310810108070290054
+    second: addsubtract_preview_65
+  - first:
+      213: 3268861759858062149
+    second: addsubtract_preview_66
+  - first:
+      213: -7141194393064614351
+    second: addsubtract_preview_67
+  - first:
+      213: 1821824314885838582
+    second: addsubtract_preview_68
+  - first:
+      213: 6096454284375218036
+    second: addsubtract_preview_69
+  - first:
+      213: -2695513470224513346
+    second: addsubtract_preview_70
+  - first:
+      213: 3542891663559025388
+    second: addsubtract_preview_71
+  - first:
+      213: -5337697333194083702
+    second: addsubtract_preview_72
+  - first:
+      213: -2728186195223728973
+    second: addsubtract_preview_73
+  - first:
+      213: -2603933057183631431
+    second: addsubtract_preview_74
+  - first:
+      213: 8835749550499141675
+    second: addsubtract_preview_75
+  - first:
+      213: 6930269754802319883
+    second: addsubtract_preview_76
+  - first:
+      213: -8828914692786464197
+    second: addsubtract_preview_77
+  - first:
+      213: -1116724278704265606
+    second: addsubtract_preview_78
+  - first:
+      213: -322395021637405301
+    second: addsubtract_preview_79
+  - first:
+      213: -7146307768903925293
+    second: addsubtract_preview_80
+  - first:
+      213: -7106700733994891794
+    second: addsubtract_preview_81
+  - first:
+      213: -2459969204076022302
+    second: addsubtract_preview_82
+  - first:
+      213: 3690623615470820449
+    second: addsubtract_preview_83
+  - first:
+      213: 3723111156831405797
+    second: addsubtract_preview_84
+  - first:
+      213: 6968872861488421391
+    second: addsubtract_preview_85
+  - first:
+      213: -8360083584493481894
+    second: addsubtract_preview_86
+  - first:
+      213: -7261619422193706861
+    second: addsubtract_preview_87
+  - first:
+      213: 1134130123001545766
+    second: addsubtract_preview_88
+  - first:
+      213: -7583987068722558054
+    second: addsubtract_preview_89
+  - first:
+      213: -8893575966049403006
+    second: addsubtract_preview_90
+  - first:
+      213: 7186180619664546468
+    second: addsubtract_preview_91
+  - first:
+      213: 3163584837348180219
+    second: addsubtract_preview_92
+  - first:
+      213: 5335181969279087087
+    second: addsubtract_preview_93
+  - first:
+      213: -3092453257499777520
+    second: addsubtract_preview_94
+  - first:
+      213: 2135938330117327103
+    second: addsubtract_preview_95
+  - first:
+      213: -133997800102133876
+    second: addsubtract_preview_96
+  - first:
+      213: 757917558599890570
+    second: addsubtract_preview_97
+  - first:
+      213: 1375338042080540530
+    second: addsubtract_preview_98
+  - first:
+      213: 2147860377001102878
+    second: addsubtract_preview_99
+  - first:
+      213: -4728199233270819165
+    second: addsubtract_preview_100
+  - first:
+      213: 2747990124571836310
+    second: addsubtract_preview_101
+  - first:
+      213: -2520620041225197765
+    second: addsubtract_preview_102
+  - first:
+      213: -3450259897841412542
+    second: addsubtract_preview_103
+  - first:
+      213: -6127252759403989677
+    second: addsubtract_preview_104
+  - first:
+      213: -2405211207573526916
+    second: addsubtract_preview_105
+  - first:
+      213: -3047810197560295702
+    second: addsubtract_preview_106
+  - first:
+      213: -8166616412876068354
+    second: addsubtract_preview_107
+  - first:
+      213: -4910213094782440026
+    second: addsubtract_preview_108
+  - first:
+      213: 3465459058217465992
+    second: addsubtract_preview_109
+  - first:
+      213: -1943102366975359586
+    second: addsubtract_preview_110
+  - first:
+      213: 5103661305718350187
+    second: addsubtract_preview_111
+  - first:
+      213: -5663229251761877868
+    second: addsubtract_preview_112
+  - first:
+      213: -7015147512620903253
+    second: addsubtract_preview_113
+  - first:
+      213: -429281018455650507
+    second: addsubtract_preview_114
+  - first:
+      213: -5557463604831587532
+    second: addsubtract_preview_115
+  - first:
+      213: 8764667232255710643
+    second: addsubtract_preview_116
+  - first:
+      213: -1142568146151158804
+    second: addsubtract_preview_117
+  - first:
+      213: -6520019454011807387
+    second: addsubtract_preview_118
+  - first:
+      213: -5947592803742414601
+    second: addsubtract_preview_119
+  - first:
+      213: -354886087681386441
+    second: addsubtract_preview_120
+  - first:
+      213: -8598413758094977115
+    second: addsubtract_preview_121
+  - first:
+      213: 1470667476820975177
+    second: addsubtract_preview_122
+  - first:
+      213: 3398326415423441981
+    second: addsubtract_preview_123
+  - first:
+      213: -3563836042503752064
+    second: addsubtract_preview_124
+  - first:
+      213: 5843928996584947602
+    second: addsubtract_preview_125
+  - first:
+      213: -4461907536132156461
+    second: addsubtract_preview_126
+  - first:
+      213: -5074506291214181206
+    second: addsubtract_preview_127
+  - first:
+      213: -7437272625020441101
+    second: addsubtract_preview_128
+  - first:
+      213: 6596893108572754087
+    second: addsubtract_preview_129
+  - first:
+      213: -4754878010270257291
+    second: addsubtract_preview_130
+  - first:
+      213: 3444388764241647898
+    second: addsubtract_preview_131
+  - first:
+      213: -3182358512892955306
+    second: addsubtract_preview_132
+  - first:
+      213: -2292167560256687952
+    second: addsubtract_preview_133
+  - first:
+      213: 407289567219187737
+    second: addsubtract_preview_134
+  - first:
+      213: -5706624583668771323
+    second: addsubtract_preview_135
+  - first:
+      213: 3072629300254561238
+    second: addsubtract_preview_136
+  - first:
+      213: 2164286458531303115
+    second: addsubtract_preview_137
+  - first:
+      213: -1975990979257839332
+    second: addsubtract_preview_138
+  - first:
+      213: 8848933384314221062
+    second: addsubtract_preview_139
+  - first:
+      213: -7601268231946535829
+    second: addsubtract_preview_140
+  - first:
+      213: -5661649988043488846
+    second: addsubtract_preview_141
+  - first:
+      213: 1995567126702021993
+    second: addsubtract_preview_142
+  - first:
+      213: 7470077269594469060
+    second: addsubtract_preview_143
+  - first:
+      213: -2396142133658565616
+    second: addsubtract_preview_144
+  - first:
+      213: -8404088961696287428
+    second: addsubtract_preview_145
+  - first:
+      213: -8668388794385104504
+    second: addsubtract_preview_146
+  - first:
+      213: -8147801349912777870
+    second: addsubtract_preview_147
+  - first:
+      213: 4797826053402478084
+    second: addsubtract_preview_148
+  - first:
+      213: -7379282362470257477
+    second: addsubtract_preview_149
+  - first:
+      213: 2710600101270280916
+    second: addsubtract_preview_150
+  - first:
+      213: 7555124711930322367
+    second: addsubtract_preview_151
+  - first:
+      213: -4211200705098257011
+    second: addsubtract_preview_152
+  - first:
+      213: 2323712201761428431
+    second: addsubtract_preview_153
+  - first:
+      213: -981927869962931698
+    second: addsubtract_preview_154
+  - first:
+      213: 5778715458825285109
+    second: addsubtract_preview_155
+  - first:
+      213: -4929915210587707964
+    second: addsubtract_preview_156
+  - first:
+      213: -3337556860850887085
+    second: addsubtract_preview_157
+  - first:
+      213: 3978760624779705791
+    second: addsubtract_preview_158
+  - first:
+      213: 3073723694861657652
+    second: addsubtract_preview_159
+  - first:
+      213: -6906253181372757441
+    second: addsubtract_preview_160
+  - first:
+      213: 8855947101250021645
+    second: addsubtract_preview_161
+  - first:
+      213: 8449967977025406202
+    second: addsubtract_preview_162
+  - first:
+      213: 3981521414009626161
+    second: addsubtract_preview_163
+  - first:
+      213: -5004189606303746465
+    second: addsubtract_preview_164
+  - first:
+      213: -3677760586102619019
+    second: addsubtract_preview_165
+  - first:
+      213: -6110367710256392155
+    second: addsubtract_preview_166
+  - first:
+      213: 6341957168898295826
+    second: addsubtract_preview_167
+  - first:
+      213: -2085507024770611149
+    second: addsubtract_preview_168
+  - first:
+      213: 1323648643246858969
+    second: addsubtract_preview_169
+  - first:
+      213: -495638997636644415
+    second: addsubtract_preview_170
+  - first:
+      213: 2288857663789648161
+    second: addsubtract_preview_171
+  - first:
+      213: 8666847784490510122
+    second: addsubtract_preview_172
+  - first:
+      213: 9070832567823557446
+    second: addsubtract_preview_173
+  - first:
+      213: -3738917691283295332
+    second: addsubtract_preview_174
+  - first:
+      213: 2762122047802552659
+    second: addsubtract_preview_175
+  - first:
+      213: -7072649749923966554
+    second: addsubtract_preview_176
+  - first:
+      213: -1314381724923940835
+    second: addsubtract_preview_177
+  - first:
+      213: 3396817287511472455
+    second: addsubtract_preview_178
+  - first:
+      213: 7410882879273023669
+    second: addsubtract_preview_179
+  - first:
+      213: -3942740868833677915
+    second: addsubtract_preview_180
+  - first:
+      213: -7811195315694230800
+    second: addsubtract_preview_181
+  - first:
+      213: -4398476741738489688
+    second: addsubtract_preview_182
+  - first:
+      213: 3445299073479617515
+    second: addsubtract_preview_183
+  - first:
+      213: 1771962239602651605
+    second: addsubtract_preview_184
+  - first:
+      213: 1013368022860731467
+    second: addsubtract_preview_185
+  - first:
+      213: -5402330821659693368
+    second: addsubtract_preview_186
+  - first:
+      213: -3937133842567449990
+    second: addsubtract_preview_187
+  - first:
+      213: 1664194729379684153
+    second: addsubtract_preview_188
+  - first:
+      213: 3992459253301079437
+    second: addsubtract_preview_189
+  - first:
+      213: 249973487801683433
+    second: addsubtract_preview_190
+  - first:
+      213: -5357313725190673556
+    second: addsubtract_preview_191
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: addsubtract_preview_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408fdc54f25d29044a43512223cd4406
+      internalID: -1645918150891317253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f1ebc8e441c4d43bee9c71907f47a3
+      internalID: -944887529801884238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd3652d0d45df544a72d29802235d73
+      internalID: -4270501343965819606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdea625c2ff1a34a9a7af9319e70784
+      internalID: -509736398704101288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a16e2718be0e54d9d4a20b98a508ee
+      internalID: -3473528877730365362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 178
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea75dacbf6e8c94691192bbdc406950
+      internalID: -7915252691010975575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cd16a98ca8e57408dbd2696dd88228
+      internalID: -7580771913622088626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 178
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e52adeda0f53049afcea0a866b6e98
+      internalID: 7908146498765022273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3572cbd83c1b6384fbdbb0d16a2efe7c
+      internalID: -1623787656074980794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7502a4e5ded9624a8632875a339ea45
+      internalID: 988876454254722754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778a8aa850d4ed84f93302cd4425a8ba
+      internalID: 4375381421785770482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bfe798557825d47b5d7bedb4ef4c76
+      internalID: -756450962591451063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92672d49acb71c4d923f65346a23509
+      internalID: -1574857935169246626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 178
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5298c2978b33ec44b6047bdf6956f21
+      internalID: 7997118026813162481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08193482bbc3a5041b81237dfc93f790
+      internalID: 6668235869859570452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 178
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad470a26cec0c8144bd65b57651f1846
+      internalID: 1651997450601603524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d0ecb38fbefba438ae81c052846ed7
+      internalID: -7323865468134241670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3057b81879964181a97159e066eb2
+      internalID: -2950136366252167596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb346cd87342f246b839c6c37b1b252
+      internalID: -4949657806556704307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddff1ffb3650304881487c08503b3e9
+      internalID: -6562453021144273267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940a2ca65a33147479c6fb011a0c21db
+      internalID: 2187506929803401840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745740c5a52946842982dd1b4f210931
+      internalID: -5875814740651740293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6a86ca633cad445854296429e7a983
+      internalID: 4024030207534363178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661451049f458dc40978b9bf9ef9ebb2
+      internalID: 6144705202844206528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550801f18a196194bacba1e1955a0a72
+      internalID: 9035267467363398065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82ee5ab6380c440ad31677d391de8a
+      internalID: -1981954683376880922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f686a76ee4d9949a1473261c9542e2
+      internalID: 5207715426495565150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e46ba5c6517faa449470918b029c82c
+      internalID: -2163918128524256398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10bf5d8609c1b419c7439be569eb46
+      internalID: -8023345738413954611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_29
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b35323263ab76408e1a5eb324a199e
+      internalID: -5630700037480714388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_30
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 163
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a7e1173de235f4bbd650ea03e8c316
+      internalID: -2560170256107471848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_31
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 162
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d2a761b4e6e54e9c0929d24e32847
+      internalID: -994463260923255237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29995abf4ff42b848bc09b9390eb83cd
+      internalID: -1927802014841405671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_33
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7934a0730869b634b87b1b9658ab174d
+      internalID: 3985171052138700007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_34
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c90300f37ff043b417cebf88d1225
+      internalID: -6282918258445870603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbae55519a47d843abde65192a3978c
+      internalID: 6538316209649111558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5c3b03c9bece84d9c0350a04dc76ba
+      internalID: 3176604767576632297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18f439e95acb1b448b531575176141c
+      internalID: -3251031605523010883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 148
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df91c0b2fb8ceb54585ccc975eb41113
+      internalID: 7372931908758987062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2107d7408b2c7644fb159f6eb2b5f5fe
+      internalID: 3322423509681533143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde347792c546be49a62974daa7f1998
+      internalID: -3253927342152519270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564d3836ababfe5468e2755cf37ff678
+      internalID: 2408375565742488318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_42
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56803cf4df58dc4a993de2a847c8617
+      internalID: 9183260774158073269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_43
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1da6fca782645a4a8ae74a36c1a56fc
+      internalID: 1639986477484924477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 148
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cdf98e98fbab843bd12fdc04818139
+      internalID: -4976162575341107345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_45
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696268a4b4ff4894585c5187cf213c8f
+      internalID: -3448568518251582838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_46
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 148
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9dbd3a4b6132c4cbbd2a1feeac0c32
+      internalID: -5522398578583177701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_47
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13646365ffda824eb3a342aeebdb7bb
+      internalID: 2649315880081399785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9368ba052d00c04c994bfe728f0769f
+      internalID: 4493563472393527313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_49
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c3b15d4f4c4ee419f7b30658c532ea
+      internalID: 2282967683082246488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f60b2fc9945346b6d95874c37c24d
+      internalID: -9210774240166687402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed5a38ecf0ad048b9787fa3a7a205a
+      internalID: -437655970693859371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349d8b748461f874c90be61bbde5c51d
+      internalID: -2186584574770044706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53cf9f2d5fae947a686c94a54781e2
+      internalID: 2729983017374166564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc5f420b2bc57244bafafccfff0fac4
+      internalID: 3961854555586749057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f756bdd52d7e04ea00a46b7c891224
+      internalID: -2463683413722055568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97cf46e06c89874ea2fe018b361c104
+      internalID: 5213512737296224222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b95a2a6bb484245b55049a8c2924e7
+      internalID: -3181749628713883137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140de1a44255c141ad129a2a71374d8
+      internalID: -5470406040197005235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_59
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 132
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e536ce513c65c0e45bbadfc84e6af9d7
+      internalID: -4210848914048369918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44080f6eaf6e87f42987d014fd4f2469
+      internalID: 2143936325367912373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_61
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ccfb7d81a34954699c1cb1f451f7e6
+      internalID: -5785087840768432817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_62
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d81e31821c6b3419fef552f4317e15
+      internalID: 4864416113242143695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6866783e10d5945b9b2fa516c23ddb
+      internalID: 487183393136838330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb9654da2788f45a7172bfff55e400
+      internalID: -2070251560925304684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_65
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e95e982f3b7949b74d3f77db91f13
+      internalID: -310810108070290054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_66
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a779ac1c045394a84ed3eb334292da
+      internalID: 3268861759858062149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_67
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21217694685fe4a8767993b644763c
+      internalID: -7141194393064614351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_68
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab1a92c3d399184ea7b5f64e45ec119
+      internalID: 1821824314885838582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_69
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b104528570bb43b69577fa52ac84c
+      internalID: 6096454284375218036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_70
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbdf16f7aa4c4a41a191b6d150d4cab
+      internalID: -2695513470224513346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_71
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d654acecd304e4ebc5b7cf39dbff99
+      internalID: 3542891663559025388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_72
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb268f22598b5624f8215904b3e3cd85
+      internalID: -5337697333194083702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_73
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a47d4c68db617e44a5696d0a54404fa
+      internalID: -2728186195223728973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_74
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d3241179e5f841bb24936571f5f4c
+      internalID: -2603933057183631431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_75
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2912b3f66b3314a49a46a40879a4d67b
+      internalID: 8835749550499141675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_76
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85857e7c8d1fbb42a16ee919ceead5c
+      internalID: 6930269754802319883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_77
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9621aeeaefdd34ab3d12952b42bb53
+      internalID: -8828914692786464197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964b304fc2c71043be09a6a342c2724
+      internalID: -1116724278704265606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_79
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a660ef6848ab45af463e7a0d7bcca
+      internalID: -322395021637405301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_80
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd9aea938064743b4c3cdb2810a256
+      internalID: -7146307768903925293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_81
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81efb9156cf6e224f87578973bd393ab
+      internalID: -7106700733994891794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_82
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d63598ca53bb4fa9faa3974ceeab7
+      internalID: -2459969204076022302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b120a2cfb73b3f645a4796cf1fc51f85
+      internalID: 3690623615470820449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc81581f54520247a0e5609ef92b262
+      internalID: 3723111156831405797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_85
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a6acb42b004bb49958431820bf928a
+      internalID: 6968872861488421391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9b910fdf47ae345849ca6e18be174a
+      internalID: -8360083584493481894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_87
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42536e9fa2a3024d98c2723f8175b57
+      internalID: -7261619422193706861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436cc15691b66e94e8ee26f9cfc9ebc7
+      internalID: 1134130123001545766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa7394e591ee914aa0aa3a609e2c7e1
+      internalID: -7583987068722558054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_90
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e6635f5f4d3fb4d8d2a0b8b52c8001
+      internalID: -8893575966049403006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_91
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece7d79d0ff759f4fa0999dd1c9fd1f9
+      internalID: 7186180619664546468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_92
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 99
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6234ef790a97d4fbbb45118fae4c23
+      internalID: 3163584837348180219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_93
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d019af2f5bcf6843bdb78c70fd8816d
+      internalID: 5335181969279087087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_94
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 99
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa69e33e8cbdd044ae6f336e57ac356
+      internalID: -3092453257499777520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_95
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f6d36515c6e448ae46edda0643aaa
+      internalID: 2135938330117327103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6d4ac742546d547bb3079bb3c4890b
+      internalID: -133997800102133876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_97
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ce93494bdf4e41bc310064add23cc
+      internalID: 757917558599890570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_98
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc01b92d5b5e0d44b467628b27c1f79
+      internalID: 1375338042080540530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_99
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd8182d7c545864ab6e1725147a2aca
+      internalID: 2147860377001102878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_100
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da195398d3958c4188b350306ab243c
+      internalID: -4728199233270819165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_101
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aae553e7ec04e48b8a17f581460fa1
+      internalID: 2747990124571836310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_102
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e33c52a0cf39a543a55df6af48d88e9
+      internalID: -2520620041225197765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_103
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a527b6615987bf43af5e86fb39c59cd
+      internalID: -3450259897841412542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_104
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b153ad979a9d29545b9a3b173a0fbdfd
+      internalID: -6127252759403989677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_105
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ac610b0324bb44c9a0ede14ef0a9bf
+      internalID: -2405211207573526916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_106
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9104040cc86b00f4bb9119d7eeedd693
+      internalID: -3047810197560295702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_107
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505bf7f47503f034b89dcd1f84ba2492
+      internalID: -8166616412876068354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_108
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b8538359b90e943a4b270b827a76e6
+      internalID: -4910213094782440026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_109
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3650ac78e8e184fac8bf720c9cd881
+      internalID: 3465459058217465992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_110
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca335b92febe0bf4e815bc539d379ae8
+      internalID: -1943102366975359586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_111
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51efa8e1345015408ad67b05506768f
+      internalID: 5103661305718350187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_112
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae573d6172c56544db8348b5ff3a03e8
+      internalID: -5663229251761877868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad05bdfbfe147e84998b8f12bf8f48fa
+      internalID: -7015147512620903253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_114
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e031590403cd54ab04475e69aa8ba7
+      internalID: -429281018455650507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_115
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04b78e8a665944daf385caaceb7a5b
+      internalID: -5557463604831587532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_116
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e09fddd23e24244b92167e7dbee1f9c
+      internalID: 8764667232255710643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_117
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 66
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2569130cdf1798141bf0b32afbdddf85
+      internalID: -1142568146151158804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_118
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd58f670533e514d886b1d9dc977340
+      internalID: -6520019454011807387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_119
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 66
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33e298702f2eb6479cf1be1c869d631
+      internalID: -5947592803742414601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_120
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773e2fba9ec2d24d93c5fde92502840
+      internalID: -354886087681386441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_121
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a92c6943b5499b45b49b521fa96809b
+      internalID: -8598413758094977115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_122
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d6d9a999d25124eb26e4ad41ccaaf8
+      internalID: 1470667476820975177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_123
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37e2d785c88bab4ea855673f18b2b2d
+      internalID: 3398326415423441981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ed6b9c66aa10b4e85cb900207bc12c
+      internalID: -3563836042503752064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_125
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 66
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2137d08d95188af4dbc803a87cd2ba72
+      internalID: 5843928996584947602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_126
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1eb5a8f99a0b04f8d9f21ad95d0855
+      internalID: -4461907536132156461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_127
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 66
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b6e83be9aadf4d955fe6c87e0a7af
+      internalID: -5074506291214181206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_128
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb0d46bc5e4ede4d948a9fbbc045fbf
+      internalID: -7437272625020441101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_129
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be23f245afde154faad1c77716f562a
+      internalID: 6596893108572754087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_130
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc6ad02061bc3e4da1a1447c1e9c506
+      internalID: -4754878010270257291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_131
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2815f6c25c1c3642bc7eca4710addf5
+      internalID: 3444388764241647898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_132
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7182fcfeb4c711e4898058f9ae84115f
+      internalID: -3182358512892955306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_133
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 50
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a838a0373b0f54a95f104ecf81ef63
+      internalID: -2292167560256687952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_134
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca031ec25a195e46afe511103dcfc3c
+      internalID: 407289567219187737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_135
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 50
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80443686544321c49b7a05089e4181e7
+      internalID: -5706624583668771323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_136
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f410d440a87324f459633f0dfeaa56d2
+      internalID: 3072629300254561238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_137
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b272c966183f1439594a73b90052af
+      internalID: 2164286458531303115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_138
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89df743e595efc246b3dc09642f1af4f
+      internalID: -1975990979257839332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_139
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a733382617a649b28159d21eb6c1d
+      internalID: 8848933384314221062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_140
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a59a6014ecf8a40a22e53edf9f03f6
+      internalID: -7601268231946535829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_141
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 50
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6691400abb7196a4f9fe5cb5e6557b63
+      internalID: -5661649988043488846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_142
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea767a208fd666042b47c9e376d4f2a5
+      internalID: 1995567126702021993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_143
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 50
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae03d7f3a149594c8e2387763678a00
+      internalID: 7470077269594469060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_144
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b83593f61f10d24295e582f68b1bf59
+      internalID: -2396142133658565616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_145
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2d105c0559b1144980e39d2e1d39c8
+      internalID: -8404088961696287428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_146
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a2f4d44f376745ac2d98cd542f712
+      internalID: -8668388794385104504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_147
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a58e66711f0cb4c8d3dbbc03b6fb77
+      internalID: -8147801349912777870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_148
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539a72ac9583da54d810bf816d4be24d
+      internalID: 4797826053402478084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_149
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107d933f2eecc05458a19e60c77b86ef
+      internalID: -7379282362470257477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_150
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867926301adcaf049a3f7f15e3e7134b
+      internalID: 2710600101270280916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_151
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941a5b768d2534469a99128a0aa9695
+      internalID: 7555124711930322367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_152
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe25dcc2ddec1408a0e295d3fce711
+      internalID: -4211200705098257011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_153
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0fcda5812ef7246983406605a9459e
+      internalID: 2323712201761428431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_154
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 36
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec180bd9b986b47a0786a98d30e8a0
+      internalID: -981927869962931698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_155
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5914b75f916a48a5ccbfa13185a41
+      internalID: 5778715458825285109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_156
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371883a074816042a242bbe8ccbc485
+      internalID: -4929915210587707964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_157
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7978489fd882cc4da0c3d1c59c6cb79
+      internalID: -3337556860850887085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_158
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dde15f16e4ee843bfcda5a964fac0c
+      internalID: 3978760624779705791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_159
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 34
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a785d431d97eb41b187add6d6b79e7
+      internalID: 3073723694861657652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_160
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc17f4b768c224ca014ea891211c30
+      internalID: -6906253181372757441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_161
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3632b482deee4e9727befe0a5514c
+      internalID: 8855947101250021645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_162
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f2cfc94b925f64299bdfcc5e5f3db1
+      internalID: 8449967977025406202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_163
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a4ffb0461454c43bf2fa37ead1eb96
+      internalID: 3981521414009626161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_164
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a54c81eae39bcb40b4e91a8212830f9
+      internalID: -5004189606303746465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_165
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 19
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adf1b0f0990eb45a3b1c5dd8a9f6f5
+      internalID: -3677760586102619019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_166
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f37810b41c886c4983688223ff67593
+      internalID: -6110367710256392155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_167
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 19
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4fc50792171574fa80a5070e028773
+      internalID: 6341957168898295826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_168
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c909e28f1231fd744af502ba41ae79c9
+      internalID: -2085507024770611149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_169
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e2b1eeb6f4474a977ccd5cebcb849
+      internalID: 1323648643246858969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_170
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974b1081b635c147a17035a267799ef
+      internalID: -495638997636644415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_171
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d20f9227707a74db8e7c005b71b330
+      internalID: 2288857663789648161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_172
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389afe9e283dcab48b555a2364c891eb
+      internalID: 8666847784490510122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_173
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 18
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb0a831747da248b6d7321a659a410
+      internalID: 9070832567823557446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_174
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 19
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61be5c9484725744bdd105313c2d3b7
+      internalID: -3738917691283295332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_175
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 18
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c274baf1b3d8844a06cb91857973cd
+      internalID: 2762122047802552659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_176
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5242b51f6f1e8642b9e94ebfc6f92f3
+      internalID: -7072649749923966554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_177
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a45365a1bfa9448d701ecb4995eaa
+      internalID: -1314381724923940835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_178
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29614a182790bfb4bbd125677f7273f8
+      internalID: 3396817287511472455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_179
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb77c55d1a71eb449bff18b157864cf
+      internalID: 7410882879273023669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_180
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599f90e1d87d28341965d287eb717d64
+      internalID: -3942740868833677915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_181
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ae19e2d8696846b3d1e1c363e76ca
+      internalID: -7811195315694230800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_182
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4718d64a58da29545a35c5f0c0427d2d
+      internalID: -4398476741738489688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_183
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda6cc0705b5c2f428763afb35cd42f5
+      internalID: 3445299073479617515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_184
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4867c237643f526419813343cf28679c
+      internalID: 1771962239602651605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_185
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee035ddecf69134798dda36b5e8c9e3
+      internalID: 1013368022860731467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_186
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d9c56a4ca4a4b469749cfcd2ac5c7e
+      internalID: -5402330821659693368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_187
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cad63ee5fdcdc45bfaac5c2a2613dd
+      internalID: -3937133842567449990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_188
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b555258fc8c1a924ca99a2e46443c7ba
+      internalID: 1664194729379684153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_189
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6eb3ee1040ae8409295ba9ddab55ea
+      internalID: 3992459253301079437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_190
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f300bb7f6b4c146a49676f319cc54d
+      internalID: 249973487801683433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: addsubtract_preview_191
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b198e2b3640c34fbaedf196832e167
+      internalID: -5357313725190673556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4e296e7fc71904849b30efcf0ee62b2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
