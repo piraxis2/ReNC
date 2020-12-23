@@ -25,5 +25,7 @@ public class Goblin : BaseChar
         Status.SetLife(650);
         Status.SetAS(0.65f);
         Status.SetDF(40);
+        base.StatusSet();
+
     }
 }

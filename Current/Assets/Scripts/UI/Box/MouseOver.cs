@@ -44,7 +44,6 @@ public class MouseOver : MonoBehaviour
         while (true)
         {
             bool boxoff = false;
-            int idx = 0;
 
             if (CalculateBounds(rt, rt.lossyScale.x).Contains(Input.mousePosition))
             {
@@ -52,7 +51,6 @@ public class MouseOver : MonoBehaviour
                 box.Setbox(Input.mousePosition);
                 boxoff = true;
             }
-            idx++;
 
 
             if (!boxoff)

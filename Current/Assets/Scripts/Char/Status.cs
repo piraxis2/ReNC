@@ -11,6 +11,9 @@ public enum DamageType
 public class Status
 {
 
+    public int IsChanged = 0;
+
+
     private string m_name = "AAA";
     private int m_lv = 1;
     private int m_exp = 0;
@@ -62,7 +65,19 @@ public class Status
 
     public Status(BaseChar baseChar)
     {
+
         m_baseChar = baseChar;
+        Init();
+    }
+
+    public void baseset(int ad, int hp)
+    {
+        m_lv1ad = ad;
+        m_lv1hp = hp;
+    }
+
+    public void Init()
+    {
         m_equad = m_ad;
         m_equap = m_ap;
         m_equdf = m_df;
@@ -75,8 +90,6 @@ public class Status
         m_equavoid = m_avoid;
         m_equran = m_range;
 
-        m_lv1ad = m_ad;
-        m_lv1hp = m_maxlife;
     }
 
     #region //property
@@ -479,14 +492,18 @@ public class Status
 
             if (currnode.CurrCHAR != null)
             {
-                m_baseChar.SetDying(true);
 
-                if (target == null)
-                    CharActionMng.ChangeDeadAni(CharActionMng.Direction(m_baseChar.CurrNode, null), m_baseChar);
-                else
-                    CharActionMng.ChangeDeadAni(CharActionMng.Direction(m_baseChar.CurrNode, target.CurrNode), m_baseChar);
+                if (!m_baseChar.Dying)
+                {
+                    m_baseChar.SetDying(true);
 
-                Log.Instance.AddText(m_name + " 이(가) 죽었다....");
+                    if (target == null)
+                        CharActionMng.ChangeDeadAni(CharActionMng.Direction(m_baseChar.CurrNode, null), m_baseChar);
+                    else
+                        CharActionMng.ChangeDeadAni(CharActionMng.Direction(m_baseChar.CurrNode, target.CurrNode), m_baseChar);
+
+                    Log.Instance.AddText(m_name + " 이(가) 죽었다....");
+                }
             }
         }
     }
@@ -584,7 +601,11 @@ public class Status
         PassiveCalculation();
         if (m_bufflist.Count > 0)
             BuffCalculation();
+
+        IsChanged++;
+
     }
+
 
     public float ItemCalculation(float oristat, string type)
     {

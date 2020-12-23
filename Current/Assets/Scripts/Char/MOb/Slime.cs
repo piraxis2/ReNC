@@ -24,6 +24,8 @@ public class Slime : BaseChar
         Status.PrioritySet(11);
         Status.SetLife(500);
         Status.SetAS(0.65f);
+        base.StatusSet();
+
 
     }
 }

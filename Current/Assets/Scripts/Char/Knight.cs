@@ -26,6 +26,7 @@ public class Knight : Hero
         Status.RangeSet(1);
         Status.PrioritySet(10);
         Status.SetAS(0.6f);
+        base.StatusSet();
 
     }
 }

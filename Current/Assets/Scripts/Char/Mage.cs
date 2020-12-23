@@ -31,6 +31,8 @@ public class Mage : Hero
         Status.RangeSet(3);
         Status.PrioritySet(13);
         Status.SetAS(0.6f);
+        base.StatusSet();
+
     }
 
 }

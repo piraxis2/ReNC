@@ -60,7 +60,6 @@ public class NodeMng : Mng
     {
         foreach(var x in m_nodearr)
         {
-            x.m_sprite.color = x.OriColor;
             x.CharEE(null);
             x.Setbool(false);
         }
@@ -74,6 +73,23 @@ public class NodeMng : Mng
         }
 
     }
+
+    public void NodeClear(BaseChar ch)
+    {
+        foreach (var x in m_nodearr)
+        {
+            x.CharEE(null);
+            x.Setbool(false);
+            if (ch.CurrNode!=x)
+            {
+                x.m_sprite.color = x.OriColor;
+            }
+
+        }
+
+    }
+
+
 
 
 

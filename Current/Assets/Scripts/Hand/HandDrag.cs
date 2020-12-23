@@ -10,7 +10,7 @@ public class HandDrag : Mng
     private bool m_click = false;
     private Color m_green = new Color(0.7f, 1, 0.8f,0.6f);
     private Color m_red = new Color(1, 0.3f, 0.3f, 0.6f);
-    private bool m_playing = false;
+    private static bool m_playing = false;
 
 
 
@@ -32,10 +32,10 @@ public class HandDrag : Mng
             }
             else
                 m_hero.transform.position = m_draghelper.m_oripos;
-
         }
         else
         {
+
             m_hero.transform.position = m_draghelper.m_oripos;
         }
 
@@ -43,7 +43,7 @@ public class HandDrag : Mng
     }
 
 
-    public bool Play(string key)
+    public static bool Play(string key)
     {
         switch(key)
         {
@@ -65,7 +65,6 @@ public class HandDrag : Mng
         if (Input.GetMouseButtonDown(0))
         {
             m_hero = HRay();
-
             if (m_hero != null)
             {
                 Sale.Instance.PopUp(m_hero);
@@ -78,15 +77,21 @@ public class HandDrag : Mng
                 m_draghelper.m_sitnode = null;
                 m_click = true;
             }
+            else
+            {
+                return;
+            }
         }
+
         else if (Input.GetMouseButtonUp(0))
         {
+
             Node node = NRay();
             if (m_hero != null)
             {
                 m_hero.CurrNode.m_sprite.color = m_hero.CurrNode.OriColor;
-
                 Sale.Instance.PopOff();
+
                 if (node != null)
                 {
                     if (m_hero.CurrNode.Row > 3)
@@ -105,7 +110,15 @@ public class HandDrag : Mng
                         //}
                         else
                         {
-                            returnhand();
+                            if(m_hero.IsOnField)
+                            {
+                                HandMng.Instance.ReturnField(m_hero);
+                                m_draghelper.m_targetnode.m_squadhere = true;
+                                m_draghelper.m_sitnode = m_draghelper.m_targetnode;
+                            }
+
+                            else
+                                returnhand();
                         }
                     }
                     else if (m_hero.CurrNode.IsHand)
@@ -130,26 +143,41 @@ public class HandDrag : Mng
                 m_draghelper.m_prevnode = null;
             }
 
+
             m_click = false;
+
+
         }
 
         if (m_click)
         {
+
+
             m_draghelper.m_prevnode = m_draghelper.m_targetnode;
             m_draghelper.m_targetnode = NRay();
-            m_draghelper.m_nodemng.NodeClear();
-            HandMng.Instance.NodeClear();
+
+
+            m_draghelper.m_nodemng.NodeClear(m_hero);
+            HandMng.Instance.NodeClear(m_hero);
+
 
             if (m_draghelper.m_prevnode != m_draghelper.m_targetnode)
             {
                 if (m_draghelper.m_prevnode != null)
                     m_draghelper.m_prevnode.m_sprite.color = m_draghelper.m_prevnode.OriColor;
+
+
                 if (m_draghelper.m_targetnode != null)
                 {
                     if (m_draghelper.m_targetnode.Row > 3 || m_draghelper.m_targetnode.IsHand)
                     {
-                        if(PlayerData.Instance.LV <= HandMng.Instance.FieldChars.Count)
+                        if (PlayerData.Instance.LV <= HandMng.Instance.FieldChars.Count)
+                        {
+                            if(m_hero.IsOnField)
+                            m_draghelper.m_targetnode.m_sprite.color = m_green;
+                            else
                             m_draghelper.m_targetnode.m_sprite.color = m_red;
+                        }
                         else
                             m_draghelper.m_targetnode.m_sprite.color = m_green;
 
@@ -171,6 +199,8 @@ public class HandDrag : Mng
             m_hero.transform.position = currpos;
         }
     }
+
+
 
     private BaseChar HRay()
     {

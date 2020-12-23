@@ -7,7 +7,6 @@ public enum DIR
     EAST, WEST, SOUTH, NORTH
 }
 
-//Insta
 
 
 public class CharActionMng : Mng
@@ -22,7 +21,6 @@ public class CharActionMng : Mng
 
     [SerializeField]
     private float m_speed = 1;
-    // Start is called before the first frame update
     private int m_globalturn = 0;
 
 
@@ -132,6 +130,10 @@ public class CharActionMng : Mng
    
     public IEnumerator IEAttack(BaseChar Chara, Node target)
     {
+
+        float AS = Chara.Status.CalculateAttackspeed();
+        WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
+
         float angle = 0;
         while (IsExist(Chara, target))
         {
@@ -140,11 +142,13 @@ public class CharActionMng : Mng
             if (Chara.Status.Life <= 0)
                 yield break;
 
+            if(AS!=Chara.Status.CalculateAttackspeed())
+            {
+                AS = Chara.Status.CalculateAttackspeed();
+                attackspeed = new WaitForSecondsRealtime(AS);
+            }
 
-            if (Chara.FOE)
-                sx++;
-
-
+        
             ChangeAttackAni(Direction(Chara.CurrNode, target), Chara);
             angle = MathHelper.GetAngle(Chara.transform.position, target.transform.position) + Chara.m_projectileangle;
             PixelFx Hit = Chara.FxCall();
@@ -152,7 +156,7 @@ public class CharActionMng : Mng
             Hit.transform.position = target.CurrCHAR.transform.position + new Vector3(0, 0.5f, 0);
             target.CurrCHAR.Status.DamagedLife(Chara.Status.AD, Chara, target,DamageType.Kinetic);
             Chara.Status.ManaGet(5+Chara.Status.MPS);
-            yield return new WaitForSeconds(Chara.Status.CalculateAttackspeed());
+            yield return attackspeed;
 
             if (Chara.Status.Skillon)
             {
@@ -167,17 +171,27 @@ public class CharActionMng : Mng
 
     public IEnumerator IELongRange(BaseChar Chara, Node target)
     {
+        float AS = Chara.Status.CalculateAttackspeed();
+        WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
+
+
         while (IsExist(Chara, target))
         {
             if (Chara.Status.Life <= 0)
                 yield break;
 
+            if (AS != Chara.Status.CalculateAttackspeed())
+            {
+                AS = Chara.Status.CalculateAttackspeed();
+                attackspeed = new WaitForSecondsRealtime(AS);
+            }
+
 
 
             ChangeAttackAni(Direction(Chara.CurrNode, target), Chara);
             StartCoroutine(IEProjectile(Chara, target));
-           
-            yield return new WaitForSeconds(Chara.Status.CalculateAttackspeed());
+
+            yield return attackspeed;
             if (Chara.Status.Skillon)
             {
                 Chara.SetAttacking(false);
@@ -514,6 +528,10 @@ public class CharActionMng : Mng
     private IEnumerator IEupdate()
     {
 
+        WaitForSeconds s5 = new WaitForSeconds(0.5f);
+        WaitForSeconds s10 = new WaitForSeconds(1);
+
+        HandDrag.Play("off");
 
         for (int i = 0; i < CharMng.Instance.CurrHeros.Count; i++)
         {
@@ -526,28 +544,28 @@ public class CharActionMng : Mng
             DungeonCreator.Instance.LoadFloor(m_currdungeonidx, i);
             CharMng.Instance.CharSummon();
             CanvasMng.Instance.LoadStateBar();
-            yield return new WaitForSeconds(1);
-
+            yield return s10;
             while (!(CharMng.Instance.CurrEnemys.Count == 0 || CharMng.Instance.CurrHeros.Count == 0))
             {
 
                 Routine();
-                yield return new WaitForSeconds(0.5f);
+                yield return s5;
             }
-            yield return new WaitForSeconds(1);
+            yield return s10;
             if (CharMng.Instance.CurrHeros.Count > 0)
             {
                 CharMng.Instance.CharUnSummon();
                 CanvasMng.Instance.ALLOffStateBar();
-                yield return new WaitForSeconds(0.5f);
+                yield return s5;
                 NextStage.Instance.MoveNext();
-                yield return new WaitForSeconds(1);
+                yield return s10;
             }
 
 
         }
         //next page
 
+        HandDrag.Play("on"); 
         yield return null;
     }
 

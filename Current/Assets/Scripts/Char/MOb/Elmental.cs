@@ -35,6 +35,8 @@ public class Elmental : BaseChar
         Status.SetAS(0.6f);
         Status.SetAD(40);
         Status.SetDF(20);
+        base.StatusSet();
+
     }
 
 }

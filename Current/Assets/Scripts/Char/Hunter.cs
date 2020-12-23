@@ -31,10 +31,10 @@ public class Hunter : Hero
 
     protected override void StatusSet()
     {
-        base.StatusSet();
         Status.RangeSet(5);
         Status.PrioritySet(5);
         Status.SetAS(0.75f);
+        base.StatusSet();
 
     }
 

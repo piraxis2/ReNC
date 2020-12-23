@@ -25,5 +25,7 @@ public class Warrior : Hero
         Status.RangeSet(1);
         Status.PrioritySet(9);
         Status.SetAS(0.6f);
+        base.StatusSet();
+
     }
 }

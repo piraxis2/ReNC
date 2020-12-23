@@ -51,10 +51,24 @@ public class HandMng : MonoBehaviour
         foreach (var x in m_nodes)
         {
             x.CharEE(null);
-            x.m_sprite.color = x.OriColor;
             x.Setbool(false);
         }
     }
+
+    public void NodeClear(BaseChar ch)
+    {
+        foreach (var x in m_nodes)
+        {
+            x.CharEE(null);
+            x.Setbool(false);
+            if(ch.CurrNode!=x)
+            {
+                x.m_sprite.color = x.OriColor;
+            }
+        }
+    }
+
+
 
     public bool AddChar(BaseChar ch)
     {
@@ -66,7 +80,7 @@ public class HandMng : MonoBehaviour
 
         m_allchars.Add(ch);
         m_handchars[num] = ch;
-
+        //ReadNodes();
 
         ch.transform.position = m_nodes[num].transform.position;
         ch.transform.GetComponent<DragHelper>().m_sitnode = m_nodes[num];
@@ -106,6 +120,37 @@ public class HandMng : MonoBehaviour
         }
     }
 
+    public void ReadNodes()
+    {
+        m_fieldchars.Clear();
+        
+        foreach (var x in NodeMng.instance.NodeArr)
+        {
+            if (x.CurrCHAR == null)
+                continue;
+
+            m_fieldchars.Add(x.CurrCHAR);
+        }
+
+
+        int idx = 0;
+        foreach (var x in m_nodes)
+        {
+            if (x.CurrCHAR != null)
+            {
+                m_handchars[idx] = x.CurrCHAR;
+            }
+            else
+            {
+                m_handchars[idx] = null;
+            }
+
+            idx++;
+        }
+
+    }
+
+
 
     public void ReturnField(BaseChar ch)
     {
@@ -122,12 +167,30 @@ public class HandMng : MonoBehaviour
         }
 
         ch.Isonfield(true);
+        //ReadNodes();
+        //  m_fieldchars.Add(ch);
+        FieldAdd(ch);
+
+
+    }
+
+    public void FieldAdd(BaseChar ch)
+    {
+
+        foreach(var x in m_fieldchars)
+        {
+            if (x == ch)
+                return;
+        }
+
+
         m_fieldchars.Add(ch);
     }
 
     public void ReturnHand(BaseChar ch)
     {
         RemoveOnfiled(ch);
+        //ReadNodes();
         m_handchars[ch.CurrNode.NodeNum] = ch;
     }
 

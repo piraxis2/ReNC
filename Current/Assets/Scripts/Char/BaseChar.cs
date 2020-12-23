@@ -21,7 +21,6 @@ public class BaseChar : MonoBehaviour
     private int m_factoryID;
     private int m_handID;
     private int m_cardID;
-    [SerializeField]
     private int m_star = 1;
     private int m_tier;
     private int m_idx;
@@ -34,12 +33,9 @@ public class BaseChar : MonoBehaviour
 
     protected bool m_isonfield = false;
 
-    [SerializeField]
     protected bool m_exclude = false;
 
-    [SerializeField]
     protected Node m_currnode;
-    [SerializeField]
     protected Node m_prevnode;
     protected Node m_standbynode;
 
@@ -48,7 +44,6 @@ public class BaseChar : MonoBehaviour
     private MainMng m_mainmng;
     protected NodeMng m_nodemng;
 
-    [SerializeField]
     private BaseChar m_fusionparent;
 
 
@@ -57,10 +52,8 @@ public class BaseChar : MonoBehaviour
     private bool m_attacking = false;
     private bool m_dying = false;
 
-    [SerializeField]
-    protected List<Node> m_Rangelist;
+    public List<Node> m_Rangelist;
     protected List<Node> m_skillRangelist;
-    [SerializeField]
     protected List<BaseChar> m_attackablelist;
 
 
@@ -161,7 +154,6 @@ public class BaseChar : MonoBehaviour
         get { return m_tecticsnode; }
     }
     
-
     public Status Status
     {
         get { return m_status; }
@@ -323,6 +315,8 @@ public class BaseChar : MonoBehaviour
 
     protected virtual void StatusSet()
     {
+        m_status.baseset(m_status.AD, m_status.MaxLife);
+        m_status.Init();
     }
 
     public virtual void Init()
@@ -332,6 +326,7 @@ public class BaseChar : MonoBehaviour
             m_status = new Status(this);
             StatusSet();
         }
+
         RayforNode();
         m_prevnode = m_currnode;
         if (m_currnode != null)
@@ -353,9 +348,9 @@ public class BaseChar : MonoBehaviour
         GetComponent<DragHelper>().Init();
 
     }
+
     public virtual void ReLoadChar()
     {
-       // StartCoroutine(IERay());
         Status.PassiveCalculation();
         Status.StatReLoad();
         RangeSet();
@@ -381,14 +376,21 @@ public class BaseChar : MonoBehaviour
         {
             m_star = 1;
             m_starani.SetInteger("lv", m_star);
-            m_status = null;
+            m_status = new Status(this);
+            StatusSet();
+
         }
+    }
+
+    public void RangeClear()
+    {
+        m_Rangelist.Clear();
     }
 
     public virtual void RangeSet()
     {
 
-        m_Rangelist.Clear();
+        RangeClear();
 
         if (m_currnode == null)
             return;
@@ -437,15 +439,23 @@ public class BaseChar : MonoBehaviour
                     continue;
 
 
+
                 if (FOE)
                 {
                     if (!x.CurrCHAR.FOE)
-                    { attackable.Add(x.CurrCHAR); }
+                    {
+                        if (!x.CurrCHAR.Dying)
+                            attackable.Add(x.CurrCHAR);
+                    }
                 }
                 else
                 {
                     if (x.CurrCHAR.FOE)
-                    { attackable.Add(x.CurrCHAR); }
+                    {
+                        if (!x.CurrCHAR.Dying)
+                            attackable.Add(x.CurrCHAR);
+                        attackable.Add(x.CurrCHAR);
+                    }
                 }
                 //if (x.CurrCHAR.gameObject.layer == 9)
                 //{
@@ -521,8 +531,6 @@ public class BaseChar : MonoBehaviour
             m_standbynode = CurrNode;
         else
             m_standbynode = null;
-
-
     }
 
 
@@ -556,6 +564,7 @@ public class BaseChar : MonoBehaviour
         Fusion(false);
         Isonfield(false);
         gameObject.SetActive(false);
+
 
         if (state == "fusion")
         {

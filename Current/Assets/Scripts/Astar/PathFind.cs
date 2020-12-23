@@ -18,7 +18,7 @@ public class PathFind : Mng
     private NodeMng m_nodeMng;
     private List<Node> m_openlist = new List<Node>();
     private List<Node> m_closelist = new List<Node>();
-       private List<Pair> m_orderList = new List<Pair>();
+    private List<Pair> m_orderList = new List<Pair>();
     private NodeComparer nodeComparer = new NodeComparer();
 
 
@@ -35,7 +35,7 @@ public class PathFind : Mng
         m_nodeMng = GameObject.FindObjectOfType<NodeMng>();
     }
 
-    public int GetDistance(Node a, Node b)
+    private int GetDistance(Node a, Node b)
     {
 
         int x = Mathf.Abs(a.Col - b.Col);
@@ -45,7 +45,7 @@ public class PathFind : Mng
            // 14 * Mathf.Min(x, y) + 10 * Mathf.Abs(x - y);
     }
 
-    public void PathReady(Node passenger,Node target)
+    private void PathReady(Node passenger,Node target)
     {
         if (passenger == null || target == null)
             return;
@@ -136,6 +136,7 @@ public class PathFind : Mng
         return path;
 
     }
+
     public List<Node> FindPath(Node start, Node end)
     {
         PathReady(start, end);
