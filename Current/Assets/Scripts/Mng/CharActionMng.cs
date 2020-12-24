@@ -54,15 +54,18 @@ public class CharActionMng : Mng
             List<BaseChar> targets = m_CurrChar.RangeCall();
             targets.Sort(m_passengerComparer);
             targets.Reverse();
-           
+
             if ((targets.Count == 0))
             {
                 m_CurrChar.SetAttacking(false);
 
-                if (m_CurrChar.FOE)
-                    ShortestMove(m_CurrChar, CharMng.Instance.CurrEnemys);
-                else
-                    ShortestMove(m_CurrChar, CharMng.Instance.CurrHeros);
+                if (m_CurrChar.Status.MovePoint > 0)
+                {
+                    if (m_CurrChar.FOE)
+                        ShortestMove(m_CurrChar, CharMng.Instance.CurrEnemys);
+                    else
+                        ShortestMove(m_CurrChar, CharMng.Instance.CurrHeros);
+                }
             }
             else
             {

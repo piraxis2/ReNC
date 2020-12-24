@@ -15,6 +15,7 @@ public class Elmental : BaseChar
         m_face = m_sprite.sprite;
 
     }
+
     public override PixelFx FxCall()
     {
         return FxMng.Instance.FxCall("Boom");

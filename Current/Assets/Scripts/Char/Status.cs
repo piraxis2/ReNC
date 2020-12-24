@@ -35,6 +35,8 @@ public class Status
     private int m_avoid = 0;
     private int m_perks = 0;//특성을 비트연산으로 관리
     private int m_passive = 0;
+    private int m_movepoint = 1;
+
 
     private int m_lv1ad = 0;
     private int m_lv1hp = 0;
@@ -282,6 +284,11 @@ public class Status
     }
 
 
+    public int MovePoint
+    {
+        get { return m_movepoint; }
+    }
+
     public int MaxExp
     {
         get { return m_maxexp; }
@@ -342,6 +349,11 @@ public class Status
         m_attackspeed = val;
     }
 
+    public void SetMovePoint(int val)
+    {
+        m_movepoint = val;
+    }
+
     public void PrioritySet(int val)
     {
         m_oderpriority = val;
@@ -356,6 +368,7 @@ public class Status
     }
 
 
+
     public bool Perks(int idx)
     {
         return ((1 << idx) & m_perks) == 1 << idx;
@@ -365,6 +378,8 @@ public class Status
     {
         return ((1 << idx) & m_passive) == 1 << idx;
     }
+
+
 
     public void GetBuff(string name, float time)
     {
