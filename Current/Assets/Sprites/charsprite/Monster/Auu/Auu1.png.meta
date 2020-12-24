@@ -1,0 +1,3304 @@
+fileFormatVersion: 2
+guid: c78f5bea7b3d31140b6289e94c4cf80f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7705394728509645891
+    second: Auu1_0
+  - first:
+      213: 8695897997614713749
+    second: Auu1_1
+  - first:
+      213: 2902461862081039775
+    second: Auu1_2
+  - first:
+      213: 6985774736754559533
+    second: Auu1_3
+  - first:
+      213: -5926077370499023058
+    second: Auu1_4
+  - first:
+      213: -7423978920402579551
+    second: Auu1_5
+  - first:
+      213: 2965444357569749340
+    second: Auu1_6
+  - first:
+      213: -9571853249345979
+    second: Auu1_7
+  - first:
+      213: -868257088616513451
+    second: Auu1_8
+  - first:
+      213: -4548109625957045977
+    second: Auu1_9
+  - first:
+      213: -3029933321726176726
+    second: Auu1_10
+  - first:
+      213: -3940784066923035459
+    second: Auu1_11
+  - first:
+      213: -8909091916810141760
+    second: Auu1_12
+  - first:
+      213: -1493533346170949371
+    second: Auu1_13
+  - first:
+      213: -1805378245412999812
+    second: Auu1_14
+  - first:
+      213: 3219675514866994391
+    second: Auu1_15
+  - first:
+      213: 3664689529270474679
+    second: Auu1_16
+  - first:
+      213: -4132405134088176218
+    second: Auu1_17
+  - first:
+      213: -1126076241310608379
+    second: Auu1_18
+  - first:
+      213: -8923947333225928203
+    second: Auu1_19
+  - first:
+      213: -6404891385669048803
+    second: Auu1_20
+  - first:
+      213: -1625511539125633412
+    second: Auu1_21
+  - first:
+      213: -7444070196240241353
+    second: Auu1_22
+  - first:
+      213: -8347129840521638551
+    second: Auu1_23
+  - first:
+      213: -6983487745226593953
+    second: Auu1_24
+  - first:
+      213: -6206142136639648764
+    second: Auu1_25
+  - first:
+      213: 6097087229279782609
+    second: Auu1_26
+  - first:
+      213: -4200732900687223002
+    second: Auu1_27
+  - first:
+      213: -8002391727202582253
+    second: Auu1_28
+  - first:
+      213: -3377884490395311114
+    second: Auu1_29
+  - first:
+      213: 8317567059907028038
+    second: Auu1_30
+  - first:
+      213: -8332038599458365964
+    second: Auu1_31
+  - first:
+      213: -7398178025952075253
+    second: Auu1_32
+  - first:
+      213: -1047683075405614377
+    second: Auu1_33
+  - first:
+      213: 58371008734903934
+    second: Auu1_34
+  - first:
+      213: -5419931370166997101
+    second: Auu1_35
+  - first:
+      213: -7646729670925494711
+    second: Auu1_36
+  - first:
+      213: -9216687403083574383
+    second: Auu1_37
+  - first:
+      213: 6877478940168242038
+    second: Auu1_38
+  - first:
+      213: 9144502831642259845
+    second: Auu1_39
+  - first:
+      213: 4820129423367046593
+    second: Auu1_40
+  - first:
+      213: -5733955450535151865
+    second: Auu1_41
+  - first:
+      213: 1881627832556771196
+    second: Auu1_42
+  - first:
+      213: 7434602996879776578
+    second: Auu1_43
+  - first:
+      213: 1720160526433531888
+    second: Auu1_44
+  - first:
+      213: -469773422536965968
+    second: Auu1_45
+  - first:
+      213: -2249195172435478846
+    second: Auu1_46
+  - first:
+      213: 8747362483959258802
+    second: Auu1_47
+  - first:
+      213: -6970921077530624220
+    second: Auu1_48
+  - first:
+      213: -4356747632155034100
+    second: Auu1_49
+  - first:
+      213: 2463652124868218057
+    second: Auu1_50
+  - first:
+      213: -3362131452605373595
+    second: Auu1_51
+  - first:
+      213: 5720565399606314510
+    second: Auu1_52
+  - first:
+      213: -2027126542415099490
+    second: Auu1_53
+  - first:
+      213: 7719948286807451645
+    second: Auu1_54
+  - first:
+      213: 3880248886132427149
+    second: Auu1_55
+  - first:
+      213: 7818799173203719023
+    second: Auu1_56
+  - first:
+      213: -424986232341305271
+    second: Auu1_57
+  - first:
+      213: 5813231123109818398
+    second: Auu1_58
+  - first:
+      213: 6407296050019756190
+    second: Auu1_59
+  - first:
+      213: -1248997083340532199
+    second: Auu1_60
+  - first:
+      213: -2670689343448311626
+    second: Auu1_61
+  - first:
+      213: 8847396030639717501
+    second: Auu1_62
+  - first:
+      213: -8156790693492495474
+    second: Auu1_63
+  - first:
+      213: 4461140865958320277
+    second: Auu1_64
+  - first:
+      213: 5426495594471070932
+    second: Auu1_65
+  - first:
+      213: 1584569110537329914
+    second: Auu1_66
+  - first:
+      213: -1017621304622773861
+    second: Auu1_67
+  - first:
+      213: 8430003136331619850
+    second: Auu1_68
+  - first:
+      213: -2158350326682846070
+    second: Auu1_69
+  - first:
+      213: 6237861117934047136
+    second: Auu1_70
+  - first:
+      213: -7136259115144119305
+    second: Auu1_71
+  - first:
+      213: 5453344448288124442
+    second: Auu1_72
+  - first:
+      213: 8378531600615090804
+    second: Auu1_73
+  - first:
+      213: 1080832183801865931
+    second: Auu1_74
+  - first:
+      213: 4615210103578933112
+    second: Auu1_75
+  - first:
+      213: -7697548541180177710
+    second: Auu1_76
+  - first:
+      213: 985261109531828181
+    second: Auu1_77
+  - first:
+      213: -5259426082134088545
+    second: Auu1_78
+  - first:
+      213: -7752753387704012007
+    second: Auu1_79
+  - first:
+      213: -5085660374266643881
+    second: Auu1_80
+  - first:
+      213: -6870995718643495602
+    second: Auu1_81
+  - first:
+      213: -6929416836001279114
+    second: Auu1_82
+  - first:
+      213: 2834864085108126069
+    second: Auu1_83
+  - first:
+      213: 3067749327694062552
+    second: Auu1_84
+  - first:
+      213: -1404567599818598936
+    second: Auu1_85
+  - first:
+      213: -1336307417052397375
+    second: Auu1_86
+  - first:
+      213: 4290702667254604622
+    second: Auu1_87
+  - first:
+      213: 2446415684121266257
+    second: Auu1_88
+  - first:
+      213: -675861896214767402
+    second: Auu1_89
+  - first:
+      213: -7169786231588339282
+    second: Auu1_90
+  - first:
+      213: 9139497218530178189
+    second: Auu1_91
+  - first:
+      213: 2155067115017410764
+    second: Auu1_92
+  - first:
+      213: -3832086880690426760
+    second: Auu1_93
+  - first:
+      213: 8985106476598231701
+    second: Auu1_94
+  - first:
+      213: -163824683226704725
+    second: Auu1_95
+  - first:
+      213: 762383819175000788
+    second: Auu1_96
+  - first:
+      213: -5089545500847359118
+    second: Auu1_97
+  - first:
+      213: -8311881293344503939
+    second: Auu1_98
+  - first:
+      213: -1591169930374666791
+    second: Auu1_99
+  - first:
+      213: -3885503633948888963
+    second: Auu1_100
+  - first:
+      213: 8262885537900829908
+    second: Auu1_101
+  - first:
+      213: -4793843643172129254
+    second: Auu1_102
+  - first:
+      213: -698810251465490673
+    second: Auu1_103
+  - first:
+      213: -6680505788899986266
+    second: Auu1_104
+  - first:
+      213: 6520817109177118044
+    second: Auu1_105
+  - first:
+      213: -1176671339941568368
+    second: Auu1_106
+  - first:
+      213: -6812011583396666270
+    second: Auu1_107
+  - first:
+      213: -5157246300583144974
+    second: Auu1_108
+  - first:
+      213: -6788632563789319640
+    second: Auu1_109
+  - first:
+      213: -5291494845851051100
+    second: Auu1_110
+  - first:
+      213: -7204143113223830048
+    second: Auu1_111
+  - first:
+      213: -4361015659411991902
+    second: Auu1_112
+  - first:
+      213: 8770217998951264432
+    second: Auu1_113
+  - first:
+      213: -8170053259994907862
+    second: Auu1_114
+  - first:
+      213: 4095038200303927806
+    second: Auu1_115
+  - first:
+      213: 1910457024433472945
+    second: Auu1_116
+  - first:
+      213: 4804078887654827256
+    second: Auu1_117
+  - first:
+      213: 3904148565651799450
+    second: Auu1_118
+  - first:
+      213: -7079309496561024169
+    second: Auu1_119
+  - first:
+      213: -4451298738995752476
+    second: Auu1_120
+  - first:
+      213: 5468148598828037614
+    second: Auu1_121
+  - first:
+      213: 8172556506162783160
+    second: Auu1_122
+  - first:
+      213: -1368668297018627148
+    second: Auu1_123
+  - first:
+      213: -527608194776988914
+    second: Auu1_124
+  - first:
+      213: -2222905792525947242
+    second: Auu1_125
+  - first:
+      213: 448793178623025689
+    second: Auu1_126
+  - first:
+      213: 6631574442234230538
+    second: Auu1_127
+  - first:
+      213: -2039574516790538946
+    second: Auu1_128
+  - first:
+      213: 2200628617857481293
+    second: Auu1_129
+  - first:
+      213: 304604575370988851
+    second: Auu1_130
+  - first:
+      213: 1472838536297256814
+    second: Auu1_131
+  - first:
+      213: 2356634178935566578
+    second: Auu1_132
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Auu1_0
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de837e6934b9e7f44ad327d2c0a95bb6
+      internalID: 7705394728509645891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_1
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c745e48679424498dcd7235464598a
+      internalID: 8695897997614713749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b2755ec78fce34aaa566a1dbee29f8
+      internalID: 2902461862081039775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eebb5a0c056e2748a9fe5b5e9277980
+      internalID: 6985774736754559533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade9cdc2112dd64faad469b19fb03a8
+      internalID: -5926077370499023058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_5
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea593b30d0a42fa4ca7a6dc7499737c3
+      internalID: -7423978920402579551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_6
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5c594eccc35eb4f91701e827afa99d
+      internalID: 2965444357569749340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e4ccb9e8d65df48a3cea5b92977259
+      internalID: -9571853249345979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e61b68148a6ea49884cf1b32b1b7bf
+      internalID: -868257088616513451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_9
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c35e1ffffe1d949935db533cb5d4c2
+      internalID: -4548109625957045977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac0dc0a2ddaa7b43a06f63692e162b2
+      internalID: -3029933321726176726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e71f894050fd4d81009afdaa98c21
+      internalID: -3940784066923035459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd125a21cd5a4a4f992c8f446245f5c
+      internalID: -8909091916810141760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85564a7f5c2d5e148a2a4015c5af4321
+      internalID: -1493533346170949371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91152151b2c34f749b2e5903434901b8
+      internalID: -1805378245412999812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_15
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23dedeef80ef2a4f9924bfdd18e2ca1
+      internalID: 3219675514866994391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f3819c7d5f46409d16a0542e58fa7
+      internalID: 3664689529270474679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_17
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462e8970e8af9404f856d622979d4ea8
+      internalID: -4132405134088176218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_18
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bc03a0f05e5ed4cab805940d5c195e
+      internalID: -1126076241310608379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5092cadf6fb544549b3c34c78562000c
+      internalID: -8923947333225928203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48337f51d389524ab9cce647b898599
+      internalID: -6404891385669048803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_21
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d42045b0c98774bb0751ea4352abbe
+      internalID: -1625511539125633412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c570f7b4fa02041b76e480c5f411bc
+      internalID: -7444070196240241353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_23
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b46d5ddec8b57468985320d6c21ff6
+      internalID: -8347129840521638551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_24
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991808cc343a054c8e23edd3df0da48
+      internalID: -6983487745226593953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_25
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948951798b4faa40b42a47f1611e02e
+      internalID: -6206142136639648764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_26
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3acadce9efaa044a1578ac3c4d4869
+      internalID: 6097087229279782609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_27
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66ce8c6dadae074680ea3a6dcc7a97c
+      internalID: -4200732900687223002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a494d910bc88041bc64c01eb143509
+      internalID: -8002391727202582253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3969b6ebbefb2428a17bfa377188b2
+      internalID: -3377884490395311114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa8fe3d26c56449ad6a3fdf7e69ea7
+      internalID: 8317567059907028038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b920a8622cf03d4da92656bf95d75f3
+      internalID: -8332038599458365964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_32
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5933d0ddf7ee344800d12e31f3f7ab
+      internalID: -7398178025952075253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed39b320b0a58d47b4be99bfa132004
+      internalID: -1047683075405614377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_34
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec6eb725eb8f0c4183aaff1183e77a4
+      internalID: 58371008734903934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28738d6903f804c4c956363319c45b64
+      internalID: -5419931370166997101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_36
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304df134c97cb524ea82b0215d47925c
+      internalID: -7646729670925494711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_37
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4031e7a5298a4945ab1e715d88c5d55
+      internalID: -9216687403083574383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3599e6fa0ead67749b0904415ac98678
+      internalID: 6877478940168242038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a333154133fbd2f48a8c2f41b0cd20be
+      internalID: 9144502831642259845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6d95cfa9e3eae41922e7d0ef516b2b
+      internalID: 4820129423367046593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ebe3258af40b74a9d7a88439f6432f
+      internalID: -5733955450535151865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_42
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca046c93632895248995ed4f6e869366
+      internalID: 1881627832556771196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_43
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752b3a6a9523b6445ae0b175644b6f52
+      internalID: 7434602996879776578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ab1359bc50b34ca156bdaca7d36b8
+      internalID: 1720160526433531888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_45
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85daa17be95b858499b8ea837ae2ebd1
+      internalID: -469773422536965968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_46
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f03e022e842f54caec213ebf590910
+      internalID: -2249195172435478846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_47
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e883032417ebf44d8afba68009dd8f6
+      internalID: 8747362483959258802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6681391ed9097d40b901b4d1e1c0672
+      internalID: -6970921077530624220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_49
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b4a77b0c1697649ba811add8af1b33
+      internalID: -4356747632155034100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_50
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cb2d5fa07a1ef4ebf63587cd20522d
+      internalID: 2463652124868218057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_51
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e63ae407204444ab021694da5d0fb
+      internalID: -3362131452605373595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f4247e32c8ac488e422be4be1f80e
+      internalID: 5720565399606314510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07de31e7b77a634c9176e5320d612c3
+      internalID: -2027126542415099490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_54
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca3b1038b2dac142991bb9482be2db0
+      internalID: 7719948286807451645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_55
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1109169e2f057448d2337ac1c8fb57
+      internalID: 3880248886132427149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_56
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eda37a460fd3649a5bab9719e3c732
+      internalID: 7818799173203719023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_57
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0bc4974f88de4fb0f236930cb7656
+      internalID: -424986232341305271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_58
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d48d372ed14ad4b82421c985bcd1ee
+      internalID: 5813231123109818398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_59
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca2b1901fbd43a40aedeab07220e38c
+      internalID: 6407296050019756190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19577355c225f2f45878364e39133eb6
+      internalID: -1248997083340532199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86f49a73273bf43b82a60ff3be6feb
+      internalID: -2670689343448311626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb5522ddd316284693ec77db63a9f0d
+      internalID: 8847396030639717501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74d1a147747ad045a041c3fb0e71c1c
+      internalID: -8156790693492495474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_64
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8480cb8be4d43324c80cda759082a057
+      internalID: 4461140865958320277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_65
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e59dfc54f8bf149afa2e3c95fbfc57
+      internalID: 5426495594471070932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_66
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329885eebcb633f47b96f0a8020199b8
+      internalID: 1584569110537329914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_67
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a374e834b59e5c24f96c436c8f5ba08c
+      internalID: -1017621304622773861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_68
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7ecacee79b40d4a98a7e4e90ed1e68
+      internalID: 8430003136331619850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_69
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4976a893800e48b0d768dc6c1b676
+      internalID: -2158350326682846070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_70
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ef62ba8312dfb42a7ed94c90faa4d6
+      internalID: 6237861117934047136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_71
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ea0b71d0a5f9941b4e3af52b32df42
+      internalID: -7136259115144119305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_72
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a15588a36f63dc4ebde6bbe3e45361c
+      internalID: 5453344448288124442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_73
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dc5eb86e6eeea4f808c476e096f3e9
+      internalID: 8378531600615090804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_74
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d56d75a500c43428c010c0fc45cb36
+      internalID: 1080832183801865931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_75
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aa22596774ffc43937a0f27e193f7c
+      internalID: 4615210103578933112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_76
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22cb3ba5bfe100419c26249d3481b67
+      internalID: -7697548541180177710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_77
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537175eb7b1f41345b9b8d9c0ba4b4c8
+      internalID: 985261109531828181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_78
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e88e7dc9c834547ad96dc5ebadf7aa
+      internalID: -5259426082134088545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_79
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7a221b6f4298d4b808f151e6542b40
+      internalID: -7752753387704012007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_80
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38018a61bb9736946bf1bfe3db09c0f5
+      internalID: -5085660374266643881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_81
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc657df21284734aa266f689cdc7dfa
+      internalID: -6870995718643495602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_82
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2539fe9d05c4d7a49bd4df524409e3e9
+      internalID: -6929416836001279114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495a15167d04b594bb071f9425ccc5f8
+      internalID: 2834864085108126069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6b40b83fc15ca43adabadd9d22be7d
+      internalID: 3067749327694062552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_85
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8442d6804a5c26a4d9ba58ccdd753ece
+      internalID: -1404567599818598936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_86
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c49163cdceee5a4db4022c1b40c251c
+      internalID: -1336307417052397375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_87
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf15d792139d70846852a04e81dd6974
+      internalID: 4290702667254604622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_88
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a03dfcbdf1082e45b52df852d9529b1
+      internalID: 2446415684121266257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_89
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e4256008a62a744b02ac8b6b11dcad
+      internalID: -675861896214767402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_90
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf8e47baf7040740a4f15fb18f4837e
+      internalID: -7169786231588339282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_91
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbeaf6e262eed34ebd1189858cdf740
+      internalID: 9139497218530178189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_92
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c6f4713d099b440a9fa83d4d98bc7c
+      internalID: 2155067115017410764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_93
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2d7ed2a44161438a1db830942ecbb
+      internalID: -3832086880690426760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_94
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2111cb7da35f65545afb5125674bf10a
+      internalID: 8985106476598231701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a887f66687493439f81d97c8d08612
+      internalID: -163824683226704725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5d93d1fbade945b152586de178782
+      internalID: 762383819175000788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_97
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3f7ceb5a2010f4c812f56435db84aa
+      internalID: -5089545500847359118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_98
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73da24311df236747805d77bdc70e8b3
+      internalID: -8311881293344503939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_99
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0de7692d259d147944e4eecf966428
+      internalID: -1591169930374666791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_100
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8c2c6832b49f48a0c4a495a3b1c06
+      internalID: -3885503633948888963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_101
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717008172b32c1b4f89890abb92a8901
+      internalID: 8262885537900829908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_102
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe82dfda30737ea4f93fbcce2f028c7e
+      internalID: -4793843643172129254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_103
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b39c962d7083f4386070b52ddd4c6f
+      internalID: -698810251465490673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_104
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75934af24691a240ac73d910569354a
+      internalID: -6680505788899986266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_105
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b38df0310c13244a9f4997910585cd5
+      internalID: 6520817109177118044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_106
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e53c2ac2512c8d47a1736353a4d4ddb
+      internalID: -1176671339941568368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_107
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f540e27e46bd8454fadf701197ec4adf
+      internalID: -6812011583396666270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_108
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee103fce7231842a0a602d15f66eba
+      internalID: -5157246300583144974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_109
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e16fe97611e15d4eb468b57cbe6a477
+      internalID: -6788632563789319640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_110
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee18d9fddffa3f4c9f660ee6419e0ef
+      internalID: -5291494845851051100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_111
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb686fe2a7ecf34cab395776fd6636f
+      internalID: -7204143113223830048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_112
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2142123199787419958aca34c2ee8b
+      internalID: -4361015659411991902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_113
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080f32413f36e14f9f43f29b2a506f4
+      internalID: 8770217998951264432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_114
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0859e69d8db1e498ba8918f74b9d13
+      internalID: -8170053259994907862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_115
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a29ceab354e052458be7c3aaf0fb5bf
+      internalID: 4095038200303927806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_116
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340d37894df6f04da78f356aaaebc0c
+      internalID: 1910457024433472945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_117
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906eadeb63950574ca4cca7eb5cbdb2a
+      internalID: 4804078887654827256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_118
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89efac644a9cc4a84e256fb9d24fa5
+      internalID: 3904148565651799450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_119
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc8a699c8680e4e8f2543c2327d513
+      internalID: -7079309496561024169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_120
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414c1ee9c8ed79c42a4f8715a9defc95
+      internalID: -4451298738995752476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_121
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca9191ae4d6cc4b89194507796af04
+      internalID: 5468148598828037614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_122
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb8cfa2f6fbeb84086fecb373322243
+      internalID: 8172556506162783160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_123
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc06a8562071b644b8ae33e84592a3a
+      internalID: -1368668297018627148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_124
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f0bc5286016d4eab70da81a4f8fbd
+      internalID: -527608194776988914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_125
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617b4f3862c23a4a87bc1249fb61f4e
+      internalID: -2222905792525947242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_126
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3322adb221d9445abb93595bf94b11
+      internalID: 448793178623025689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_127
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfc21ef37773b746bd253b5db215ca2
+      internalID: 6631574442234230538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_128
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba54fac2fb1b22245971158c0df1979e
+      internalID: -2039574516790538946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_129
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982aad3358f4698449dea1f5ec69a12e
+      internalID: 2200628617857481293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_130
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2521adff0753540928f345e48c215b
+      internalID: 304604575370988851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_131
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1431bc08b784f874bb7f4a366b8521fe
+      internalID: 1472838536297256814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auu1_132
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd181309fe47ac541b211fd3b1230e44
+      internalID: 2356634178935566578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7203e5bde464e9d4da3919b9beadd3ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

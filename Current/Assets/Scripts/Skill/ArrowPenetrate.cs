@@ -272,7 +272,7 @@ public class ArrowPenetrate : Skill
         PixelFx shot = m_skillmng.FxCall("Shot");
         shot.gameObject.SetActive(true);
         shot.transform.position = skillrange[0].transform.position + new Vector3(0.1f, 0.5f, 0);
-        shot.transform.rotation = Quaternion.Euler(45, 45, m_angle-80);
+        shot.transform.rotation = Quaternion.Euler(45, 45, m_angle-110);
 
 
 
