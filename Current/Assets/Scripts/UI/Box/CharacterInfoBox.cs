@@ -31,12 +31,13 @@ public class CharacterInfoBox : MonoBehaviour
 
     private void Init()
     {
+        m_blank = Resources.Load<Sprite>("SkillIcon/Blank");
+
         m_texts = GetComponentsInChildren<Text>();
         for (int i = 0; i < 3; i++)
         {
             m_equipicon[i] = transform.Find("Equipment/Icon" + i.ToString()+"/Blank").GetComponent<Image>();
         }
-        m_blank = m_equipicon[0].sprite;
         m_rect = GetComponent<RectTransform>();
     }
 

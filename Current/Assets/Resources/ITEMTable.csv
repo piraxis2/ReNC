@@ -1,12 +1,37 @@
-﻿IDX,NAME,TYPE,AD,AP,AS,DF,MANA,LIFE,LIFERECOVERY,MANARECOVERY,CLI,AVOID,QUALITY,PRICE,SPRITE,LOER
-0,Sword,WEAPON,p5,n,n,n,n,n,n,n,n,n,Common,100,ItemIcon/Sword,Just Sword
-1,HardShield,ARMOR,n,n,n,p5,n,n,n,n,n,n,Common,100,ItemIcon/HardShield,too Hard
-2,Ring of Heal,TRINKET,n,n,n,n,n,n,p5,n,n,n,Common,200,ItemIcon/Ring of Regenerration,Heros Never Die
-3,ManaStone,TRINKET,n,n,n,n,p10,n,n,m50,n,n,Common,300,ItemIcon/ManaStone,ManaStom
-4,MagiStaff,WEAPON,p2,p3,n,n,n,n,n,n,n,n,Common,150,ItemIcon/MagiStaff,Snap!
-5,HealthBelt,ARMOR,n,n,n,p2,n,p30,n,n,n,n,Common,150,ItemIcon/HealthBelt,Thick and Big Belt
-6,SpeedDagger,WEAPON,p2,n,m10,n,n,n,n,n,n,n,Common,150,ItemIcon/SpeedDagger,Whoosh~
-7,PlateMail,ARMOR,n,n,n,p12,n,n,n,n,n,n,Rare,400,ItemIcon/PlateMail,Play t E Mail~
-8,WarAxe,WEAPON,p12,n,n,n,n,n,n,n,n,n,Rare,400,ItemIcon/WarAxe,Warrrr
-9,Javelin,WEAPON,p5,n,m25,n,n,n,n,n,n,n,Rare,400,ItemIcon/Javelin,<----
-10,VikingHelm,ARMOR,n,n,n,p5,n,p70,n,n,n,n,Rare,400,ItemIcon/VikingHelm,^._.^
+IDX,NAME,TYPE,AD,AP,AS,DF,MANA,LIFE,LIFERECOVERY,MANARECOVERY,CLI,AVOID,QUALITY,PRICE,SPRITE,LOER
+1,Sword,WEAPON,p15,n,n,n,n,n,n,n,n,n,Common,100,ItemIcon/Sword,
+2,SpeedDagger,WEAPON,p2,n,m15,n,n,n,n,n,n,n,Common,150,ItemIcon/SpeedDagger,
+3,PlateMail,ARMOR,n,n,n,p25,n,n,n,n,n,n,Common,400,ItemIcon/PlateMail,
+4,MagiHat,ARMOR,n,n,n,n,n,n,n,n,n,n,Common,0,ItemIcon/MagiHat,
+5,MagiStaff,WEAPON,n,m15,n,n,n,n,n,n,n,n,Common,150,ItemIcon/MagiStaff,
+6,ManaStone,TRINKET,n,n,n,n,p10,n,n,m50,n,n,Common,300,ItemIcon/ManaStone,
+7,HealthBelt,ARMOR,n,n,n,n,n,p200,n,n,n,n,Common,150,ItemIcon/HealthBelt,
+8,Gloves,ARMOR,n,n,n,n,n,n,n,n,p10,p10,Common,0,ItemIcon/Glove,
+9,DeathSword,WEAPON,p30,n,n,n,n,n,n,n,n,n,Rare,0,ItemIcon/DeathSword,
+10,GinatKiller,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/GinatKiller,
+11,GuardianAngel,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/GuardianAngel,
+12,BloodSword,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/BloodSword,
+13,EnergyHarvester,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/EnergyHarvester,
+14,ManaJavelin,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/ManaJavelin,
+15,CommanderFlag,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/CommanderFlag,
+16,Cliticsis,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/Cliticsis,
+17,SniperRifle,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/SniperRifle,
+18,none1,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+19,none2,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+20,none3,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+21,none4,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+22,none5,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+23,none6,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+24,none7,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+25,none8,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+26,none9,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+27,none10,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+28,none11,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+29,none12,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+30,none13,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+31,none14,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+32,none15,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+33,none16,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+34,none17,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+35,none18,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,
+36,none19,,n,n,n,n,n,n,n,n,n,n,,,ItemIcon/VikingHelm,

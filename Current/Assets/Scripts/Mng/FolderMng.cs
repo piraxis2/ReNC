@@ -17,6 +17,7 @@ public class FolderMng : Mng
         {
             x.Init();
         }
+
     }
 
     public void FoldRest()
@@ -30,7 +31,7 @@ public class FolderMng : Mng
         }
     }
 
-//¸ð¹ÙÀÏ¿ëÀ¸·Î º¯°æ
+//ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     void Update()
     {
         
