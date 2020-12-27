@@ -51,7 +51,7 @@ public class Tail : MonoBehaviour
     }
 
 
-    public void SetTail(Vector3 start, Vector3 target, System.Action action)
+    public void SetTail(Vector3 start, Vector3 target, System.Action action = null)
     {
         List<Vector3> curve = new List<Vector3>();
         curve.Add(start);
@@ -153,7 +153,8 @@ public class Tail : MonoBehaviour
             yield return null;
         }
 
-        action();
+        if (action != null)
+            action();
 
         Invoke("ShutActive", 1);
 

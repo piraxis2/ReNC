@@ -555,9 +555,37 @@ public class BaseChar : MonoBehaviour
         }
     }
 
+    public void ItemTail()
+    {
+        Vector3 target = Camera.main.ScreenToWorldPoint
+            (
+            new Vector3
+            (FolderMng.Instance.m_buttons[0].transform.position.x, FolderMng.Instance.m_buttons[0].transform.position.y, -Camera.main.transform.position.z)
+            );
+        TailMng.Instance.TailGo(deathpoint, target, null);
+    }
+
+    private Vector3 deathpoint = new Vector3();
+
     public void KillThis(string state = null)
     {
-     
+
+        deathpoint = transform.position;
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (Status.m_Equipment[i] != null)
+            {
+                ItemInven.Instance.ADDItem(Status.m_Equipment[i]);
+
+                float time = i;
+
+                Invoke("ItemTail", time * 0.2f);
+
+            }
+        }
+
+
         GetComponent<DragHelper>().m_oripos = transform.parent.position;
         ClearNode();
         Isonline(false);
@@ -573,8 +601,10 @@ public class BaseChar : MonoBehaviour
         }
         else if(state == "sale")
         {
+            deathpoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
             TraceUp();
         }
+       
 
     }
 

@@ -74,5 +74,6 @@ public class MulliganCard : MonoBehaviour
         MulliganMng.instance.CardCount[m_idx, m_tier]--;
         transform.GetChild(0).gameObject.SetActive(false);
         THISCHAR.Isonline(true);
+        THISCHAR.SetFoe(true);
     }
 }

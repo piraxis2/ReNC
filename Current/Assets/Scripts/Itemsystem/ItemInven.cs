@@ -3,8 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemInven : Mng
+public class ItemInven : MonoBehaviour
 {
+
+    private static ItemInven m_iteminven;
+    public static ItemInven Instance
+    {
+        get
+        {
+            if (m_iteminven == null)
+            {
+                m_iteminven = FindObjectOfType<ItemInven>();
+                m_iteminven.Init();
+            }
+            return m_iteminven;
+        }
+    }
 
     private Item[] m_inventory = new Item[12];
     private List<Image> m_itemicon = new List<Image>();
@@ -15,11 +29,11 @@ public class ItemInven : Mng
         get { return m_inventory; }
     }
 
-    public override void Init()
+    public void Init()
     {
         m_blank = Resources.Load<Sprite>("SkillIcon/Blank");
         List<ItemDrag> templist = new List<ItemDrag>();
-        templist.AddRange(GetComponentsInChildren<ItemDrag>());
+        templist.AddRange(FolderMng.Instance.gameObject.GetComponentsInChildren<ItemDrag>());
 
         int idx = 0;
         foreach (var x in templist)
@@ -28,7 +42,6 @@ public class ItemInven : Mng
             x.Init(idx,this);
             idx++;
         }
-
     }
 
     private int SearchEmpty()
@@ -53,11 +66,26 @@ public class ItemInven : Mng
         m_itemicon[idx].sprite = item.m_sprite;
     }
 
+    public bool ADDItem(Item item,int idx)
+    {
+        if (m_inventory[idx] != null)
+            return false;
+
+        if (item == null)
+            return false;
+
+        m_inventory[idx] = item;
+        m_itemicon[idx].sprite = item.m_sprite;
+        return true;
+    }
+
     public void test()
     {
-      
-        Item temp = TableMng.Instance.Table(TableType.ITEMTable, 1) as Item;
-        ADDItem(temp);
+        int idx = Random.Range(1, 8);
+
+
+        Item temp = TableMng.Instance.Table(TableType.ITEMTable, idx) as Item;
+        ItemInven.Instance.ADDItem(temp);
     }
 
 

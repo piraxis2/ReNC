@@ -61,7 +61,7 @@ public class Status
 
     private List<Buff> m_bufflist = new List<Buff>();
 
-    private Item[] m_Equipment = new Item[3];
+    public Item[] m_Equipment = new Item[3];
 
     private BaseChar m_baseChar;
 
@@ -275,6 +275,7 @@ public class Status
 
     public Item[] EquipMent
     {
+        set { m_Equipment = value; }
         get { return m_Equipment; }
     }
 
