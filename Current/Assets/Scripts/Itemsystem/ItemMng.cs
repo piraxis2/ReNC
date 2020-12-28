@@ -22,8 +22,104 @@ public class ItemMng : MonoBehaviour
 
 
     private Item[] m_equipment = new Item[3];
-
     private int[,] m_fusion = new int[8, 8];
+
+    public void EquipmentCheck(Item[] equipment, List<Item> surplus)
+    {
+
+        m_equipment = equipment;
+        List<Item> temp = new List<Item>();
+        for(int i= 0; i<3; i++)
+        {
+            m_equipment[i] = null;
+        }
+
+
+        HashSet<Item> toremove = new HashSet<Item>();
+        foreach (var x in surplus)
+        {
+            if (temp.Count < 3)
+            {
+                if (x.m_quality == "Rare")
+                {
+                    temp.Add(x);
+                    toremove.Add(x);
+                }
+            }
+        }
+        surplus.RemoveAll(toremove.Contains);
+        m_equipment = temp.ToArray();
+
+
+
+
+        if (surplus.Count == 0)
+            return;
+
+        if(InputPassible(surplus[0]))
+            PushItem(surplus);
+
+        if (surplus.Count > 0)
+        {
+            foreach (var x in surplus)
+            {
+                if (x != null)
+                    ItemInven.Instance.ADDItem(x);
+            }
+        }
+
+
+    }
+
+    private void PushItem(List<Item> surplus)
+    {
+
+        int idx = FindEmpty(m_equipment);
+        if (idx >= 0)
+        {
+            m_equipment[idx] = surplus[0];
+            surplus.RemoveAt(0);
+        }
+        else
+        {
+            m_equipment[2] = TableMng.Instance.Table(TableType.ITEMTable, m_fusion[m_equipment[2].m_idx, surplus[0].m_idx]) as Item;
+            surplus.RemoveAt(0);
+            return;
+        }
+
+
+        if (surplus.Count == 0)
+            return;
+
+        if (InputPassible(surplus[0]))
+            PushItem(surplus);
+    }
+
+    public bool InputPassible(Item item)
+    {
+
+        if (FindEmpty(m_equipment) >= 0)
+            return true;
+
+        if (m_equipment[2].m_quality == "Common" && item.m_quality == "Common")
+            return true;
+
+        return false;
+    }
+
+
+
+
+    public int FindEmpty(object[] arry)
+    {
+        for (int i = 0; i < arry.Length; i++)
+        {
+            if (arry[i] == null)
+            { return i; }
+        }
+        return -1 ;
+
+    }
 
     public void EquipmentCheck(Item[] equipment, Item inputitem = null)
     {
@@ -53,7 +149,6 @@ public class ItemMng : MonoBehaviour
                     break;
                 }
             }
-
         }
 
         if (inputitem == null)
@@ -74,13 +169,14 @@ public class ItemMng : MonoBehaviour
 
         if (inputitem.m_quality == "Common")
         {
+
             if (idxx < 0)
                 return;
 
-            int x = idxx;
+
             int temp = m_equipment[idxx].m_idx;
             m_equipment[idxx] = null;
-            m_equipment[x] = TableMng.Instance.Table(TableType.ITEMTable, m_fusion[temp, inputitem.m_idx]) as Item;
+            m_equipment[idxx] = TableMng.Instance.Table(TableType.ITEMTable, m_fusion[temp, inputitem.m_idx]) as Item;
         }
     }
 

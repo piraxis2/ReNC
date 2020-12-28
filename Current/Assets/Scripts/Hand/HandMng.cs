@@ -276,17 +276,39 @@ public class HandMng : MonoBehaviour
             return;
 
 
+        BaseChar[] hands = new BaseChar[3];
 
-        LinkFusionParent(article, FindHand(ids[0]));
-        LinkFusionParent(FindHand(ids[0]), FindHand(ids[1]));
+        for (int i = 0; i < 3; i++)
+        {
+            hands[i] = FindHand(ids[i]);
+        }
+
+        List<Item> surplus = new List<Item>();
+
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (hands[i].Status.EquipMent[j] != null)
+                    surplus.Add(hands[i].Status.EquipMent[j]);
+            }
+        }
+
+       // ItemMng.instance.EquipmentCheck(hands[2].Status.m_Equipment, surplus);
+
+
+
+        LinkFusionParent(article, hands[0]);
+        LinkFusionParent(hands[0], hands[1]);
 
         for (int i = 0; i < 2; i++)
         {
-            BaseChar temp = FindHand(ids[i]);
+            BaseChar temp = hands[i];
             RemoveChar(temp);
             TailMng.Instance.TailGo(temp.transform.position, article.transform.position, () => FusionFx(article));
             temp.KillThis("fusion");
         }
+
 
         article.Fusion(true);
 

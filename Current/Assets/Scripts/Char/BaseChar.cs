@@ -572,19 +572,18 @@ public class BaseChar : MonoBehaviour
 
         deathpoint = transform.position;
 
-        for (int i = 0; i < 3; i++)
+        if (state == "sale")
         {
-            if (Status.m_Equipment[i] != null)
+            for (int i = 0; i < 3; i++)
             {
-                ItemInven.Instance.ADDItem(Status.m_Equipment[i]);
-
-                float time = i;
-
-                Invoke("ItemTail", time * 0.2f);
-
+                if (Status.m_Equipment[i] != null)
+                {
+                    ItemInven.Instance.ADDItem(Status.m_Equipment[i]);
+                    float time = i;
+                    Invoke("ItemTail", time * 0.2f);
+                }
             }
         }
-
 
         GetComponent<DragHelper>().m_oripos = transform.parent.position;
         ClearNode();
@@ -603,6 +602,7 @@ public class BaseChar : MonoBehaviour
         {
             deathpoint = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
             TraceUp();
+
         }
        
 

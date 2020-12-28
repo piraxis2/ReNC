@@ -5,13 +5,13 @@ using UnityEngine;
 public class Testclass : MonoBehaviour
 {
     public List<string> strings = new List<string>();
+    public Item[] items = new Item[3];
+
 
     // Start is called before the first frame update
     void Start()
     {
-        strings.Add("sex");
-        strings.Add("sexx");
-        strings.Add("yes");
+
     }
 
     // Update is called once per frame

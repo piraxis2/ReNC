@@ -84,7 +84,7 @@ public class ItemInven : MonoBehaviour
         int idx = Random.Range(1, 8);
 
 
-        Item temp = TableMng.Instance.Table(TableType.ITEMTable, idx) as Item;
+        Item temp = TableMng.Instance.Table(TableType.ITEMTable, 1) as Item;
         ItemInven.Instance.ADDItem(temp);
     }
 
