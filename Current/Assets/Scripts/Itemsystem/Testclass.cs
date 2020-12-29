@@ -8,9 +8,29 @@ public class Testclass : MonoBehaviour
     public Item[] items = new Item[3];
 
 
+
     // Start is called before the first frame update
     void Start()
     {
+
+        for(int i= 0; i<10; i++)
+        {
+            strings.Add((i + 1).ToString());
+        }
+
+        var x = new HashSet<string>();
+        for (int i = 3; i < 7; i++)
+        {
+            x.Add(i.ToString());
+        }
+
+        strings.RemoveAll(x.Contains);
+
+        foreach(var y in strings)
+        {
+            Debug.Log(y);
+        }
+
 
     }
 

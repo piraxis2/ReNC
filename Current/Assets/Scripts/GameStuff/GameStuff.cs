@@ -37,6 +37,19 @@ public class Item
     public string m_cli;
     public int m_price;
 
+    public int Quality
+    {
+        get
+        {
+            if (m_quality == "Rare")
+                return 2;
+            else if (m_quality == "Common")
+                return 1;
+            else
+                return 0;
+        }
+    }
+
     public Sprite m_sprite;
 
     public static int SplitString(string text)

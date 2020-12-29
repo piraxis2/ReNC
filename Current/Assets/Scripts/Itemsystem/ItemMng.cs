@@ -24,41 +24,79 @@ public class ItemMng : MonoBehaviour
     private Item[] m_equipment = new Item[3];
     private int[,] m_fusion = new int[8, 8];
 
-    public void EquipmentCheck(Item[] equipment, List<Item> surplus)
+    public void EquipmentCheck(Item[] equipment, List<Item> surplus) // ���ս� ������ �ִ� ������ ����
     {
 
         m_equipment = equipment;
-        List<Item> temp = new List<Item>();
-        for(int i= 0; i<3; i++)
+        for (int i = 0; i < 3; i++)
         {
-            m_equipment[i] = null;
+            equipment[i] = null;
         }
 
-
         HashSet<Item> toremove = new HashSet<Item>();
+        int idx = 0;
         foreach (var x in surplus)
         {
-            if (temp.Count < 3)
+            if (idx < 3)
             {
                 if (x.m_quality == "Rare")
                 {
-                    temp.Add(x);
+                    equipment[idx] = x;
                     toremove.Add(x);
+                    idx++;
                 }
             }
         }
         surplus.RemoveAll(toremove.Contains);
-        m_equipment = temp.ToArray();
+
+        bool check = true;
+        while (surplus.Count > 0)
+        {
+            int num = -1;
+            for (int i = 0; i < 3; i++)
+            {
+                if (equipment[i] == null)
+                {
+                    num = i; break;
+                }
 
 
+                if (i == 2)
+                {
+                    if (equipment[i].m_quality == "Common")
+                    {
+                        if (surplus[0].m_quality == "Common")
+                        {
+                            EquipmentCheck(equipment, surplus[0]);
+                            surplus.RemoveAt(0);
+                        }
+                        else
+                        {
+                            check = false;
+                        }
+                    }
+                }
+            }
 
+            if(num<0)
+            {
+                check = false;
+            }
 
-        if (surplus.Count == 0)
-            return;
+            else if (num >= 0)
+            {
+                equipment[num] = surplus[0];
+                EquipmentCheck(equipment);
+                surplus.RemoveAt(0);
+            }
 
-        if(InputPassible(surplus[0]))
-            PushItem(surplus);
+            if (!check)
+            {
+                break;
+            }
+        }
 
+  
         if (surplus.Count > 0)
         {
             foreach (var x in surplus)
@@ -121,9 +159,10 @@ public class ItemMng : MonoBehaviour
 
     }
 
-    public void EquipmentCheck(Item[] equipment, Item inputitem = null)
+    public void EquipmentCheck(Item[] equipment, Item inputitem = null) //������ ��ǲ�� ������ ����
     {
         m_equipment = equipment;
+
 
         int idxx = -1;
         List<int> idx = new List<int>();
@@ -165,7 +204,7 @@ public class ItemMng : MonoBehaviour
             }
             return;
         }
-      
+     
 
         if (inputitem.m_quality == "Common")
         {
@@ -178,6 +217,7 @@ public class ItemMng : MonoBehaviour
             m_equipment[idxx] = null;
             m_equipment[idxx] = TableMng.Instance.Table(TableType.ITEMTable, m_fusion[temp, inputitem.m_idx]) as Item;
         }
+
     }
 
     public void Init()
