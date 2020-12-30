@@ -23,11 +23,12 @@ public class ItemMng : MonoBehaviour
 
     private Item[] m_equipment = new Item[3];
     private int[,] m_fusion = new int[8, 8];
+    WaitForSeconds second10 = new WaitForSeconds(0.1f);
 
-    public void EquipmentCheck(Item[] equipment, List<Item> surplus) // ���ս� ������ �ִ� ������ ����
+    public void EquipmentCheck(BaseChar bc, List<Item> surplus)
     {
 
-        m_equipment = equipment;
+        Item[] equipment = bc.Status.m_Equipment;
         for (int i = 0; i < 3; i++)
         {
             equipment[i] = null;
@@ -99,11 +100,7 @@ public class ItemMng : MonoBehaviour
   
         if (surplus.Count > 0)
         {
-            foreach (var x in surplus)
-            {
-                if (x != null)
-                    ItemInven.Instance.ADDItem(x);
-            }
+            ItemReTurn(surplus.ToArray(), bc.transform.position);
         }
 
 
@@ -218,6 +215,21 @@ public class ItemMng : MonoBehaviour
             m_equipment[idxx] = TableMng.Instance.Table(TableType.ITEMTable, m_fusion[temp, inputitem.m_idx]) as Item;
         }
 
+    }
+
+
+    public void ItemReTurn(Item[] items, Vector3 deathpoint)
+    {
+        for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i] != null)
+            {
+                Vector3 folder = FolderMng.Instance.m_buttons[0].transform.position;
+                Vector3 target = Camera.main.ScreenToWorldPoint(new Vector3(folder.x, folder.y, -Camera.main.transform.position.z));
+                TailMng.Instance.TailGo(deathpoint, target, null);
+                ItemInven.Instance.ADDItem(items[i]);
+            }
+        }
     }
 
     public void Init()

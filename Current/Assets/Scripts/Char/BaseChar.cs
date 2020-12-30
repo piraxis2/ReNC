@@ -555,16 +555,6 @@ public class BaseChar : MonoBehaviour
         }
     }
 
-    public void ItemTail()
-    {
-        Vector3 target = Camera.main.ScreenToWorldPoint
-            (
-            new Vector3
-            (FolderMng.Instance.m_buttons[0].transform.position.x, FolderMng.Instance.m_buttons[0].transform.position.y, -Camera.main.transform.position.z)
-            );
-        TailMng.Instance.TailGo(deathpoint, target, null);
-    }
-
     private Vector3 deathpoint = new Vector3();
 
     public void KillThis(string state = null)
@@ -574,15 +564,7 @@ public class BaseChar : MonoBehaviour
 
         if (state == "sale")
         {
-            for (int i = 0; i < 3; i++)
-            {
-                if (Status.m_Equipment[i] != null)
-                {
-                    ItemInven.Instance.ADDItem(Status.m_Equipment[i]);
-                    float time = i;
-                    Invoke("ItemTail", time * 0.2f);
-                }
-            }
+            ItemMng.instance.ItemReTurn(Status.m_Equipment, deathpoint);
         }
 
         GetComponent<DragHelper>().m_oripos = transform.parent.position;

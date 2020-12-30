@@ -294,7 +294,7 @@ public class HandMng : MonoBehaviour
             }
         }
 
-        ItemMng.instance.EquipmentCheck(hands[2].Status.m_Equipment, surplus);
+        ItemMng.instance.EquipmentCheck(hands[2], surplus);
 
 
 
