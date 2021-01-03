@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
 
 public enum Skillname
 {
-    none,thunderstrike,arrowpenetrate
+    none,thunderstrike,arrowpenetrate,Bite
 }
 
 public class SkillContainer : MonoBehaviour 
@@ -24,8 +24,10 @@ public class SkillContainer : MonoBehaviour
        
         m_skills.Add(Skillname.thunderstrike, gameObject.AddComponent<ThunderStrike>());
         m_skills.Add(Skillname.arrowpenetrate, gameObject.AddComponent<ArrowPenetrate>());
+        m_skills.Add(Skillname.Bite, gameObject.AddComponent<Bite>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
+        m_skills[Skillname.Bite].Init(m_fxmng);
     }
 
     public static SkillContainer Instance

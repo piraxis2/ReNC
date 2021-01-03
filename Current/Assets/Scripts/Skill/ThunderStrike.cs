@@ -72,7 +72,7 @@ public class ThunderStrike : Skill
                 if (skillrange[index2].CurrCHAR == null)
                     continue;
 
-                if (skillrange[index2].CurrCHAR.FOE == caster.FOE)
+                if (skillrange[index2].CurrCHAR.FOE != caster.FOE)
                     skillrange[index2].CurrCHAR.Status.DamagedLife(30+caster.Status.AP, caster, skillrange[index2],DamageType.Skill);
 
                

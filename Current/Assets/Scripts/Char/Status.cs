@@ -670,7 +670,7 @@ public class Status
             switch (x.m_name)
             {
                 case "Enhance": m_equad += 10; break;
-                case "": break;
+                case "SlowAS": m_equas *= 0.5f; break;
             }
 
         }

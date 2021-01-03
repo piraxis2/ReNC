@@ -42,7 +42,7 @@ public class StateBar : MonoBehaviour
             if (m_image[1] != null)
                 m_image[1].fillAmount = (float)m_char.Status.Life / m_char.Status.MaxLife;
             if (m_image[3] != null)
-                m_image[3].fillAmount = (float)m_char.Status.Mana / m_char.Status.MaxLife;
+                m_image[3].fillAmount = (float)m_char.Status.Mana / 100;
 
             yield return null;
             

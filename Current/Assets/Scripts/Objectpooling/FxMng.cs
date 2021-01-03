@@ -36,20 +36,21 @@ public class FxMng : MonoBehaviour
 
     public void Init()
     {
-        m_prefabs.Add(Resources.Load("Prefab/Thunder") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Attack") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Arrow") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/FireBall") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/ArrowHit") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/boom") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Shot2") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Summon") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/ManaGet") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Heal") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Buff") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Rain5") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/FireStrike") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/Sniping") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Thunder") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Attack") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Arrow") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/FireBall") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/ArrowHit") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/boom") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Shot2") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Summon") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/ManaGet") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Heal") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Buff") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Rain5") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/FireStrike") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Sniping") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Bite") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -105,6 +106,9 @@ public class FxMng : MonoBehaviour
                 return FxInstant(12);
             case "Sniping":
                 return FxInstant(13);
+            case "Bite":
+                return FxInstant(14);
+                
 
         }
         return null;

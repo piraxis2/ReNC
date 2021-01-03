@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3122188927346045061}
   - component: {fileID: 3122188927346045060}
   - component: {fileID: 3122188927346045056}
-  - component: {fileID: 3122188927346045057}
   - component: {fileID: 1698651375649979682}
   - component: {fileID: 3122188927346045063}
   m_Layer: 9
@@ -118,28 +117,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d60948f4e1141f4491cc8c11471a862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_exclude: 0
-  m_currnode: {fileID: 0}
-  m_prevnode: {fileID: 0}
-  m_fusionparent: {fileID: 0}
+  m_foe: 0
   m_Rangelist: []
-  m_attackablelist: []
   m_animator: {fileID: 0}
   m_projectileangle: 0
   m_myroom: 0
---- !u!114 &3122188927346045057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3122188927346045067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fe556c8055d3104fa815aaa3bb4dd1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_name: 
 --- !u!114 &1698651375649979682
 MonoBehaviour:
   m_ObjectHideFlags: 0

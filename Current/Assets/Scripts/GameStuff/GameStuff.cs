@@ -144,6 +144,12 @@ public class Buff
         status.m_equad += 10;
     }
 
+    public void SlowSpeed(Status status)
+    {
+        float speed = status.m_equas;
+        status.m_equas = speed * 0.9f;
+    }
+
 
 }
 
