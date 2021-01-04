@@ -25,12 +25,12 @@ public class Shururu : BaseChar
 
     protected override void StatusSet()
     {
-        Status.SetName("Shururu");
-        Status.SetMovePoint(0);
-        Status.RangeSet(6);
-        Status.PrioritySet(11);
-        Status.SetLife(350);
-        Status.SetAS(0.6f);
+        MyStatus.SetName("Shururu");
+        MyStatus.SetMovePoint(0);
+        MyStatus.RangeSet(6);
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(350);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

@@ -25,6 +25,8 @@ public class WarningTile : MonoBehaviour
 
     public IEnumerator IEblink()
     {
+
+
         m_Isrunning = true;
         Color origin = m_renderer.color;
         Color target = m_renderer.color - new Color(0, 0, 0, m_renderer.color.a);

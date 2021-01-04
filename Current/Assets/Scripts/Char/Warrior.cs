@@ -7,11 +7,12 @@ public class Warrior : Hero
     public override void Init()
     {
         base.Init();
-        Status.SetName("Warrior");
+        MyStatus.SetName("Warrior");
         m_classtype = ClassType.Warrior;
         m_classname = "Warrior";
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
+        m_skill = Skillname.WhirlWind;
     }
 
     public override PixelFx FxCall()
@@ -22,9 +23,10 @@ public class Warrior : Hero
 
     protected override void StatusSet()
     {
-        Status.RangeSet(1);
-        Status.PrioritySet(9);
-        Status.SetAS(0.6f);
+        MyStatus.RangeSet(1);
+        MyStatus.SetLife(600);
+        MyStatus.PrioritySet(9);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

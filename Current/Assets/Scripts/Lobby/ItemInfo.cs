@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -63,7 +63,7 @@ public class ItemInfo : MonoBehaviour
     {
         m_focus = 2;
         m_targetidx = idx;
-        Item item = HeroLobbyMng.FindHero(CharacterBook.Instance.m_bookidx).Status.EquipMent[idx];
+        Item item = HeroLobbyMng.FindHero(CharacterBook.Instance.m_bookidx).MyStatus.EquipMent[idx];
         if (m_buttontext != null)
             m_buttontext.text = "UnEquip";
         PopInfo(item);

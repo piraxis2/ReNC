@@ -78,7 +78,7 @@ public class PlayerSkillTable : ReadData
 
         for (int i = 0; i < CharMng.Instance.CurrHeros.Count; i++)
         {
-            CharMng.Instance.CurrHeros[i].Status.CuredLife(30);
+            CharMng.Instance.CurrHeros[i].MyStatus.CuredLife(30);
             PixelFx fx = FxMng.Instance.FxCall("Heal");
             fx.gameObject.SetActive(true);
             fx.transform.position = CharMng.Instance.CurrHeros[i].transform.position;
@@ -92,7 +92,7 @@ public class PlayerSkillTable : ReadData
 
         for(int i = 0; i<CharMng.Instance.CurrHeros.Count; i++)
         {
-            CharMng.Instance.CurrHeros[i].Status.GetBuff("Enhance", 8f);
+            CharMng.Instance.CurrHeros[i].MyStatus.GetBuff("Enhance", 8f);
             PixelFx fx = FxMng.Instance.FxCall("Buff");
             fx.gameObject.SetActive(true);
             fx.transform.position = CharMng.Instance.CurrHeros[i].transform.position;
@@ -117,7 +117,7 @@ public class PlayerSkillTable : ReadData
             PixelFx fx = FxMng.Instance.FxCall("Rain5");
             fx.gameObject.SetActive(true);
             fx.transform.position = CharMng.Instance.CurrEnemys[i].transform.position;
-            target.Status.DamagedLife(15, null, target.CurrNode, DamageType.Kinetic);
+            target.MyStatus.DamagedLife(15, null, target.CurrNode, DamageType.Kinetic);
         }
     }
 
@@ -188,7 +188,7 @@ public class PlayerSkillTable : ReadData
 
 
                 if (!skillrange[index2].CurrCHAR.FOE)
-                    skillrange[index2].CurrCHAR.Status.DamagedLife(50, null, skillrange[index2], DamageType.Skill);
+                    skillrange[index2].CurrCHAR.MyStatus.DamagedLife(50, null, skillrange[index2], DamageType.Skill);
 
 
             }
@@ -249,7 +249,7 @@ public class PlayerSkillTable : ReadData
 
         if (targetChar != null)
         {
-            targetChar.Status.DamagedLife(50, null, targetChar.CurrNode, DamageType.Kinetic, "HeadShot!");
+            targetChar.MyStatus.DamagedLife(50, null, targetChar.CurrNode, DamageType.Kinetic, "HeadShot!");
             PixelFx hitfx = FxMng.Instance.FxCall("Boom");
             hitfx.gameObject.SetActive(true);
             hitfx.transform.position = enemypos;

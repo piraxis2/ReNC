@@ -9,9 +9,9 @@ public class PassengerComparer : IComparer<BaseChar>
         if (x == null || y == null)
             return 0;
 
-        if (x.Status.Priority < y.Status.Priority)
+        if (x.MyStatus.Priority < y.MyStatus.Priority)
             return -1;
-        else if (x.Status.Priority > y.Status.Priority)
+        else if (x.MyStatus.Priority > y.MyStatus.Priority)
             return 1;
 
         return 0;

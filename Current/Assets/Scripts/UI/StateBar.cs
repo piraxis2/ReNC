@@ -31,7 +31,7 @@ public class StateBar : MonoBehaviour
 
     IEnumerator IETrackingChar()
     {
-        while (m_char.Status.Life > 0)
+        while (m_char.MyStatus.Life > 0)
 
         {
             if (m_char == null)
@@ -40,9 +40,9 @@ public class StateBar : MonoBehaviour
             if (m_char.Running)
                 transform.position = Camera.main.WorldToScreenPoint(m_char.transform.position);
             if (m_image[1] != null)
-                m_image[1].fillAmount = (float)m_char.Status.Life / m_char.Status.MaxLife;
+                m_image[1].fillAmount = (float)m_char.MyStatus.Life / m_char.MyStatus.MaxLife;
             if (m_image[3] != null)
-                m_image[3].fillAmount = (float)m_char.Status.Mana / 100;
+                m_image[3].fillAmount = (float)m_char.MyStatus.Mana / 100;
 
             yield return null;
             

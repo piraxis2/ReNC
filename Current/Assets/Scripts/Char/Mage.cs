@@ -8,7 +8,7 @@ public class Mage : Hero
     public override void Init()
     {
         base.Init();
-        Status.SetName("mage");
+        MyStatus.SetName("mage");
         m_classtype = ClassType.Mage;
         m_classname = "Mage";
         m_projectile = Resources.Load("Prefab/FireBall") as GameObject;
@@ -28,9 +28,9 @@ public class Mage : Hero
 
     protected override void StatusSet()
     {
-        Status.RangeSet(3);
-        Status.PrioritySet(13);
-        Status.SetAS(0.6f);
+        MyStatus.RangeSet(3);
+        MyStatus.PrioritySet(13);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

@@ -21,7 +21,9 @@ public class Status
     private int m_life = 100;
     private int m_maxlife = 100;
     private int m_mana = 0;
+    private int m_floatmaxmana = 100;
     private int m_basemana = 0;
+    private int m_fixedmaxmana = 100;
     private int m_ad = 40;
     private int m_ap = 10;
     private int m_df = 20;
@@ -55,11 +57,14 @@ public class Status
     public int m_magicregest = 0;
 
 
+    public bool m_stuned = false;
+
     private bool m_perk8stack = false;
     private bool m_buff = false;
     private int m_buffidxer = 0;
 
     private List<Buff> m_bufflist = new List<Buff>();
+    public List<PixelFx> m_fxrunninglist = new List<PixelFx>();
 
     public Item[] m_Equipment = new Item[3];
 
@@ -270,7 +275,13 @@ public class Status
 
     public bool Skillon
     {
-        get { return (m_mana >= 100); }
+        get
+        {
+            if (m_floatmaxmana == 1)
+                return false;
+
+            return (m_mana >= m_floatmaxmana);
+        }
     }
 
     public Item[] EquipMent
@@ -355,6 +366,12 @@ public class Status
         m_movepoint = val;
     }
 
+    public void SetMaxMana(int val)
+    {
+        m_floatmaxmana = val;
+        m_fixedmaxmana = val;
+    }
+
     public void PrioritySet(int val)
     {
         m_oderpriority = val;
@@ -382,7 +399,7 @@ public class Status
 
 
 
-    public void GetBuff(string name, float time)
+    public void GetBuff(string name, float time, int val = -1, int val2 = -1, float percentage = -1f, bool permanent = false)
     {
         if (m_bufflist.Count == 0)
             m_buffidxer = 0;
@@ -391,12 +408,18 @@ public class Status
         buff.m_idx = m_buffidxer;
         buff.m_name = name;
         buff.m_time = time;
+        buff.m_val = val;
+        buff.m_val2 = val2;
+        buff.m_percentage = percentage;
+
 
         m_bufflist.Add(buff);
         m_buffidxer++;
-        m_baseChar.StartCoroutine(IEbuff(buff));
+        if(!permanent)
+            m_baseChar.StartCoroutine(IEbuff(buff));
         StatReLoad();
     }
+
     public int FindBuff(int idx)
     {
         int num = 0;
@@ -446,7 +469,7 @@ public class Status
         {
             if (target != null)
             {
-                if (Random.Range(1, 100) < (target.Status.CLI))
+                if (Random.Range(1, 100) < (target.MyStatus.CLI))
                 {
                     realdam *= 2;
                     damagetext = "CLITICAL";
@@ -465,14 +488,14 @@ public class Status
 
         if (target != null)
         {
-            logtext += target.Status.m_name + " 의 ";
-            if (target.Status.Passive(7))
+            logtext += target.MyStatus.m_name + " 의 ";
+            if (target.MyStatus.Passive(7))
             {
                 if (Random.Range(1, 100) < 5)
                 {
                     realdam = m_life;
                     damagetext = "DEATHSTRIKE";
-                    logtext = "으악! 이건 너무 아프다!" + target.Status.m_name + " 의 죽음의 일격이 " + m_name + " 에게 명중했다.";
+                    logtext = "으악! 이건 너무 아프다!" + target.MyStatus.m_name + " 의 죽음의 일격이 " + m_name + " 에게 명중했다.";
                 }
             }
 
@@ -529,7 +552,7 @@ public class Status
         int realval = healval * -1;
         if (target != null)
         {
-            if (Random.Range(1, 100) < target.Status.CLI)
+            if (Random.Range(1, 100) < target.MyStatus.CLI)
             {
                 realval *= 2;
                 m_life -= realval;
@@ -564,10 +587,13 @@ public class Status
 
     public void ManaGet(int mana)
     {
+        if (m_floatmaxmana == 1)
+            return;
+
         m_mana += mana;
-        if (m_mana >= 100)
+        if (m_mana >= m_floatmaxmana)
         {
-            m_mana = 100;
+            m_mana = m_floatmaxmana;
         }
     }
 
@@ -614,7 +640,10 @@ public class Status
         m_equavoid = (int)ItemCalculation(m_avoid, "AVD");
         m_magicregest = 0;
         m_equran = m_range;
+        m_floatmaxmana = m_fixedmaxmana;
+
         PassiveCalculation();
+
         if (m_bufflist.Count > 0)
             BuffCalculation();
 
@@ -671,26 +700,73 @@ public class Status
             {
                 case "Enhance": m_equad += 10; break;
                 case "SlowAS": m_equas *= 0.5f; break;
+                case "Silance": m_floatmaxmana = 1; break;
             }
 
         }
+
+    }
+
+    public int FindBuff(string name)
+    {
+        foreach(var x in m_bufflist)
+        {
+            if (x.m_name == name)
+                return x.m_idx;
+        }
+        return -1;
     }
 
     public IEnumerator IEbuff(Buff buff)
     {
 
+        float bleedingcount = 0.5f;
+        bool bleeding = false;
         bool stop = false;
         float elapsedtime = 0;
+        PixelFx fx = buff.m_fx;
+
+        if (buff.m_name == "Bleeding")
+        {
+            fx = FxMng.Instance.FxCall("Bleeding");
+            bleeding = true;
+            fx.gameObject.SetActive(true);
+            fx.transform.position = m_baseChar.transform.position;
+        }
+
+        else if (buff.m_name == "Stun")
+        {
+            m_stuned = true;
+            fx = FxMng.Instance.FxCall("Stun");
+            fx.gameObject.SetActive(true);
+            fx.transform.position = m_baseChar.transform.position;
+        }
+
+        m_fxrunninglist.Add(fx);
+
         while (!stop)
         {
             elapsedtime += Time.deltaTime;
+            if (bleeding)
+            {
+                fx.transform.position = m_baseChar.transform.position;
+                if(elapsedtime>=bleedingcount)
+                {
+                    DamagedLife(buff.m_val, null, m_baseChar.CurrNode, DamageType.Skill,"BLEEDING");
+                    bleedingcount += 0.5f;
+                }
+            }
+
             if (elapsedtime >= buff.m_time)
             {
                 stop = true;
                 elapsedtime = 0;
-                m_bufflist.RemoveAt(FindBuff(buff.m_idx));
+                buff.Buffoff(this);
                 StatReLoad();
+                if (fx != null)
+                    fx.ShutActive();
             }
+
             yield return null;
         }
     }

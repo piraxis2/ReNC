@@ -289,8 +289,8 @@ public class HandMng : MonoBehaviour
         {
             for (int j = 0; j < 3; j++)
             {
-                if (hands[i].Status.EquipMent[j] != null)
-                    surplus.Add(hands[i].Status.EquipMent[j]);
+                if (hands[i].MyStatus.EquipMent[j] != null)
+                    surplus.Add(hands[i].MyStatus.EquipMent[j]);
             }
         }
 

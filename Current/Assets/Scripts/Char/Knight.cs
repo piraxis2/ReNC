@@ -8,7 +8,7 @@ public class Knight : Hero
     public override void Init()
     {
         base.Init();
-        Status.SetName("Knight");
+        MyStatus.SetName("Knight");
         m_classtype = ClassType.Knight;
         m_classname = "Knight";
         m_hitfx = Resources.Load("Prefab/Sting") as GameObject;
@@ -23,9 +23,9 @@ public class Knight : Hero
 
     protected override void StatusSet()
     {
-        Status.RangeSet(1);
-        Status.PrioritySet(10);
-        Status.SetAS(0.6f);
+        MyStatus.RangeSet(1);
+        MyStatus.PrioritySet(10);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

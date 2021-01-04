@@ -13,11 +13,11 @@ public class SansShooter : BaseChar
 
     protected override void StatusSet()
     {
-        Status.RangeSet(4);
-        Status.SetName("SansShooter");
-        Status.PrioritySet(11);
-        Status.SetLife(600);
-        Status.SetAS(0.6f);
+        MyStatus.RangeSet(4);
+        MyStatus.SetName("SansShooter");
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(600);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

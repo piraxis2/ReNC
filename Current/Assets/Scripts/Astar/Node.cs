@@ -18,7 +18,7 @@ public class Node : MonoBehaviour
     [SerializeField]
     private BaseChar m_chara = null;
     [SerializeField]
-    private WarningTile m_warningtile;
+    private WarningTile[] m_warningtile;
 
     private int m_Hcost;
     private int m_Gcost;
@@ -39,7 +39,7 @@ public class Node : MonoBehaviour
     private void Awake()
     {
         m_sprite = GetComponent<SpriteRenderer>(); 
-        m_warningtile = GetComponentInChildren<WarningTile>(true);
+        m_warningtile = GetComponentsInChildren<WarningTile>(true);
         m_oriColor = m_sprite.color;
         m_trap = GetComponentInChildren<Trap>(true);
 
@@ -67,8 +67,14 @@ public class Node : MonoBehaviour
 
     public WarningTile WarningTile
     {
-        get { return m_warningtile; }
+        get { return m_warningtile[0]; }
     }
+
+    public WarningTile PositiveWarningTile
+    {
+        get { return m_warningtile[1]; }
+    }
+
 
     public Node Parent
     {

@@ -84,17 +84,17 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             int num = -1;
             for (int i = 0; i < 3; i++)
             {
-                if (targetchar.Status.EquipMent[i] == null)
+                if (targetchar.MyStatus.EquipMent[i] == null)
                 { num = i; break; }
 
                 if (i == 2)
                 {
-                    if (targetchar.Status.EquipMent[i].m_quality == "Common")
+                    if (targetchar.MyStatus.EquipMent[i].m_quality == "Common")
                     {
                         if (m_targetitem.m_quality == "Common")
                         {
                             m_inven.RemoveItem(m_idx);
-                            ItemMng.instance.EquipmentCheck(targetchar.Status.m_Equipment, m_targetitem);
+                            ItemMng.instance.EquipmentCheck(targetchar.MyStatus.m_Equipment, m_targetitem);
                             m_targetitem = null;
                             m_target.transform.position = m_oripos;
                             return;
@@ -117,9 +117,9 @@ public class ItemDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
             else if (num >= 0)
             {
-                targetchar.Status.ItemEquip(num, m_targetitem);
+                targetchar.MyStatus.ItemEquip(num, m_targetitem);
                 m_inven.RemoveItem(m_idx);
-                ItemMng.instance.EquipmentCheck(targetchar.Status.m_Equipment);
+                ItemMng.instance.EquipmentCheck(targetchar.MyStatus.m_Equipment);
                 m_targetitem = null;
                 m_target.transform.position = m_oripos;
             }

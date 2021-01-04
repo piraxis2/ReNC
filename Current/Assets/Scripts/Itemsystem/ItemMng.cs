@@ -28,7 +28,7 @@ public class ItemMng : MonoBehaviour
     public void EquipmentCheck(BaseChar bc, List<Item> surplus)
     {
 
-        Item[] equipment = bc.Status.m_Equipment;
+        Item[] equipment = bc.MyStatus.m_Equipment;
         for (int i = 0; i < 3; i++)
         {
             equipment[i] = null;

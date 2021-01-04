@@ -34,8 +34,8 @@ public class Bite : Skill
 
         if (skillrange[0].CurrCHAR.FOE != caster.FOE)
         {
-            skillrange[0].CurrCHAR.Status.DamagedLife(225, caster, skillrange[0], DamageType.Skill);
-            skillrange[0].CurrCHAR.Status.GetBuff("SlowAS", 3f);
+            skillrange[0].CurrCHAR.MyStatus.DamagedLife(225, caster, skillrange[0], DamageType.Skill);
+            skillrange[0].CurrCHAR.MyStatus.GetBuff("SlowAS", 3f);
         }
 
 

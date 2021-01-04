@@ -8,7 +8,7 @@ public class Hunter : Hero
     public override void Init()
     {
         base.Init();
-        Status.SetName("hunter");
+        MyStatus.SetName("hunter");
         m_classtype = ClassType.Hunter;
         m_classname = "Hunter";
         m_projectile = Resources.Load("Prefab/Arrow") as GameObject;
@@ -32,9 +32,9 @@ public class Hunter : Hero
     protected override void StatusSet()
     {
 
-        Status.RangeSet(5);
-        Status.PrioritySet(5);
-        Status.SetAS(0.75f);
+        MyStatus.RangeSet(5);
+        MyStatus.PrioritySet(5);
+        MyStatus.SetAS(0.75f);
         base.StatusSet();
 
     }

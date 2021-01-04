@@ -51,6 +51,8 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/FireStrike") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Sniping") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Bite") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Wind") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Bleeding") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -108,7 +110,13 @@ public class FxMng : MonoBehaviour
                 return FxInstant(13);
             case "Bite":
                 return FxInstant(14);
-                
+            case "Wind":
+                return FxInstant(15);
+            case "Bleeding":
+                return FxInstant(16);
+            case "Stun":
+                return FxInstant(17);
+
 
         }
         return null;

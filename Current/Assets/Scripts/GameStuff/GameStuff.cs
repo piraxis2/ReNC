@@ -138,6 +138,21 @@ public class Buff
     public string m_name;
     public float m_time;
     public System.Action<Status> m_option;
+    public bool m_permanent = false;
+
+    public int m_val = 0;
+    public int m_val2 = 0;
+    public float m_percentage = 0;
+    public PixelFx m_fx; 
+
+    public void Buffoff(Status target)
+    {
+        if (m_name == "Stun")
+            target.m_stuned = false;
+
+        target.BuffList.Remove(this);
+
+    }
 
     public void Enhance(Status status)
     {

@@ -7,9 +7,10 @@ public class Slime : BaseChar
     public override void Init()
     {
         base.Init();
-        Status.SetName("Slime");
+        MyStatus.SetName("Slime");
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
+        m_skill = Skillname.HealBomb;
     }
 
     public override PixelFx FxCall()
@@ -20,12 +21,19 @@ public class Slime : BaseChar
 
     protected override void StatusSet()
     {
-        Status.RangeSet(2);
-        Status.PrioritySet(11);
-        Status.SetLife(500);
-        Status.SetAS(0.65f);
+
+        MyStatus.RangeSet(2);
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(500);
+        MyStatus.SetAS(0.65f);
+        MyStatus.SetMaxMana(1);
         base.StatusSet();
 
 
+    }
+    public override void DestroyThis()
+    {
+        SkillContainer.Instance.FindSkill(m_skill).Skillshot(this, CurrNode);
+        base.DestroyThis();
     }
 }

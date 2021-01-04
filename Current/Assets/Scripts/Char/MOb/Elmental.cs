@@ -7,7 +7,7 @@ public class Elmental : BaseChar
     public override void Init()
     {
         base.Init();
-        Status.SetName("Elmental");
+        MyStatus.SetName("Elmental");
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 150;
         m_sprite = transform.Find("Core").GetComponent<SpriteRenderer>();
@@ -29,13 +29,13 @@ public class Elmental : BaseChar
 
     protected override void StatusSet()
     {
-        Status.RangeSet(4);
+        MyStatus.RangeSet(4);
 
-        Status.PrioritySet(11);
-        Status.SetLife(500);
-        Status.SetAS(0.6f);
-        Status.SetAD(40);
-        Status.SetDF(20);
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(500);
+        MyStatus.SetAS(0.6f);
+        MyStatus.SetAD(40);
+        MyStatus.SetDF(20);
         base.StatusSet();
 
     }

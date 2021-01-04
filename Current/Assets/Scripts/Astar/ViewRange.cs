@@ -30,7 +30,7 @@ public class ViewRange : MonoBehaviour
             {
                 x.m_sprite.color =  new Color(0.7f,1, 0.8f);
             }
-            CharacterInfoBox.Instance.SetBox(m_ray.Status, Input.mousePosition);
+            CharacterInfoBox.Instance.SetBox(m_ray.MyStatus, Input.mousePosition);
 
         }
 

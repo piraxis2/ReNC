@@ -57,8 +57,8 @@ public class HandDrag : Mng
     private void Update()
     {
 
-        if (m_playing)
-            return;
+        //if (m_playing)
+        //    return;
 
 
 

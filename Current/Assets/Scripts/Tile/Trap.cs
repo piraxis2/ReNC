@@ -26,7 +26,7 @@ public class Trap : MonoBehaviour
         {
             m_ani.SetTrigger("ON");
             m_Used = true;
-            m_currChar.Status.DamagedLife(100, null, trapedchar.CurrNode, DamageType.Trap, "Trapped");
+            m_currChar.MyStatus.DamagedLife(100, null, trapedchar.CurrNode, DamageType.Trap, "Trapped");
         }
     }
 }

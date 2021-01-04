@@ -21,10 +21,10 @@ public class Sans : BaseChar
     protected override void StatusSet()
     {
 
-        Status.SetName("Sans");
-        Status.PrioritySet(11);
-        Status.SetLife(600);
-        Status.SetAS(0.6f);
+        MyStatus.SetName("Sans");
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(600);
+        MyStatus.SetAS(0.6f);
         base.StatusSet();
 
     }

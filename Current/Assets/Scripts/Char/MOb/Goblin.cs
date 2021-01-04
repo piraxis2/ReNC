@@ -7,7 +7,7 @@ public class Goblin : BaseChar
     public override void Init()
     {
         base.Init();
-        Status.SetName("Goblin");
+        MyStatus.SetName("Goblin");
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
     }
@@ -20,11 +20,11 @@ public class Goblin : BaseChar
 
     protected override void StatusSet()
     {
-        Status.RangeSet(1);
-        Status.PrioritySet(11);
-        Status.SetLife(650);
-        Status.SetAS(0.65f);
-        Status.SetDF(40);
+        MyStatus.RangeSet(1);
+        MyStatus.PrioritySet(11);
+        MyStatus.SetLife(650);
+        MyStatus.SetAS(0.65f);
+        MyStatus.SetDF(40);
         base.StatusSet();
 
     }

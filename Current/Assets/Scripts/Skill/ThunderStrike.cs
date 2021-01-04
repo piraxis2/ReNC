@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class ThunderStrike : Skill
 {
-
+    PixelFx m_thunder;
     public override void Init(FxMng fx)
     {
         base.Init(fx);
+
+        m_damage[0] = 450;
+        m_damage[1] = 675;
+        m_damage[2] = 1500;
+
     }
 
     public override List<Node> SkillRange(Node[,] nodearr, Node target, BaseChar caster)
@@ -61,19 +66,18 @@ public class ThunderStrike : Skill
 
                 if (skillrange[index2].CurrCHAR!= null)
                 {
-                    if (skillrange[index2].CurrCHAR.FOE != caster.FOE)
+                    if (skillrange[index2].CurrCHAR.FOE == caster.FOE)
                         continue;
                 }
-
-                PixelFx thunder =FxMng.Instance.FxCall("Thunder");
-                thunder.gameObject.SetActive(true);
-                thunder.transform.position = skillrange[index2].transform.position;
+                m_thunder = FxMng.Instance.FxCall("Thunder");
+                m_thunder.gameObject.SetActive(true);
+                m_thunder.transform.position = skillrange[index2].transform.position;
 
                 if (skillrange[index2].CurrCHAR == null)
                     continue;
 
                 if (skillrange[index2].CurrCHAR.FOE != caster.FOE)
-                    skillrange[index2].CurrCHAR.Status.DamagedLife(30+caster.Status.AP, caster, skillrange[index2],DamageType.Skill);
+                    skillrange[index2].CurrCHAR.MyStatus.DamagedLife(m_damage[caster.Star-1], caster, skillrange[index2],DamageType.Skill);
 
                
             }

@@ -46,8 +46,8 @@ public class HeroCard : MonoBehaviour
         hero.CardSet(m_ID);
         Init();
         m_faceimage.sprite = hero.Face;
-        m_nametext.text = hero.Status.Name;
-        m_lvtext.text = hero.Status.LV.ToString();
+        m_nametext.text = hero.MyStatus.Name;
+        m_lvtext.text = hero.MyStatus.LV.ToString();
     }
 
     public void OpenBook()

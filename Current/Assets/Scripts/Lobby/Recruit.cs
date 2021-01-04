@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -131,43 +131,43 @@ public class Recruit : Mng
     {
         for (int i = 0; i < 3; i++)
         {
-            if (m_hero.Status.EquipMent[i] == null)
+            if (m_hero.MyStatus.EquipMent[i] == null)
                 m_equipmentimages[i].sprite = SpriteMng.s_blanksprite;
             else
-                m_equipmentimages[i].sprite = m_hero.Status.EquipMent[i].m_sprite;
+                m_equipmentimages[i].sprite = m_hero.MyStatus.EquipMent[i].m_sprite;
         }
     }
 
     public void StatusWindowReset()
     {
         m_DSinfostats.text =
-            m_hero.Status.LV.ToString() + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORILife, m_hero.Status.MaxLife - m_hero.Status.ORILife, m_hero.Status.Token("LIFE"))
+            m_hero.MyStatus.LV.ToString() + '\n' +
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORILife, m_hero.MyStatus.MaxLife - m_hero.MyStatus.ORILife, m_hero.MyStatus.Token("LIFE"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIMana, m_hero.Status.Mana - m_hero.Status.ORIMana, m_hero.Status.Token("MANA"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIMana, m_hero.MyStatus.Mana - m_hero.MyStatus.ORIMana, m_hero.MyStatus.Token("MANA"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIAD, m_hero.Status.AD - m_hero.Status.ORIAD, m_hero.Status.Token("AD"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIAD, m_hero.MyStatus.AD - m_hero.MyStatus.ORIAD, m_hero.MyStatus.Token("AD"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIAP, m_hero.Status.AP - m_hero.Status.ORIAP, m_hero.Status.Token("AP"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIAP, m_hero.MyStatus.AP - m_hero.MyStatus.ORIAP, m_hero.MyStatus.Token("AP"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIDF, m_hero.Status.DF - m_hero.Status.ORIDF, m_hero.Status.Token("DF"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIDF, m_hero.MyStatus.DF - m_hero.MyStatus.ORIDF, m_hero.MyStatus.Token("DF"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIAS, m_hero.Status.AS - m_hero.Status.ORIAS, m_hero.Status.Token("AS"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIAS, m_hero.MyStatus.AS - m_hero.MyStatus.ORIAS, m_hero.MyStatus.Token("AS"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORILPS, m_hero.Status.LPS - m_hero.Status.ORILPS, m_hero.Status.Token("LPS"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORILPS, m_hero.MyStatus.LPS - m_hero.MyStatus.ORILPS, m_hero.MyStatus.Token("LPS"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIMPS, m_hero.Status.MPS - m_hero.Status.ORIMPS, m_hero.Status.Token("MPS"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIMPS, m_hero.MyStatus.MPS - m_hero.MyStatus.ORIMPS, m_hero.MyStatus.Token("MPS"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORICLI, m_hero.Status.CLI - m_hero.Status.ORICLI, m_hero.Status.Token("CLI"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORICLI, m_hero.MyStatus.CLI - m_hero.MyStatus.ORICLI, m_hero.MyStatus.Token("CLI"))
             + '\n' +
-            string.Format("{0}({1}){2}", m_hero.Status.ORIAVD, m_hero.Status.AVOID - m_hero.Status.ORIAVD, m_hero.Status.Token("AVD"))
+            string.Format("{0}({1}){2}", m_hero.MyStatus.ORIAVD, m_hero.MyStatus.AVOID - m_hero.MyStatus.ORIAVD, m_hero.MyStatus.Token("AVD"))
             + '\n' +
-            m_hero.Status.Range.ToString();
+            m_hero.MyStatus.Range.ToString();
 
         m_passives.text = "";
         for (int i = 0; i < TableMng.Instance.TableLength(TableType.PassiveTable); i++)
         {
-            if (m_hero.Status.Passive(i))
+            if (m_hero.MyStatus.Passive(i))
             {
                 m_passives.text += (TableMng.Instance.Table(TableType.PassiveTable, i) as Passive).m_name + "\n";
             }
@@ -189,7 +189,7 @@ public class Recruit : Mng
         }
         else if (idx < 3)
         {
-            if (m_hero.Status.EquipMent[idx] == null)
+            if (m_hero.MyStatus.EquipMent[idx] == null)
                 return;
 
             m_detailinfo.gameObject.SetActive(false);
@@ -212,10 +212,10 @@ public class Recruit : Mng
         }
         m_hero = NewbieMng.FindHero(idx);
 
-        m_name.text = m_hero.Status.Name;
-        m_lv.text = m_hero.Status.LV.ToString();
-        m_exptext.text = string.Format("EXP : {0}/{1}", m_hero.Status.EXP, 100);
-        m_expimage[1].fillAmount = (float)m_hero.Status.EXP / 100;
+        m_name.text = m_hero.MyStatus.Name;
+        m_lv.text = m_hero.MyStatus.LV.ToString();
+        m_exptext.text = string.Format("EXP : {0}/{1}", m_hero.MyStatus.EXP, 100);
+        m_expimage[1].fillAmount = (float)m_hero.MyStatus.EXP / 100;
         m_face.sprite = m_hero.Face;
         switch (m_hero.ClassType)
         {
@@ -224,12 +224,12 @@ public class Recruit : Mng
             case ClassType.Mage: m_heroclass.sprite = SpriteMng.s_classimage[(int)ClassType.Mage].sprite; break;
             case ClassType.Warrior: m_heroclass.sprite = SpriteMng.s_classimage[(int)ClassType.Warrior].sprite; break;
         }
-        m_stateviewtxts[1].text = string.Format("{0}/{1}", m_hero.Status.Life, m_hero.Status.Life);
-        m_stateviewtxts[2].text = string.Format("BASE:{0}", m_hero.Status.BaseMana);
-        m_stateviewtxts[3].text = string.Format("{0}({1}) {2}", m_hero.Status.AD, 0, m_statechangetoken);
-        m_stateviewtxts[4].text = string.Format("{0}({1}) {2}", m_hero.Status.AP, 0, m_statechangetoken);
-        m_stateviewtxts[5].text = string.Format("{0}({1}) {2}", m_hero.Status.DF, 0, m_statechangetoken);
-        m_stateviewtxts[6].text = string.Format("{0}({1})", m_hero.Status.AS, 0);
+        m_stateviewtxts[1].text = string.Format("{0}/{1}", m_hero.MyStatus.Life, m_hero.MyStatus.Life);
+        m_stateviewtxts[2].text = string.Format("BASE:{0}", m_hero.MyStatus.BaseMana);
+        m_stateviewtxts[3].text = string.Format("{0}({1}) {2}", m_hero.MyStatus.AD, 0, m_statechangetoken);
+        m_stateviewtxts[4].text = string.Format("{0}({1}) {2}", m_hero.MyStatus.AP, 0, m_statechangetoken);
+        m_stateviewtxts[5].text = string.Format("{0}({1}) {2}", m_hero.MyStatus.DF, 0, m_statechangetoken);
+        m_stateviewtxts[6].text = string.Format("{0}({1})", m_hero.MyStatus.AS, 0);
         m_page.text = string.Format("{0}/{1}", m_bookidx+1, m_rimitidx);
 
         StatusWindowReset();

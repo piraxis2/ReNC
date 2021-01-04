@@ -51,6 +51,10 @@ public class CharActionMng : Mng
                 continue;
 
             m_CurrChar = CharMng.Instance.TotalHeros[i];
+
+            if (m_CurrChar.MyStatus.m_stuned)
+                continue;
+
             List<BaseChar> targets = m_CurrChar.RangeCall();
             targets.Sort(m_passengerComparer);
             targets.Reverse();
@@ -59,7 +63,7 @@ public class CharActionMng : Mng
             {
                 m_CurrChar.SetAttacking(false);
 
-                if (m_CurrChar.Status.MovePoint > 0)
+                if (m_CurrChar.MyStatus.MovePoint > 0)
                 {
                     if (m_CurrChar.FOE)
                         ShortestMove(m_CurrChar, CharMng.Instance.CurrEnemys);
@@ -72,19 +76,19 @@ public class CharActionMng : Mng
                 if (!m_CurrChar.Attacking)
                 {
 
-                    if (m_CurrChar.Status.Skillon)
+                    if (m_CurrChar.MyStatus.Skillon)
                     {
                         if (m_CurrChar.Skill != Skillname.none)
                         {
                             m_CurrChar.SetAttacking(true);
                             ChangeSkillAni(Direction(m_CurrChar.CurrNode, targets[0].CurrNode), m_CurrChar);
                             SkillContainer.Instance.FindSkill(m_CurrChar.Skill).Skillshot(m_CurrChar, targets[0].CurrNode);
-                            m_CurrChar.Status.ManaCost();
+                            m_CurrChar.MyStatus.ManaCost();
                         }
                         else// 스킬없는캐릭터는 스킬쓰지않고 공격
                         {
                             m_CurrChar.SetAttacking(true);
-                            if (m_CurrChar.Status.Range == 1)
+                            if (m_CurrChar.MyStatus.Range == 1)
                                  StartCoroutine(IEAttack(m_CurrChar, targets[0].CurrNode));
                             else
                                 StartCoroutine(IELongRange(m_CurrChar, targets[0].CurrNode));
@@ -93,7 +97,7 @@ public class CharActionMng : Mng
                     else
                     {
                         m_CurrChar.SetAttacking(true);
-                        if (m_CurrChar.Status.Range == 1)
+                        if (m_CurrChar.MyStatus.Range == 1)
                             StartCoroutine(IEAttack(m_CurrChar, targets[0].CurrNode));
                         else
                             StartCoroutine(IELongRange(m_CurrChar, targets[0].CurrNode));
@@ -134,7 +138,7 @@ public class CharActionMng : Mng
     public IEnumerator IEAttack(BaseChar Chara, Node target)
     {
 
-        float AS = Chara.Status.CalculateAttackspeed();
+        float AS = Chara.MyStatus.CalculateAttackspeed();
         WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
 
         float angle = 0;
@@ -142,12 +146,12 @@ public class CharActionMng : Mng
         {
             
 
-            if (Chara.Status.Life <= 0)
+            if (Chara.MyStatus.Life <= 0)
                 yield break;
 
-            if(AS!=Chara.Status.CalculateAttackspeed())
+            if(AS!=Chara.MyStatus.CalculateAttackspeed())
             {
-                AS = Chara.Status.CalculateAttackspeed();
+                AS = Chara.MyStatus.CalculateAttackspeed();
                 attackspeed = new WaitForSecondsRealtime(AS);
             }
 
@@ -157,11 +161,11 @@ public class CharActionMng : Mng
             PixelFx Hit = Chara.FxCall();
             Hit.gameObject.SetActive(true);
             Hit.transform.position = target.CurrCHAR.transform.position + new Vector3(0, 0.5f, 0);
-            target.CurrCHAR.Status.DamagedLife(Chara.Status.AD, Chara, target,DamageType.Kinetic);
-            Chara.Status.ManaGet(5+Chara.Status.MPS);
+            target.CurrCHAR.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
+            Chara.MyStatus.ManaGet(5+Chara.MyStatus.MPS);
             yield return attackspeed;
 
-            if (Chara.Status.Skillon)
+            if (Chara.MyStatus.Skillon)
             {
                 Chara.SetAttacking(false);
                 yield break;
@@ -174,18 +178,18 @@ public class CharActionMng : Mng
 
     public IEnumerator IELongRange(BaseChar Chara, Node target)
     {
-        float AS = Chara.Status.CalculateAttackspeed();
+        float AS = Chara.MyStatus.CalculateAttackspeed();
         WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
 
 
         while (IsExist(Chara, target))
         {
-            if (Chara.Status.Life <= 0)
+            if (Chara.MyStatus.Life <= 0)
                 yield break;
 
-            if (AS != Chara.Status.CalculateAttackspeed())
+            if (AS != Chara.MyStatus.CalculateAttackspeed())
             {
-                AS = Chara.Status.CalculateAttackspeed();
+                AS = Chara.MyStatus.CalculateAttackspeed();
                 attackspeed = new WaitForSecondsRealtime(AS);
             }
 
@@ -195,7 +199,7 @@ public class CharActionMng : Mng
             StartCoroutine(IEProjectile(Chara, target));
 
             yield return attackspeed;
-            if (Chara.Status.Skillon)
+            if (Chara.MyStatus.Skillon)
             {
                 Chara.SetAttacking(false);
                 yield break;
@@ -241,8 +245,8 @@ public class CharActionMng : Mng
         }
         if (targetChar != null)
         {
-            targetChar.Status.DamagedLife(Chara.Status.AD, Chara, target,DamageType.Kinetic);
-            Chara.Status.ManaGet(10);
+            targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
+            Chara.MyStatus.ManaGet(10);
             PixelFx hitfx = Chara.FxCall();
             hitfx.gameObject.SetActive(true);
             hitfx.transform.position = enemypos;
@@ -271,7 +275,7 @@ public class CharActionMng : Mng
                 yield break;
             }
 
-            if (Chara.Status.Life <= 0)
+            if (Chara.MyStatus.Life <= 0)
             {
                 target.Setbool(false);
                 Chara.m_animator.SetBool(aniname, false);
@@ -586,6 +590,6 @@ public class CharActionMng : Mng
     public void tempbutton2()
     {
         foreach (var x in CharMng.Instance.CurrHeros)
-        { x.Status.ManaGet(100); }
+        { x.MyStatus.ManaGet(100); }
     }
 }

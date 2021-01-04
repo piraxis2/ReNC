@@ -154,7 +154,7 @@ public class BaseChar : MonoBehaviour
         get { return m_tecticsnode; }
     }
     
-    public Status Status
+    public Status MyStatus
     {
         get { return m_status; }
     }
@@ -342,8 +342,8 @@ public class BaseChar : MonoBehaviour
             m_face = m_sprite.sprite;
 
 
-        Status.PassiveCalculation();
-        Status.StatReLoad();
+        MyStatus.PassiveCalculation();
+        MyStatus.StatReLoad();
         RangeSet();
         GetComponent<DragHelper>().Init();
 
@@ -351,8 +351,8 @@ public class BaseChar : MonoBehaviour
 
     public virtual void ReLoadChar()
     {
-        Status.PassiveCalculation();
-        Status.StatReLoad();
+        MyStatus.PassiveCalculation();
+        MyStatus.StatReLoad();
         RangeSet();
     }
     
@@ -369,7 +369,7 @@ public class BaseChar : MonoBehaviour
         {
             m_star++;
             m_starani.SetInteger("lv", m_star);
-            Status.Upgrade();
+            MyStatus.Upgrade();
         }
 
         else
@@ -564,7 +564,7 @@ public class BaseChar : MonoBehaviour
 
         if (state == "sale")
         {
-            ItemMng.instance.ItemReTurn(Status.m_Equipment, deathpoint);
+            ItemMng.instance.ItemReTurn(MyStatus.m_Equipment, deathpoint);
         }
 
         GetComponent<DragHelper>().m_oripos = transform.parent.position;
@@ -614,6 +614,11 @@ public class BaseChar : MonoBehaviour
     public virtual void DestroyThis()
     {
 
+       foreach(var x in MyStatus.m_fxrunninglist)
+        {
+            if(x!=null)
+                x.ShutActive();
+        }
 
         CharMng.Instance.TotalHeros.RemoveAt(CharMng.Instance.FindID(UniqueID));
         if (FOE)

@@ -291,7 +291,7 @@ public class ArrowPenetrate : Skill
                 continue;
 
             if (x.CurrCHAR.FOE == caster.FOE)
-                x.CurrCHAR.Status.DamagedLife(50 + caster.Status.AP, caster, x, DamageType.Skill);
+                x.CurrCHAR.MyStatus.DamagedLife(50 + caster.MyStatus.AP, caster, x, DamageType.Skill);
         }
 
 
