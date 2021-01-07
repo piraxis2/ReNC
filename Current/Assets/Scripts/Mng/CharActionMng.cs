@@ -144,10 +144,19 @@ public class CharActionMng : Mng
         float angle = 0;
         while (IsExist(Chara, target))
         {
-            
+
 
             if (Chara.MyStatus.Life <= 0)
+            {
+                Chara.SetAttacking(false);
                 yield break;
+            }
+
+            if (Chara.MyStatus.m_stuned)
+            {
+                Chara.SetAttacking(false);
+                yield break;
+            }
 
             if(AS!=Chara.MyStatus.CalculateAttackspeed())
             {
@@ -186,6 +195,10 @@ public class CharActionMng : Mng
         {
             if (Chara.MyStatus.Life <= 0)
                 yield break;
+
+            if (Chara.MyStatus.m_stuned)
+                yield break;
+
 
             if (AS != Chara.MyStatus.CalculateAttackspeed())
             {

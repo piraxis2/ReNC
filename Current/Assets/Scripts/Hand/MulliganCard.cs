@@ -75,5 +75,6 @@ public class MulliganCard : MonoBehaviour
         transform.GetChild(0).gameObject.SetActive(false);
         THISCHAR.Isonline(true);
         THISCHAR.SetFoe(true);
+        PlayerData.Instance.GoldCunsume(m_tier);
     }
 }

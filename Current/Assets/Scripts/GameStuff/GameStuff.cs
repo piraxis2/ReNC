@@ -143,7 +143,19 @@ public class Buff
     public int m_val = 0;
     public int m_val2 = 0;
     public float m_percentage = 0;
-    public PixelFx m_fx; 
+
+    public PixelFx Bufffx()
+    {
+        switch(m_name)
+        {
+            case "Bleeding": return FxMng.Instance.FxCall("Bleeding");
+            case "Stun": return FxMng.Instance.FxCall("Stun");
+            case "Silence": return FxMng.Instance.FxCall("Silence");
+
+        }
+        return null;
+    }
+
 
     public void Buffoff(Status target)
     {

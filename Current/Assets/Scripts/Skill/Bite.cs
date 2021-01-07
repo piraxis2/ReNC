@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class Bite : Skill
 {
+    PixelFx m_fx;
+    PixelFx m_fx2;
 
     public override void Init(FxMng fx)
     {
+
         base.Init(fx);
+        m_damage[0] = 225;
+        m_damage[1] = 350;
+        m_damage[2] = 550;
+        m_fx = FxMng.Instance.FxCall("Bite");
+        m_fx2 = FxMng.Instance.FxCall("Heal");
+
     }
 
     public override List<Node> SkillRange(Node[,] nodearr, Node target, BaseChar caster)
@@ -22,9 +31,10 @@ public class Bite : Skill
     public override IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
     {
 
-        PixelFx fx = FxMng.Instance.FxCall("Bite");
-        fx.gameObject.SetActive(true);
-        fx.transform.position = skillrange[0].transform.position;
+          m_fx2.gameObject.SetActive(true);
+        m_fx.gameObject.SetActive(true);
+        m_fx.transform.position = skillrange[0].transform.position;
+        m_fx2.transform.position = caster.transform.position;
 
         if (skillrange[0].CurrCHAR == null)
         {
@@ -34,9 +44,11 @@ public class Bite : Skill
 
         if (skillrange[0].CurrCHAR.FOE != caster.FOE)
         {
-            skillrange[0].CurrCHAR.MyStatus.DamagedLife(225, caster, skillrange[0], DamageType.Skill);
+            skillrange[0].CurrCHAR.MyStatus.DamagedLife(m_damage[caster.Star-1], caster, skillrange[0], DamageType.Dot);
             skillrange[0].CurrCHAR.MyStatus.GetBuff("SlowAS", 3f);
+            caster.MyStatus.CuredLife(m_damage[caster.Star-1]/10);
         }
+
 
 
         caster.SetAttacking(false);

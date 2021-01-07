@@ -7,10 +7,10 @@ public class HealBomb : Skill
 
     public override void Init(FxMng fx)
     {
-        base.Init(fx);
         m_damage[0] = 300;
         m_damage[1] = 450;
         m_damage[2] = 900;
+        base.Init(fx);
     }
 
     public override List<Node> SkillRange(Node[,] nodearr, Node target, BaseChar caster)

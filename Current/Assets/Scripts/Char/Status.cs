@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum DamageType
 {
-    Kinetic, Skill, Trap, Heal, None
+    Kinetic, Skill, Trap, Heal, None, Dot
 }
 
 
@@ -399,40 +399,6 @@ public class Status
 
 
 
-    public void GetBuff(string name, float time, int val = -1, int val2 = -1, float percentage = -1f, bool permanent = false)
-    {
-        if (m_bufflist.Count == 0)
-            m_buffidxer = 0;
-
-        Buff buff = new Buff();
-        buff.m_idx = m_buffidxer;
-        buff.m_name = name;
-        buff.m_time = time;
-        buff.m_val = val;
-        buff.m_val2 = val2;
-        buff.m_percentage = percentage;
-
-
-        m_bufflist.Add(buff);
-        m_buffidxer++;
-        if(!permanent)
-            m_baseChar.StartCoroutine(IEbuff(buff));
-        StatReLoad();
-    }
-
-    public int FindBuff(int idx)
-    {
-        int num = 0;
-        foreach (var x in m_bufflist)
-        {
-            if (idx == x.m_idx)
-                return num;
-
-            num++;
-        }
-        return -1;
-    }
-
     public void Upgrade()
     {
         m_maxlife = (int)(m_maxlife * 1.8f);
@@ -700,19 +666,56 @@ public class Status
             {
                 case "Enhance": m_equad += 10; break;
                 case "SlowAS": m_equas *= 0.5f; break;
-                case "Silance": m_floatmaxmana = 1; break;
+                case "Silence": m_floatmaxmana = 1; break;
             }
 
         }
 
     }
 
+
+    public void GetBuff(string name, float time, int val = -1, int val2 = -1, float percentage = -1f, bool permanent = false)
+    {
+        if (m_bufflist.Count == 0)
+            m_buffidxer = 0;
+
+        Buff buff = new Buff();
+        buff.m_idx = m_buffidxer;
+        buff.m_name = name;
+        buff.m_time = time;
+        buff.m_val = val;
+        buff.m_val2 = val2;
+        buff.m_percentage = percentage;
+
+
+        m_bufflist.Add(buff);
+        m_buffidxer++;
+        if (!permanent)
+            m_baseChar.StartCoroutine(IEbuff(buff));
+        StatReLoad();
+    }
+
+
     public int FindBuff(string name)
     {
-        foreach(var x in m_bufflist)
+        foreach (var x in m_bufflist)
         {
             if (x.m_name == name)
                 return x.m_idx;
+        }
+        return -1;
+    }
+
+
+    public int FindBuff(int idx)
+    {
+        int num = 0;
+        foreach (var x in m_bufflist)
+        {
+            if (idx == x.m_idx)
+                return num;
+
+            num++;
         }
         return -1;
     }
@@ -724,22 +727,24 @@ public class Status
         bool bleeding = false;
         bool stop = false;
         float elapsedtime = 0;
-        PixelFx fx = buff.m_fx;
+        float time = buff.m_time;
+        int dotdmg = buff.m_val;
+        PixelFx fx = buff.Bufffx();
 
         if (buff.m_name == "Bleeding")
         {
-            fx = FxMng.Instance.FxCall("Bleeding");
+            dotdmg = (dotdmg) / ((int)time * 2);
             bleeding = true;
-            fx.gameObject.SetActive(true);
-            fx.transform.position = m_baseChar.transform.position;
         }
-
         else if (buff.m_name == "Stun")
         {
             m_stuned = true;
-            fx = FxMng.Instance.FxCall("Stun");
+        }
+
+        if (fx != null)
+        {
             fx.gameObject.SetActive(true);
-            fx.transform.position = m_baseChar.transform.position;
+            fx.transform.position = m_baseChar.m_starani.transform.position;
         }
 
         m_fxrunninglist.Add(fx);
@@ -747,12 +752,14 @@ public class Status
         while (!stop)
         {
             elapsedtime += Time.deltaTime;
+            if (fx != null)
+                fx.transform.position = m_baseChar.m_starani.transform.position;
             if (bleeding)
             {
                 fx.transform.position = m_baseChar.transform.position;
                 if(elapsedtime>=bleedingcount)
                 {
-                    DamagedLife(buff.m_val, null, m_baseChar.CurrNode, DamageType.Skill,"BLEEDING");
+                    DamagedLife(dotdmg, null, m_baseChar.CurrNode, DamageType.Skill, "BLEEDING");
                     bleedingcount += 0.5f;
                 }
             }

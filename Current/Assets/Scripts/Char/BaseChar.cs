@@ -60,7 +60,7 @@ public class BaseChar : MonoBehaviour
 
 
     public Animator m_animator;
-    private Animator m_starani;
+    public Animator m_starani;
     protected Status m_status;
 
     protected GameObject m_projectile;
