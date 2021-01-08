@@ -5,7 +5,7 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb
+    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, ManaSteal
 }
 
 public class SkillContainer : MonoBehaviour 

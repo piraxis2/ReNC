@@ -171,6 +171,14 @@ public class CharActionMng : Mng
             Hit.gameObject.SetActive(true);
             Hit.transform.position = target.CurrCHAR.transform.position + new Vector3(0, 0.5f, 0);
             target.CurrCHAR.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
+
+
+            //onhit
+            if (Chara.Skill == Skillname.ManaSteal)//기사의 마나훔치기
+            { target.CurrCHAR.MyStatus.ManaCost(Knight.m_manasteal[Chara.Star]); }
+
+
+
             Chara.MyStatus.ManaGet(5+Chara.MyStatus.MPS);
             yield return attackspeed;
 

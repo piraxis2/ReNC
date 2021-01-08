@@ -25,7 +25,7 @@ public class Status
     private int m_basemana = 0;
     private int m_fixedmaxmana = 100;
     private int m_ad = 40;
-    private int m_ap = 10;
+    private int m_ap = 100;
     private int m_df = 20;
     private int m_range = 1;
     private float m_attackspeed = 0.65f;
@@ -425,7 +425,7 @@ public class Status
         return dm;
     }
 
-    public void DamagedLife(int damage, BaseChar target, Node currnode, DamageType type, string text = null)
+    public bool DamagedLife(int damage, BaseChar target, Node currnode, DamageType type, string text = null)
     {
         int realdam = damage;
         string damagetext = text;
@@ -509,8 +509,10 @@ public class Status
 
                     Log.Instance.AddText(m_name + " 이(가) 죽었다....");
                 }
+                return true;
             }
         }
+        return false;
     }
 
     public void CuredLife(int healval, BaseChar target = null)

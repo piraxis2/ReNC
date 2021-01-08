@@ -269,6 +269,10 @@ public class ArrowPenetrate : Skill
         //}
         yield return new WaitForSeconds(0.5f);
 
+        if (caster.MyStatus.m_stuned)
+            yield break;
+
+
         PixelFx shot = m_skillmng.FxCall("Shot");
         shot.gameObject.SetActive(true);
         shot.transform.position = skillrange[0].transform.position + new Vector3(0.1f, 0.5f, 0);

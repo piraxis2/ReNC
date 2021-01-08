@@ -52,6 +52,8 @@ public class ThunderStrike : Skill
         }
         yield return new WaitForSeconds(1f);
 
+        if (caster.MyStatus.m_stuned)
+            yield break;
 
         int index2 = 0;
         for (int i = 0; i < 3; i++)

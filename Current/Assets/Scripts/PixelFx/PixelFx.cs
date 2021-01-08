@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class PixelFx : MonoBehaviour
 {
+    private string m_name;
     private int m_ID;
     private int m_count;
 
     public int ID
     {
         get { return m_ID; }
+    }
+
+    public void SetName(string name)
+    {
+        m_name = name;
     }
 
     public void SetCount(int val)

@@ -55,6 +55,8 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Bleeding") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Stun") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Silence") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/BlackSkull") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/BlackBall") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -120,6 +122,10 @@ public class FxMng : MonoBehaviour
                 return FxInstant(17);
             case "Silence":
                 return FxInstant(18);
+            case "BlackSkull":
+                return FxInstant(19);
+            case "BlackBall":
+                return FxInstant(20);
         }
         return null;
     }

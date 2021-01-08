@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Knight : Hero
 {
+    public static int[] m_manasteal = { 25, 50, 75 };
 
     public override void Init()
     {
@@ -13,6 +14,7 @@ public class Knight : Hero
         m_classname = "Knight";
         m_hitfx = Resources.Load("Prefab/Sting") as GameObject;
         m_projectileangle = 180;
+        m_skill = Skillname.ManaSteal;
     }
 
     public override PixelFx FxCall()
@@ -23,6 +25,9 @@ public class Knight : Hero
 
     protected override void StatusSet()
     {
+
+        MyStatus.SetMaxMana(1);
+        MyStatus.SetLife(700);
         MyStatus.RangeSet(1);
         MyStatus.PrioritySet(10);
         MyStatus.SetAS(0.6f);

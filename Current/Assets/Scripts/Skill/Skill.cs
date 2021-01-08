@@ -27,6 +27,13 @@ public class Skill : MonoBehaviour
         return null;
     }
 
+    public virtual List<BaseChar> SkillTargets(List<BaseChar> chararr, BaseChar target, BaseChar caster)
+    {
+        return null;
+    }
+
+
+
     public virtual void Skillshot(BaseChar caster, Node target)
     {
         List<Node> skillrange = SkillRange(NodeMng.instance.NodeArr, target, caster);
@@ -35,7 +42,18 @@ public class Skill : MonoBehaviour
         
     }
 
-    public virtual IEnumerator IESkillaction(List<Node> skillrange,BaseChar caster)
+    //public virtual void SkillShot(BaseChar caster, Node target)
+    //{
+    //    List<BaseChar> skillrange = SkillRange(CharMng.Instance.CurrEnemys,target.CurrCHAR ,caster);
+    //    StartCoroutine(IESkillaction(skillrange, caster));
+    //}
+
+    public virtual IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
+    {
+        yield return null;
+    }
+
+    public virtual IEnumerator IESkillaction(List<BaseChar> skillrange, BaseChar caster)
     {
         yield return null;
     }
