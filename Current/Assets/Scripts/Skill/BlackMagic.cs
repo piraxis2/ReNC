@@ -77,6 +77,9 @@ public class BlackMagic : Skill
             hit.transform.position = enemypos;
         }
         projectile.ShutActive();
+
+        caster.SetAttacking(false);
+
         yield return null;
     }
 

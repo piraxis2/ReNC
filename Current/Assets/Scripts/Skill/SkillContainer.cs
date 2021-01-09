@@ -5,7 +5,7 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, ManaSteal
+    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal
 }
 
 public class SkillContainer : MonoBehaviour 
@@ -27,11 +27,13 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.Bite, gameObject.AddComponent<Bite>());
         m_skills.Add(Skillname.WhirlWind, gameObject.AddComponent<WhirlWind>());
         m_skills.Add(Skillname.HealBomb, gameObject.AddComponent<HealBomb>());
+        m_skills.Add(Skillname.BlackMagic, gameObject.AddComponent<BlackMagic>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
         m_skills[Skillname.WhirlWind].Init(m_fxmng);
         m_skills[Skillname.HealBomb].Init(m_fxmng);
+        m_skills[Skillname.BlackMagic].Init(m_fxmng);
     }
 
     public static SkillContainer Instance

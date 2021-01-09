@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3082581879727638592}
   - component: {fileID: 3082581879727638653}
   - component: {fileID: 3082581879727638594}
-  - component: {fileID: 3082581879727638595}
+  - component: {fileID: 956532270604615325}
   - component: {fileID: 3082581879727638652}
   - component: {fileID: -7843430370446182209}
   m_Layer: 10
@@ -104,7 +104,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3082581879727638595
+--- !u!114 &956532270604615325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,16 +113,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3082581879727638593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b1a3668ed99b842942c3263e3e3c2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c66b9083460cb346b1cb8f7c56c664b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_exclude: 0
-  m_currnode: {fileID: 0}
-  m_prevnode: {fileID: 0}
-  m_fusionparent: {fileID: 0}
+  m_foe: 0
   m_Rangelist: []
-  m_attackablelist: []
   m_animator: {fileID: 0}
+  m_starani: {fileID: 0}
   m_projectileangle: 0
 --- !u!136 &3082581879727638652
 CapsuleCollider:
