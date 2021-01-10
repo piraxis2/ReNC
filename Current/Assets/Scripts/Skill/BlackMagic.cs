@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlackMagic : Skill 
 {
+    private WaitForSeconds m_wait = new WaitForSeconds(0.3f);
 
     public override void Init(FxMng fx)
     {
@@ -45,16 +46,16 @@ public class BlackMagic : Skill
 
         BaseChar target = chararr[0];
         PixelFx projectile = FxMng.Instance.FxCall("BlackBall");
+        yield return m_wait;
+
+
+        bool stop = false;
+        float elasedtime = 0;
         projectile.gameObject.SetActive(true);
         Vector3 pos = caster.transform.position + new Vector3(0, 0.5f, 0);
         Vector3 enemypos = target.transform.position + new Vector3(0, 0.5f, 0);
 
-        bool stop = false;
-        float elasedtime = 0;
-
-
-
-        while (!stop)
+          while (!stop)
         {
             elasedtime += Time.deltaTime*8;
             projectile.transform.position = Vector3.Lerp(pos, enemypos, elasedtime);
