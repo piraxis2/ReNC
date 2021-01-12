@@ -222,7 +222,9 @@ public class HandDrag : Mng
     private Node NRay()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
         RaycastHit hit;
+
         if (Physics.Raycast(ray, out hit, 1000f, 1 << 8))
         {
             Node se = hit.transform.GetComponent<Node>();

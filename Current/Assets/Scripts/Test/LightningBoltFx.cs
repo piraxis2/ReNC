@@ -2,61 +2,69 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightningBoltFx : MonoBehaviour
+public class LightningBoltFx : PixelFx
 {
-    public Transform g1;
-    public Transform g2;
 
-     Vector3 v1 = new Vector3();
-    Vector3 v2 = new Vector3();
-    public TrailRenderer trail = new TrailRenderer();
-    public TrailRenderer trail2 = new TrailRenderer();
-    public TrailRenderer trail3 = new TrailRenderer();
-    public TrailRenderer trail4 = new TrailRenderer();
-    public TrailRenderer trail5 = new TrailRenderer();
-    public TrailRenderer trail6 = new TrailRenderer();
-    Vector3 temp;
+    private List<TrailRenderer> m_trailRenderers = new List<TrailRenderer>();
+    private TrailRenderer[][] m_trails = new TrailRenderer[3][];
+    private WaitForSeconds m_wait = new WaitForSeconds(0.2f);
+    public bool m_initing = false;
+    public float m_speed = 8;
 
-    List<TrailRenderer> trailRenderers = new List<TrailRenderer>();
-
-    void Start()
-    {
-        trailRenderers.Add(trail);
-        trailRenderers.Add(trail2);
-        trailRenderers.Add(trail3);
-        trailRenderers.Add(trail4);
-        trailRenderers.Add(trail5);
-        trailRenderers.Add(trail6);
-    }
-
-    void Update()
+    public override void Init()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (m_initing)
+            return;
+
+        m_initing = true;
+        m_trailRenderers = new List<TrailRenderer>();
+        m_trailRenderers.AddRange(GetComponentsInChildren<TrailRenderer>(true));
+        int idx = 0; 
+        for (int i = 0; i < 3; i++)
         {
-
-            StartCoroutine(IETrail());
+            m_trails[i] = new TrailRenderer[8];
+            for (int j = 0; j < 8; j++)
+            {
+                m_trails[i][j] = m_trailRenderers[idx];
+                idx++;
+            }
         }
-
-       
-
     }
 
-    IEnumerator IETrail()
+    public void Test()
+    {
+        Init();
+        BoltStart(NodeMng.instance.NodeArr[0, 0].transform, NodeMng.instance.NodeArr[1, 1].transform);
+        
+    }
+
+
+    public void BoltStart(Transform start, Transform target)
+    {
+
+        Init();
+
+        StartCoroutine(IETrail1(start, target, m_trails[0]));
+        StartCoroutine(IETrail1(start, target, m_trails[1]));
+        StartCoroutine(IETrail1(start, target, m_trails[2]));
+    }
+
+
+    IEnumerator IETrail1(Transform g1, Transform g2, TrailRenderer[] trailRenderers)
     {
         float elapsedtime = 0;
         bool stop = false;
   
-        for (int i = 0; i < trailRenderers.Count; i++)
+        for (int i = 0; i < trailRenderers.Length; i++)
         {
-            trailRenderers[i].gameObject.SetActive(true);
             stop = false;
             Vector3 vec = new Vector3();
             elapsedtime = 0;
             while (!stop)
             {
 
-                float x = Random.Range(-2, 2);
+                float x = Random.Range(-0.25f, 0.25f);
                 vec = Vector3.Lerp(g1.position, g2.position, elapsedtime);
 
                 if (elapsedtime<=0.1f)
@@ -66,8 +74,9 @@ public class LightningBoltFx : MonoBehaviour
                 else if (elapsedtime <= 0.9f)
                     trailRenderers[i].transform.position = new Vector3(vec.x, vec.y, vec.z + x);
 
+                trailRenderers[i].gameObject.SetActive(true);
 
-                elapsedtime += Time.deltaTime * 8;
+                elapsedtime += Time.deltaTime * m_speed;
 
                 if (elapsedtime >= 1)
                 {
@@ -78,9 +87,17 @@ public class LightningBoltFx : MonoBehaviour
                 yield return null;
 
             }
-            
+            yield return null;
+        }
+        yield return m_wait;
+
+        for (int i = 0; i < trailRenderers.Length; i++)
+        {
+            trailRenderers[i].transform.position = transform.position;
+            trailRenderers[i].gameObject.SetActive(false);
         }
 
+        gameObject.SetActive(false);
         yield return null;
     }
 }

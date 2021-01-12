@@ -8,6 +8,12 @@ public class PixelFx : MonoBehaviour
     private int m_ID;
     private int m_count;
 
+
+    public virtual void Init()
+    {
+
+    }
+
     public int ID
     {
         get { return m_ID; }

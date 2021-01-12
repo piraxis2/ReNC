@@ -468,6 +468,76 @@ public class BaseChar : MonoBehaviour
 
     }
 
+
+    public virtual List<BaseChar> FoeRangeCall(int inrange = 0)
+    {
+        int range = inrange;
+        if (inrange!=0)
+        { return RangeCall(); }
+
+        List<BaseChar> attackable = new List<BaseChar>();
+        List<Node> ragelist = new List<Node>();
+
+
+        for (int row = range; row <= range; row++)
+        {
+            for (int col = -range; col <= range; col++)
+            {
+                if (Mathf.Abs(col) <= Mathf.Abs(Mathf.Abs(row) - range))
+                {
+                    if (!(CurrNode.Row + row > 7 || CurrNode.Row + row < 0 || CurrNode.Col + col > 7 || CurrNode.Col + col < 0))
+                    {
+                        ragelist.Add(NodeMng.instance.NodeArr[CurrNode.Row + row, CurrNode.Col + col]);
+                    }
+                }
+            }
+        }
+
+
+        foreach (var x in ragelist)
+        {
+            if (x.CurrCHAR != null)
+            {
+                if (Dying)
+                    continue;
+
+
+
+
+                if(!FOE)
+                {
+                    if (CharMng.Instance.CurrHeros.Contains(x.CurrCHAR))
+                    {
+                        if (!x.CurrCHAR.Dying)
+                            attackable.Add(x.CurrCHAR);
+                    }
+                }
+                else
+                {
+                    if (CharMng.Instance.CurrEnemys.Contains(x.CurrCHAR))
+                    {
+                        if (!x.CurrCHAR.Dying)
+                            attackable.Add(x.CurrCHAR);
+                    }
+                }
+
+                //if (x.CurrCHAR.gameObject.layer == 9)
+                //{
+                //    attackable.Add(x.CurrCHAR);
+                //}
+            }
+        }
+
+        return attackable;
+
+    }
+
+
+
+
+
+
+
     public virtual PixelFx FxCall()
     {
         return null;

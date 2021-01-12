@@ -57,6 +57,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Silence") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/BlackSkull") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/BlackBall") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/LightningBolt") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -126,6 +127,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(19);
             case "BlackBall":
                 return FxInstant(20);
+            case "LightningBolt":
+                return FxInstant(21);
         }
         return null;
     }
@@ -138,9 +141,11 @@ public class FxMng : MonoBehaviour
             if (x.GetActive())
                 continue;
 
+            x.Init();
             return x;
         }
         PixelFx fx = Instantiate(m_prefabs[index], s_fxmng.transform.GetChild(index).transform).GetComponent<PixelFx>();
+        fx.Init();
         fx.SetID(pixels.Count);
         return fx;
     }

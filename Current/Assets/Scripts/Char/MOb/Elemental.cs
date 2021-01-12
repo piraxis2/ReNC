@@ -29,7 +29,7 @@ public class Elemental : BaseChar
 
     protected override void StatusSet()
     {
-        MyStatus.RangeSet(4);
+        MyStatus.RangeSet(3);
 
         MyStatus.PrioritySet(11);
         MyStatus.SetLife(500);
