@@ -8,7 +8,9 @@ public class GoblinMagi : Goblin
     protected override void StatusSet()
     {
         base.StatusSet();
-        m_skill = Skillname.ChainLightning;
+        m_skill = Skillname.PolyMorph;
+        MyStatus.RangeSet(4);
+
 
     }
 }

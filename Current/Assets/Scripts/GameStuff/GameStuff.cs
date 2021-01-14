@@ -159,8 +159,16 @@ public class Buff
 
     public void Buffoff(Status target)
     {
-        if (m_name == "Stun")
-            target.m_stuned = false;
+         switch(m_name)
+        {
+            case "Stun":
+                target.m_stuned = false;
+                break;
+            case "Polymorph":
+                target.m_stuned = false;
+                target.m_baseChar.m_animator.SetBool("Poly", false);
+                break;
+        }
 
         target.BuffList.Remove(this);
 

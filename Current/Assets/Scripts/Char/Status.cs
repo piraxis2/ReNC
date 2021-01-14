@@ -68,7 +68,7 @@ public class Status
 
     public Item[] m_Equipment = new Item[3];
 
-    private BaseChar m_baseChar;
+    public BaseChar m_baseChar;
 
     public Status(BaseChar baseChar)
     {
@@ -733,14 +733,19 @@ public class Status
         int dotdmg = buff.m_val;
         PixelFx fx = buff.Bufffx();
 
-        if (buff.m_name == "Bleeding")
+        switch(buff.m_name)
         {
-            dotdmg = (dotdmg) / ((int)time * 2);
-            bleeding = true;
-        }
-        else if (buff.m_name == "Stun")
-        {
-            m_stuned = true;
+            case "Bleeding":
+                dotdmg = (dotdmg) / ((int)time * 2);
+                bleeding = true;
+                break;
+            case "Stun":
+                m_stuned = true;
+                break;
+            case "Polymorph":
+                m_stuned = true;
+                m_baseChar.m_animator.SetBool("Poly", true);
+                break;
         }
 
         if (fx != null)

@@ -5,7 +5,7 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning
+    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning,PolyMorph
 }
 
 public class SkillContainer : MonoBehaviour 
@@ -30,6 +30,7 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.BlackMagic, gameObject.AddComponent<BlackMagic>());
         m_skills.Add(Skillname.ManaBattery, gameObject.AddComponent<ManaBattery>());
         m_skills.Add(Skillname.ChainLightning, gameObject.AddComponent<ChainLightning>());
+        m_skills.Add(Skillname.PolyMorph, gameObject.AddComponent<PolyMorph>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -38,6 +39,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.BlackMagic].Init(m_fxmng);
         m_skills[Skillname.ManaBattery].Init(m_fxmng);
         m_skills[Skillname.ChainLightning].Init(m_fxmng);
+        m_skills[Skillname.PolyMorph].Init(m_fxmng);
 
     }
 

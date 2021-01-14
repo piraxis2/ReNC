@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlackMagic : Skill 
 {
-    private WaitForSeconds m_wait = new WaitForSeconds(0.3f);
+    private WaitForSeconds m_wait = new WaitForSeconds(0.5f);
 
     public override void Init(FxMng fx)
     {
@@ -50,17 +50,17 @@ public class BlackMagic : Skill
 
 
         bool stop = false;
-        float elasedtime = 0;
+        float elapsdtime = 0;
         projectile.gameObject.SetActive(true);
         Vector3 pos = caster.transform.position + new Vector3(0, 0.5f, 0);
         Vector3 enemypos = target.transform.position + new Vector3(0, 0.5f, 0);
 
-          while (!stop)
+        while (!stop)
         {
-            elasedtime += Time.deltaTime*8;
-            projectile.transform.position = Vector3.Lerp(pos, enemypos, elasedtime);
+            elapsdtime += Time.deltaTime*8;
+            projectile.transform.position = Vector3.Lerp(pos, enemypos, elapsdtime);
 
-            if (elasedtime>=1)
+            if (elapsdtime>=1)
             {
                 stop = true;
             }
