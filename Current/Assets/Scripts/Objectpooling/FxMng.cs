@@ -60,6 +60,9 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/LightningBolt") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/PolyMorphBomb") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/PolyMorpFx") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/MushroomCloud") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Dynamite") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/TNT") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -135,7 +138,12 @@ public class FxMng : MonoBehaviour
                 return FxInstant(22);
             case "PolyMorphFx":
                 return FxInstant(23);
-
+            case "MushroomCloud":
+                return FxInstant(24);
+            case "Dynamite":
+                return FxInstant(25);
+            case "TNT":
+                return FxInstant(26);
 
         }
         return null;
