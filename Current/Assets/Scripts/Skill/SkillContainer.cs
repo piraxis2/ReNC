@@ -5,7 +5,7 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning, PolyMorph, TNT
+    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning, PolyMorph, TNT, LoyalProtect
 
 }
 
@@ -33,6 +33,7 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.ChainLightning, gameObject.AddComponent<ChainLightning>());
         m_skills.Add(Skillname.PolyMorph, gameObject.AddComponent<PolyMorph>());
         m_skills.Add(Skillname.TNT, gameObject.AddComponent<TNT>());
+        m_skills.Add(Skillname.LoyalProtect, gameObject.AddComponent<LoyalProtect>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -43,6 +44,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.ChainLightning].Init(m_fxmng);
         m_skills[Skillname.PolyMorph].Init(m_fxmng);
         m_skills[Skillname.TNT].Init(m_fxmng);
+        m_skills[Skillname.LoyalProtect].Init(m_fxmng);
 
     }
 
@@ -61,12 +63,14 @@ public class SkillContainer : MonoBehaviour
 
         return null;
     }
+
     public Skill FindSkill(int idx)
     {
         if(m_skills.ContainsKey((Skillname)idx))
         { return m_skills[(Skillname)idx]; }
         return null;
     }
+
     public Skill FindSkill(string name)
     {
         Skillname skillnaeme = (Skillname)Enum.Parse(typeof(Skillname), name);

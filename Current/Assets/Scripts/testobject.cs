@@ -1,26 +1,33 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class testobject : MonoBehaviour
 {
-    Vector3[] targets = new Vector3[4];
-    Vector3[] t2 = new Vector3[4];
+    List<int> l1 = new List<int>();
+
+
+
     void Start()
     {
 
-        targets[0] = transform.position;
-        targets[1] = transform.position + new Vector3(-3, 10, 0);
-        targets[2] = Vector3.zero + new Vector3(-3, 10, 0);
-        targets[3] = Vector3.zero;
+        l1.Add(1);
+        l1.Add(2);
+        l1.Add(3);
 
-        t2[0] = transform.position;
-        t2[1] =  transform.position + new Vector3(-3, 10, 0);
-        t2[2]=  new Vector3(3,3,0) + new Vector3(-3, 10, 0);
-        t2[3] = new Vector3(3, 3, 0);
 
-  
+        test(l1);
+
+
+
+
 
     }
+
+    public void test(List<int> tetstst)
+    {
+
+    }
+
 
 }

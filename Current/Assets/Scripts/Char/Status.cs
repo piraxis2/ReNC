@@ -20,6 +20,7 @@ public class Status
     private int m_maxexp = 20;
     private int m_life = 100;
     private int m_maxlife = 100;
+    private int m_shield = 0;
     private int m_mana = 0;
     private int m_floatmaxmana = 100;
     private int m_basemana = 0;
@@ -128,6 +129,14 @@ public class Status
         }
     }
 
+    public int Shield
+    {
+        get
+        {
+            return m_shield;
+        }
+    }
+
     public int MaxLife
     {
         get
@@ -148,6 +157,11 @@ public class Status
     public int Mana
     {
         get { return m_mana; }
+    }
+
+    public int MaxMana
+    {
+        get { return m_fixedmaxmana; }
     }
 
     public int BaseMana
@@ -331,6 +345,12 @@ public class Status
         m_life = val;
     }
 
+
+    public void SetShield(int val)
+    {
+        m_shield = val;
+    }
+
     public void SetAD(int val)
     {
         m_ad = val;
@@ -384,6 +404,8 @@ public class Status
         m_life = m_maxlife;
         StatReLoad();
     }
+
+
 
 
 
@@ -484,6 +506,23 @@ public class Status
                 logtext = m_name + " 은(는) 날렵하게 회피하여 피해를 입지 않았다!";
             }
         }
+
+
+        if (m_shield >= 0)
+        {
+            int temp = m_shield;
+            m_shield -= realdam;
+            if (m_shield <= 0)
+            {
+                m_shield = 0;
+                realdam -= temp;
+            }
+            else
+            {
+                realdam = 0;
+            }
+        }
+
 
         m_life -= realdam;
 
@@ -666,9 +705,10 @@ public class Status
         {
             switch (x.m_name)
             {
-                case "Enhance": m_equad += 10; break;
-                case "SlowAS": m_equas *= 0.5f; break;
+                case "Enhance": m_equad += x.m_val; break;
+                case "SlowAS": m_equas *= x.m_percentage; break;
                 case "Silence": m_floatmaxmana = 1; break;
+                case "FastAS": m_equas *= x.m_percentage; break;
             }
 
         }
@@ -761,10 +801,12 @@ public class Status
             elapsedtime += Time.deltaTime;
             if (fx != null)
                 fx.transform.position = m_baseChar.m_starani.transform.position;
+
+
             if (bleeding)
             {
                 fx.transform.position = m_baseChar.transform.position;
-                if(elapsedtime>=bleedingcount)
+                if (time >= bleedingcount)
                 {
                     DamagedLife(dotdmg, null, m_baseChar.CurrNode, DamageType.Skill, "BLEEDING");
                     bleedingcount += 0.5f;

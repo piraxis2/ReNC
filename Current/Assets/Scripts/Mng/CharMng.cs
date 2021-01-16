@@ -36,6 +36,18 @@ public class CharMng : Mng
 
     int m_count = 0;
 
+
+
+
+    public List<BaseChar> CurrChars(bool foe)
+    {
+        if (foe)
+            return m_currHeros;
+        else
+            return m_currEnemys;
+    }
+
+
     public List<BaseChar> CurrEnemys
     {
         get { return m_currEnemys; }

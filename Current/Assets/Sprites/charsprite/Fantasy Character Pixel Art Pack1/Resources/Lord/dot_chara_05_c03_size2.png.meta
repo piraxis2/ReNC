@@ -1,47 +1,117 @@
 fileFormatVersion: 2
 guid: 0dabcc0e4d8abed4488f55c92803f8e2
-timeCreated: 1508686466
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: dot_chara_05_c03_size2_0
-    21300002: dot_chara_05_c03_size2_1
-    21300004: dot_chara_05_c03_size2_2
-    21300006: dot_chara_05_c03_size2_3
-    21300008: dot_chara_05_c03_size2_4
-    21300010: dot_chara_05_c03_size2_5
-    21300012: dot_chara_05_c03_size2_6
-    21300014: dot_chara_05_c03_size2_7
-    21300016: dot_chara_05_c03_size2_8
-    21300018: dot_chara_05_c03_size2_9
-    21300020: dot_chara_05_c03_size2_10
-    21300022: dot_chara_05_c03_size2_11
-    21300024: dot_chara_05_c03_size2_12
-    21300026: dot_chara_05_c03_size2_13
-    21300028: dot_chara_05_c03_size2_14
-    21300030: dot_chara_05_c03_size2_15
-    21300032: dot_chara_05_c03_size2_16
-    21300034: dot_chara_05_c03_size2_17
-    21300036: dot_chara_05_c03_size2_18
-    21300038: dot_chara_05_c03_size2_19
-    21300040: dot_chara_05_c03_size2_20
-    21300042: dot_chara_05_c03_size2_21
-    21300044: dot_chara_05_c03_size2_22
-    21300046: dot_chara_05_c03_size2_23
-    21300048: dot_chara_05_c03_size2_24
-    21300050: dot_chara_05_c03_size2_25
-    21300052: dot_chara_05_c03_size2_26
-    21300054: dot_chara_05_c03_size2_27
-    21300056: dot_chara_05_c03_size2_28
-    21300058: dot_chara_05_c03_size2_29
-    21300060: dot_chara_05_c03_size2_30
-    21300062: dot_chara_05_c03_size2_31
-    21300064: dot_chara_05_c03_size2_32
-    21300066: dot_chara_05_c03_size2_33
-    21300068: dot_chara_05_c03_size2_34
-    21300070: dot_chara_05_c03_size2_35
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: dot_chara_05_c03_size2_0
+  - first:
+      213: 21300002
+    second: dot_chara_05_c03_size2_1
+  - first:
+      213: 21300004
+    second: dot_chara_05_c03_size2_2
+  - first:
+      213: 21300006
+    second: dot_chara_05_c03_size2_3
+  - first:
+      213: 21300008
+    second: dot_chara_05_c03_size2_4
+  - first:
+      213: 21300010
+    second: dot_chara_05_c03_size2_5
+  - first:
+      213: 21300012
+    second: dot_chara_05_c03_size2_6
+  - first:
+      213: 21300014
+    second: dot_chara_05_c03_size2_7
+  - first:
+      213: 21300016
+    second: dot_chara_05_c03_size2_8
+  - first:
+      213: 21300018
+    second: dot_chara_05_c03_size2_9
+  - first:
+      213: 21300020
+    second: dot_chara_05_c03_size2_10
+  - first:
+      213: 21300022
+    second: dot_chara_05_c03_size2_11
+  - first:
+      213: 21300024
+    second: dot_chara_05_c03_size2_12
+  - first:
+      213: 21300026
+    second: dot_chara_05_c03_size2_13
+  - first:
+      213: 21300028
+    second: dot_chara_05_c03_size2_14
+  - first:
+      213: 21300030
+    second: dot_chara_05_c03_size2_15
+  - first:
+      213: 21300032
+    second: dot_chara_05_c03_size2_16
+  - first:
+      213: 21300034
+    second: dot_chara_05_c03_size2_17
+  - first:
+      213: 21300036
+    second: dot_chara_05_c03_size2_18
+  - first:
+      213: 21300038
+    second: dot_chara_05_c03_size2_19
+  - first:
+      213: 21300040
+    second: dot_chara_05_c03_size2_20
+  - first:
+      213: 21300042
+    second: dot_chara_05_c03_size2_21
+  - first:
+      213: 21300044
+    second: dot_chara_05_c03_size2_22
+  - first:
+      213: 21300046
+    second: dot_chara_05_c03_size2_23
+  - first:
+      213: 21300048
+    second: dot_chara_05_c03_size2_24
+  - first:
+      213: 21300050
+    second: dot_chara_05_c03_size2_25
+  - first:
+      213: 21300052
+    second: dot_chara_05_c03_size2_26
+  - first:
+      213: 21300054
+    second: dot_chara_05_c03_size2_27
+  - first:
+      213: 21300056
+    second: dot_chara_05_c03_size2_28
+  - first:
+      213: 21300058
+    second: dot_chara_05_c03_size2_29
+  - first:
+      213: 21300060
+    second: dot_chara_05_c03_size2_30
+  - first:
+      213: 21300062
+    second: dot_chara_05_c03_size2_31
+  - first:
+      213: 21300064
+    second: dot_chara_05_c03_size2_32
+  - first:
+      213: 21300066
+    second: dot_chara_05_c03_size2_33
+  - first:
+      213: 21300068
+    second: dot_chara_05_c03_size2_34
+  - first:
+      213: 21300070
+    second: dot_chara_05_c03_size2_35
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -59,6 +129,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -67,9 +139,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: 1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -81,18 +153,43 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -101,33 +198,18 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -139,12 +221,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b4429e61e8543904aa143bf581066d89
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_1
       rect:
@@ -153,12 +242,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 91059cf632967e8468e7bff63ef95f0c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_2
       rect:
@@ -167,12 +263,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e16b1d2dd59f49d4c90374f089ced813
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_3
       rect:
@@ -181,12 +284,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f66218067a166ab49b7c608d04f4473f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_4
       rect:
@@ -195,12 +305,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c05b6ab3bbaca3248937344ad15e966e
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_5
       rect:
@@ -209,12 +326,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c383220758a21b74b9fe10ad9de0aea4
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_6
       rect:
@@ -223,12 +347,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83e972d22cab1fc47a5ebae198336026
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_7
       rect:
@@ -237,12 +368,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6caa053f72366fe4680ede337c51543b
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_8
       rect:
@@ -251,12 +389,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 979807b3433f0d842972e9c714ee5520
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_9
       rect:
@@ -265,12 +410,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5d4fd99647ceb544899492b645cd349
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_10
       rect:
@@ -279,12 +431,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 754e8b378d93ee94bbd29928b691c935
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_11
       rect:
@@ -293,12 +452,19 @@ TextureImporter:
         y: 400
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1d343a94f6ddcfd4ba18513831eef94f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_12
       rect:
@@ -307,26 +473,40 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f07999a2b315c34bb7b6e2dcba85043
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_13
       rect:
         serializedVersion: 2
         x: 72
-        y: 299
+        y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c2941131a2524f4aa0ddcb92f9b31ad
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_14
       rect:
@@ -335,12 +515,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1e147f1524b037049b626b5884a2df31
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_15
       rect:
@@ -349,12 +536,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b54419e954117940805e3638da1c509
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_16
       rect:
@@ -363,12 +557,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dc1b3817dcb7e6242884914c8827c663
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_17
       rect:
@@ -377,12 +578,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 001bfb9da1e5e5a4a931d2cdfa07e8fa
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_18
       rect:
@@ -391,12 +599,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f34a5d13fcefb0e449d2735cb883252b
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_19
       rect:
@@ -405,26 +620,40 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9e1e7d9d49aecac4eaac366b4e116ac0
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_20
       rect:
         serializedVersion: 2
-        x: 579
+        x: 576
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a1e832a1fafe72743be682b30c7ecbdf
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_21
       rect:
@@ -433,12 +662,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 663db357f6a742a4399de48ebe70ceba
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_22
       rect:
@@ -447,12 +683,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a4194db880d94845b80bda0e6399f62
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_23
       rect:
@@ -461,12 +704,19 @@ TextureImporter:
         y: 300
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d7d6741722a394e409db2579d20d87f0
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_24
       rect:
@@ -475,12 +725,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b24bf67057f6d740837f848786a794b
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_25
       rect:
@@ -489,12 +746,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: de62b6bffff2ae2468d89cf7459c3101
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_26
       rect:
@@ -503,12 +767,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 092d5e5b342c12c40a66236f8d02e150
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_27
       rect:
@@ -517,12 +788,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27adf8d39e3f72549b49ee7c70fef858
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_28
       rect:
@@ -531,12 +809,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c114cf4bd64d40933ca76318d4c80
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_29
       rect:
@@ -545,12 +830,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8371c9ca31814043bc1ea40c8cbabad
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_30
       rect:
@@ -559,12 +851,19 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d3be2bdd6a63384bb1aff28f4ffa2a8
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_31
       rect:
@@ -573,26 +872,40 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45d2dc3843c1a8e44a814b469b0be1ad
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_32
       rect:
         serializedVersion: 2
         x: 576
-        y: 201
+        y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4b81c30fd4dbb045aa479020dcbb49a
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_33
       rect:
@@ -601,26 +914,40 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 71ef874fb3f8b5c4cbfcee9efa9dafae
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_34
       rect:
         serializedVersion: 2
         x: 720
-        y: 199
+        y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b1a0a616c6c2d954e9d33f99615b6db5
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dot_chara_05_c03_size2_35
       rect:
@@ -629,15 +956,32 @@ TextureImporter:
         y: 200
         width: 72
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f25f7b8bd19c2bc449bde409ab23307f
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 873fc27f9c0ee794cb8998bad185514a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

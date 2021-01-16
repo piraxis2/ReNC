@@ -21,7 +21,8 @@ public class StateBar : MonoBehaviour
     public void CharOut()
     {
         m_image[1].fillAmount = 1;
-        m_image[3].fillAmount = 0;
+        m_image[2].fillAmount = 0;
+        m_image[4].fillAmount = 0;
         transform.localPosition = new Vector3(0, 0, 0);
         m_ID = -1;
         m_char = null;
@@ -41,8 +42,23 @@ public class StateBar : MonoBehaviour
                 transform.position = Camera.main.WorldToScreenPoint(m_char.transform.position);
             if (m_image[1] != null)
                 m_image[1].fillAmount = (float)m_char.MyStatus.Life / m_char.MyStatus.MaxLife;
-            if (m_image[3] != null)
-                m_image[3].fillAmount = (float)m_char.MyStatus.Mana / 100;
+
+            if (m_image[2] != null)
+            {
+                if (((float)m_char.MyStatus.Shield / m_char.MyStatus.MaxLife) >= 1)
+                    m_image[2].fillAmount = 1;
+                else
+                    m_image[2].fillAmount = ((float)m_char.MyStatus.Shield / m_char.MyStatus.MaxLife);
+            }
+            if (m_image[4] != null)
+            {
+                if (m_char.MyStatus.MaxMana == 1)
+                    m_image[4].fillAmount = 0;
+
+                else
+                    m_image[4].fillAmount = (float)m_char.MyStatus.Mana / 100;
+
+            }
 
             yield return null;
             

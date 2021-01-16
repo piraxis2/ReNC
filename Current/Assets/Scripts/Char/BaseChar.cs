@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum ClassType
 {
-    Hunter, Knight, Mage, Warrior
+    Hunter, Knight, Mage, Warrior, Lord
 }
 
 public class BaseChar : MonoBehaviour

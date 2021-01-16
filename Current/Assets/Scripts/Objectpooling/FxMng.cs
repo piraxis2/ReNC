@@ -63,6 +63,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/MushroomCloud") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Dynamite") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/TNT") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/ProtectProjectile") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -144,6 +145,9 @@ public class FxMng : MonoBehaviour
                 return FxInstant(25);
             case "TNT":
                 return FxInstant(26);
+            case "ProtectProjectile":
+                return FxInstant(27);
+                
 
         }
         return null;
