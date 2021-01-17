@@ -189,6 +189,72 @@ public class Buff
 }
 
 
+public class Shield : MonoBehaviour
+{
+    public int idx;
+    public int val;
+    public float time = 0;
+    public List<Shield> shieldlist = new List<Shield>();
+
+
+    public int DamagedShield(int ival)
+    {
+        if (val > ival)
+        {
+            val -= ival;
+            return 0;
+        }
+        else
+        {
+            int temp = 0;
+            temp = ival - val;
+            val = 0;
+            return temp;
+        }
+
+    }
+
+
+
+
+    public Shield(int ival, float itime, List<Shield> ilist)
+    {
+        val = ival;
+        time = itime;
+        shieldlist = ilist;
+        shieldlist.Add(this);
+    }
+
+
+    public IEnumerator IEShield()
+    {
+
+        bool stop = false;
+
+        float elapsedtime = 0;
+
+        while (!stop)
+        {
+
+            elapsedtime += Time.deltaTime;
+
+
+     
+            if (elapsedtime >= time)
+            {
+                stop = true;
+                shieldlist.Remove(this);
+            }
+
+            yield return null;
+        }
+
+        yield return null;
+
+    }
+
+}
+
 public static class TierColor
 {
     private static Color[] m_color = {

@@ -59,6 +59,15 @@ public class LoyalProtect : Skill
     {
         List<BaseChar> range = SkillTargets(CharMng.Instance.CurrChars(caster.FOE), null, caster);
 
+        if (range.Count == 0)
+        {
+            caster.SetAttacking(false);
+            return;
+        }
+
+
+        caster.MyStatus.ManaCost();
+
         StartCoroutine(IESkillaction(range, caster));
     }
 
@@ -83,8 +92,9 @@ public class LoyalProtect : Skill
                 {
                     stop = true;
                     ShieldFx.gameObject.SetActive(true);
+                    ShieldFx.transform.position = target.transform.position;
                     projectile.gameObject.SetActive(false);
-                    target.MyStatus.SetShield(target.MyStatus.Shield + (m_damage[caster.Star - 1] * (caster.MyStatus.AP / 100)));
+                    target.MyStatus.AddShield(target.MyStatus.Shield + (m_damage[caster.Star - 1] * (caster.MyStatus.AP / 100)), 4f);
                     target.MyStatus.GetBuff("Enhance", 4f, m_buffval[caster.Star - 1]);
                 }
 

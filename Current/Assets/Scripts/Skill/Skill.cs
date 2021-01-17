@@ -37,16 +37,18 @@ public class Skill : MonoBehaviour
     public virtual void Skillshot(BaseChar caster, Node target)
     {
         List<Node> skillrange = SkillRange(NodeMng.instance.NodeArr, target, caster);
-        StartCoroutine(IESkillaction(skillrange, caster));
 
+        if (skillrange.Count == 0)
+        {
+            caster.SetAttacking(false);
+            return;
+        }
+
+
+        caster.MyStatus.ManaCost();
+        StartCoroutine(IESkillaction(skillrange, caster));
         
     }
-
-    //public virtual void SkillShot(BaseChar caster, Node target)
-    //{
-    //    List<BaseChar> skillrange = SkillRange(CharMng.Instance.CurrEnemys,target.CurrCHAR ,caster);
-    //    StartCoroutine(IESkillaction(skillrange, caster));
-    //}
 
     public virtual IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
     {

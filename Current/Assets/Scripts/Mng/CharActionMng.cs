@@ -83,7 +83,6 @@ public class CharActionMng : Mng
                             m_CurrChar.SetAttacking(true);
                             ChangeSkillAni(Direction(m_CurrChar.CurrNode, targets[0].CurrNode), m_CurrChar);
                             SkillContainer.Instance.FindSkill(m_CurrChar.Skill).Skillshot(m_CurrChar, targets[0].CurrNode);
-                            m_CurrChar.MyStatus.ManaCost();
                         }
                         else// 스킬없는캐릭터는 스킬쓰지않고 공격
                         {

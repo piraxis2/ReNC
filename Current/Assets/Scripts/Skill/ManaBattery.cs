@@ -25,6 +25,16 @@ public class ManaBattery : Skill
     public override void Skillshot(BaseChar caster, Node target)
     {
         List<BaseChar> targets = CharMng.Instance.CurrHeros; //SkillTargets(CharMng.Instance.CurrHeros, null, caster);
+
+
+        if (targets.Count == 0)
+        {
+            caster.SetAttacking(false);
+            return;
+        }
+
+        caster.MyStatus.ManaCost();
+
         StartCoroutine(IESkillaction(targets, caster));
 
     }

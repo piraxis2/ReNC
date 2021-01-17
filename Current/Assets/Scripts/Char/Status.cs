@@ -66,6 +66,7 @@ public class Status
 
     private List<Buff> m_bufflist = new List<Buff>();
     public List<PixelFx> m_fxrunninglist = new List<PixelFx>();
+    public List<Shield> m_shieldlist = new List<Shield>();
 
     public Item[] m_Equipment = new Item[3];
 
@@ -133,7 +134,15 @@ public class Status
     {
         get
         {
-            return m_shield;
+            int val = 0;
+
+            for (int i = 0; i < m_shieldlist.Count; i++)
+            {
+                val += m_shieldlist[i].val;
+            }
+
+
+            return val;
         }
     }
 
@@ -345,10 +354,15 @@ public class Status
         m_life = val;
     }
 
+    public void AddShield(int val, float time)
+    {
+        Shield shield = new Shield(val, time, m_shieldlist);
+        m_baseChar.StartCoroutine(shield.IEShield());
+    }
 
     public void SetShield(int val)
     {
-        m_shield = val;
+        Shield sh = new Shield(val,-1,m_shieldlist);
     }
 
     public void SetAD(int val)
@@ -405,10 +419,6 @@ public class Status
         StatReLoad();
     }
 
-
-
-
-
     public bool Perks(int idx)
     {
         return ((1 << idx) & m_perks) == 1 << idx;
@@ -418,8 +428,6 @@ public class Status
     {
         return ((1 << idx) & m_passive) == 1 << idx;
     }
-
-
 
     public void Upgrade()
     {
@@ -446,6 +454,24 @@ public class Status
 
         return dm;
     }
+
+    public int ShieldDamaged(int val)
+    {
+        int idx = 0;
+        int dam = val;
+        do
+        {
+            if (idx >= m_shieldlist.Count)
+                break;
+
+            dam = m_shieldlist[idx].DamagedShield(dam);
+            idx++;
+        }
+        while (dam > 0);
+
+        return dam;
+    }
+
 
     public bool DamagedLife(int damage, BaseChar target, Node currnode, DamageType type, string text = null)
     {
@@ -508,24 +534,9 @@ public class Status
         }
 
 
-        if (m_shield >= 0)
-        {
-            int temp = m_shield;
-            m_shield -= realdam;
-            if (m_shield <= 0)
-            {
-                m_shield = 0;
-                realdam -= temp;
-            }
-            else
-            {
-                realdam = 0;
-            }
-        }
+        int reftdam = ShieldDamaged(realdam);
 
-
-        m_life -= realdam;
-
+        m_life -= reftdam;
 
 
         Log.Instance.AddText(logtext);
@@ -735,6 +746,7 @@ public class Status
         if (!permanent)
             m_baseChar.StartCoroutine(IEbuff(buff));
         StatReLoad();
+
     }
 
 
@@ -749,6 +761,7 @@ public class Status
     }
 
 
+
     public int FindBuff(int idx)
     {
         int num = 0;
@@ -761,6 +774,7 @@ public class Status
         }
         return -1;
     }
+
 
     public IEnumerator IEbuff(Buff buff)
     {
@@ -827,6 +841,7 @@ public class Status
         }
     }
 
+ 
     public char Token(string type)
     {
         char token = '-';

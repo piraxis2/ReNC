@@ -70,9 +70,18 @@ public class PolyMorph : Skill
 
     public override void Skillshot(BaseChar caster, Node target)
     {
+
+
         List<BaseChar> range = SkillTargets(null, null, caster);
 
+        if(range.Count == 0)
+        {
+            caster.SetAttacking(false);
+            return;
+        }
 
+
+        caster.MyStatus.ManaCost();
 
         StartCoroutine(IESkillaction(range, caster));
     }

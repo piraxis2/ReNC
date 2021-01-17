@@ -17,7 +17,13 @@ public class BlackMagic : Skill
     public override void Skillshot(BaseChar caster, Node target)
     {
         List<BaseChar> targets = SkillTargets(CharMng.Instance.CurrEnemys, target.CurrCHAR, caster);
-        StartCoroutine(IESkillaction(targets, caster));
+
+
+        if (targets.Count != 0)
+        {
+            caster.MyStatus.ManaCost();
+            StartCoroutine(IESkillaction(targets, caster));
+        }
     }
 
     public override List<BaseChar> SkillTargets(List<BaseChar> chararr, BaseChar target, BaseChar caster)

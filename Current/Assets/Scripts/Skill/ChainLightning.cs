@@ -57,9 +57,14 @@ public class ChainLightning : Skill
     {
         List<BaseChar> range = SkillTargets(null, null, caster);
 
+        if (range.Count == 0)
+        {
+            caster.SetAttacking(false);
+            return;
+        }
 
-
-        StartCoroutine(IESkillaction(range, caster));
+            caster.MyStatus.ManaCost();
+            StartCoroutine(IESkillaction(range, caster));
     }
 
 

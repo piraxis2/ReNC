@@ -29,6 +29,8 @@ public class Lord : BaseChar
 
     protected override void StatusSet()
     {
+
+        MyStatus.SetLife(1000);
         MyStatus.RangeSet(2);
         MyStatus.PrioritySet(13);
         MyStatus.SetAS(0.6f);

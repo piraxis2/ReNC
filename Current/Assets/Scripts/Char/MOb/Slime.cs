@@ -27,6 +27,7 @@ public class Slime : BaseChar
         MyStatus.SetLife(500);
         MyStatus.SetAS(0.65f);
         MyStatus.SetMaxMana(1);
+        MyStatus.SetShield(100);
         base.StatusSet();
 
 
