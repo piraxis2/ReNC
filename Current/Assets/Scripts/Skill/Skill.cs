@@ -9,6 +9,7 @@ public class Skill : MonoBehaviour
     protected GameObject m_effect;
     protected int[] m_damage = new int[3];
     public string m_name;
+    public bool m_targetless = false;
 
     protected FxMng m_skillmng;
 

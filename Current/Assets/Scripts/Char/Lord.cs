@@ -31,7 +31,7 @@ public class Lord : BaseChar
     {
 
         MyStatus.SetLife(1000);
-        MyStatus.RangeSet(2);
+        MyStatus.RangeSet(1);
         MyStatus.PrioritySet(13);
         MyStatus.SetAS(0.6f);
         base.StatusSet();

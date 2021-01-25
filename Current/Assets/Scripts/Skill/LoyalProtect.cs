@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoyalProtect : Skill 
+public class LoyalProtect : Skill
 {
 
     int[] m_targetcount = new int[3];
     int[] m_buffval = new int[3];
+    WaitForSeconds m_wait = new WaitForSeconds(0.5f);
 
     public override void Init(FxMng fx)
     {
@@ -20,6 +21,7 @@ public class LoyalProtect : Skill
         m_buffval[0] = 20;
         m_buffval[1] = 30;
         m_buffval[2] = 60;
+        m_targetless = true;
     }
 
     public override List<BaseChar> SkillTargets(List<BaseChar> chararr, BaseChar target, BaseChar caster)
@@ -27,12 +29,13 @@ public class LoyalProtect : Skill
 
         List<BaseChar> targets = new List<BaseChar>();
         BaseChar temptarget = null;
-       
+
 
 
         for (int j = 0; j < m_targetcount[caster.Star - 1]; j++)
         {
             int templife = 99999;
+            temptarget = null;
             for (int i = 0; i < chararr.Count; i++)
             {
                 if (targets.Contains(chararr[i]))
@@ -45,8 +48,10 @@ public class LoyalProtect : Skill
                     temptarget = chararr[i];
                     templife = temptarget.MyStatus.Life;
                 }
+
             }
-            targets.Add(temptarget);
+            if (temptarget != null)
+                targets.Add(temptarget);
         }
 
 
@@ -68,44 +73,49 @@ public class LoyalProtect : Skill
 
         caster.MyStatus.ManaCost();
 
-        StartCoroutine(IESkillaction(range, caster));
+        for (int i = 0; i < range.Count; i++)
+        {
+            StartCoroutine(IESkillaction(range[i], caster));
+        }
     }
 
-    public override IEnumerator IESkillaction(List<BaseChar> skillrange, BaseChar caster)
+    public IEnumerator IESkillaction(BaseChar skillrange, BaseChar caster)
     {
 
-        float elapsedtime = 0;
-        bool stop = false;
+
+        yield return m_wait;
         PixelFx projectile = FxMng.Instance.FxCall("ProtectProjectile");
         PixelFx ShieldFx = FxMng.Instance.FxCall("Buff");
         projectile.gameObject.SetActive(true);
-        for (int i = 0; i < skillrange.Count; i++)
+
+        caster.SetRunning(true);
+        BaseChar target = skillrange;
+        float elapsedtime = 0;
+        bool stop = false;
+        while (!stop)
         {
-            BaseChar target = skillrange[i];
-            while (!stop)
+
+            elapsedtime += Time.deltaTime * 3;
+            projectile.transform.position = Vector3.Lerp(caster.transform.position, target.transform.position, elapsedtime);
+
+            if (elapsedtime >= 1)
             {
-
-                elapsedtime += Time.deltaTime * 8;
-                projectile.transform.position = Vector3.Lerp(caster.transform.position, target.transform.position, elapsedtime);
-
-                if (elapsedtime >= 1)
-                {
-                    stop = true;
-                    ShieldFx.gameObject.SetActive(true);
-                    ShieldFx.transform.position = target.transform.position;
-                    projectile.gameObject.SetActive(false);
-                    target.MyStatus.AddShield(target.MyStatus.Shield + (m_damage[caster.Star - 1] * (caster.MyStatus.AP / 100)), 4f);
-                    target.MyStatus.GetBuff("Enhance", 4f, m_buffval[caster.Star - 1]);
-                }
-
-                yield return null;
-
+                stop = true;
+                ShieldFx.gameObject.SetActive(true);
+                ShieldFx.transform.position = target.transform.position;
+                projectile.gameObject.SetActive(false);
+                target.MyStatus.AddShield(target.MyStatus.Shield + (m_damage[caster.Star - 1] * (caster.MyStatus.AP / 100)), 4f);
+                target.MyStatus.GetBuff("Enhance", 4f, m_buffval[caster.Star - 1]);
+                caster.SetRunning(false);
             }
+
+            yield return null;
+
         }
 
 
         caster.SetAttacking(false);
         yield return null;
-    }
 
+    }
 }

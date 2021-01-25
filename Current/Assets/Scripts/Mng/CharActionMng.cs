@@ -59,17 +59,37 @@ public class CharActionMng : Mng
             targets.Sort(m_passengerComparer);
             targets.Reverse();
 
+            Skill skill = SkillContainer.Instance.FindSkill(m_CurrChar.Skill);
+
+
+ 
             if ((targets.Count == 0))
             {
                 m_CurrChar.SetAttacking(false);
 
+                if(m_CurrChar.MyStatus.Skillon)
+                {
+                    if (skill != null)
+                    {
+                        if (skill.m_targetless)
+                        {
+                            skill.Skillshot(m_CurrChar, null);
+                        }
+                    }
+
+                }
+
                 if (m_CurrChar.MyStatus.MovePoint > 0)
                 {
-                    if (m_CurrChar.FOE)
-                        ShortestMove(m_CurrChar, CharMng.Instance.CurrEnemys);
-                    else
-                        ShortestMove(m_CurrChar, CharMng.Instance.CurrHeros);
+                    if (!m_CurrChar.Running)
+                    {
+                        if (m_CurrChar.FOE)
+                            ShortestMove(m_CurrChar, CharMng.Instance.CurrEnemys);
+                        else
+                            ShortestMove(m_CurrChar, CharMng.Instance.CurrHeros);
+                    }
                 }
+             
             }
             else
             {
