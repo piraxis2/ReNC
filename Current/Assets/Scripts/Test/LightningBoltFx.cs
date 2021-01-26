@@ -61,11 +61,34 @@ public class LightningBoltFx : PixelFx
             stop = false;
             Vector3 vec = new Vector3();
             elapsedtime = 0;
+            Vector3 v1 = new Vector3();
+            Vector3 v2 = new Vector3();
             while (!stop)
             {
+                if (!g2.gameObject.activeInHierarchy)
+                {
+                    v1 = g1.position;
+                }
+                else if (!g1.gameObject.activeInHierarchy)
+                {
+                    v2 = g2.position;
+                }
+                else if (!g1.gameObject.activeInHierarchy&&!g2.gameObject.activeInHierarchy)
+                {
+
+                }
+                else
+                {
+                    v1 = g1.position;
+                    v2 = g2.position;
+                }
+
 
                 float x = Random.Range(-0.25f, 0.25f);
-                vec = Vector3.Lerp(g1.position, g2.position, elapsedtime);
+                vec = Vector3.Lerp(v1, v2, elapsedtime);
+
+
+              
 
                 if (elapsedtime<=0.1f)
                 {

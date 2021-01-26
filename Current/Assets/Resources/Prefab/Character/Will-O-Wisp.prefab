@@ -224,7 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2503718007962213168}
   - component: {fileID: 2503718007962213169}
-  - component: {fileID: 2503718007962213174}
+  - component: {fileID: -577368269314967559}
   - component: {fileID: 2503718007962213175}
   m_Layer: 10
   m_Name: Will-O-Wisp
@@ -263,7 +263,7 @@ CapsuleCollider:
   m_Height: 1.0269797
   m_Direction: 1
   m_Center: {x: 0, y: 0.48607644, z: 0}
---- !u!114 &2503718007962213174
+--- !u!114 &-577368269314967559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,16 +272,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2503718007962213172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a107709f72969f4589d276c2fe9bc7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e5419aee989fea44addba7ce82fba3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_exclude: 0
-  m_currnode: {fileID: 0}
-  m_prevnode: {fileID: 0}
-  m_fusionparent: {fileID: 0}
+  m_foe: 0
   m_Rangelist: []
-  m_attackablelist: []
   m_animator: {fileID: 0}
+  m_starani: {fileID: 0}
   m_projectileangle: 0
 --- !u!114 &2503718007962213175
 MonoBehaviour:

@@ -10,6 +10,9 @@ public class ChainLightning : Skill
     public override void Init(FxMng fx)
     {
         base.Init(fx);
+        m_damage[0] = 200;
+        m_damage[1] = 350;
+        m_damage[2] = 525;
     }
 
     public override List<BaseChar> SkillTargets(List<BaseChar> chararr, BaseChar target, BaseChar caster)
@@ -23,8 +26,16 @@ public class ChainLightning : Skill
 
         if (chrange[0] != null)
         {
-            Range.Add(chrange[0]);
-            ch = chrange[0];
+
+            if (chrange[0].Dying)
+            {
+
+            }
+            else
+            {
+                Range.Add(chrange[0]);
+                ch = chrange[0];
+            }
         }
         else
         {
@@ -38,9 +49,13 @@ public class ChainLightning : Skill
         {
             List<BaseChar> se = ch.FoeRangeCall(3);
 
+            if(se.Count<=0)
+            {
+                return Range;
+            }
+
             if (se[0] != null)
             {
-                Debug.Log(se[0].name);
                 Range.Add(se[0]);
                 ch = se[0];
             }
@@ -73,15 +88,21 @@ public class ChainLightning : Skill
     public override IEnumerator IESkillaction(List<BaseChar> skillrange, BaseChar caster)
     {
 
+        Transform start =caster.transform;
+        Transform end = skillrange[0].transform;
+
 
         for (int i = 0; i < skillrange.Count; i++)
         {
-           // Debug.Log(skillrange[i].name);
 
 
             LightningBoltFx fx = FxMng.Instance.FxCall("LightningBolt") as LightningBoltFx;
             fx.gameObject.SetActive(true);
-            fx.BoltStart(caster.transform, skillrange[i].transform);
+            end = skillrange[i].transform;
+            fx.BoltStart(start, end);
+            start = end;
+            skillrange[i].MyStatus.DamagedLife(m_damage[caster.Star - 1], caster, skillrange[i].CurrNode, DamageType.Skill);
+
             yield return m_wait;
         }
 

@@ -472,14 +472,12 @@ public class BaseChar : MonoBehaviour
     public virtual List<BaseChar> FoeRangeCall(int inrange = 0)
     {
         int range = inrange;
-        if (inrange!=0)
-        { return RangeCall(); }
 
         List<BaseChar> attackable = new List<BaseChar>();
         List<Node> ragelist = new List<Node>();
 
 
-        for (int row = range; row <= range; row++)
+        for (int row = -range; row <= range; row++)
         {
             for (int col = -range; col <= range; col++)
             {
@@ -490,7 +488,14 @@ public class BaseChar : MonoBehaviour
                         ragelist.Add(NodeMng.instance.NodeArr[CurrNode.Row + row, CurrNode.Col + col]);
                     }
                 }
+
             }
+        }
+
+
+        for (int i = 0; i < attackable.Count; i++)
+        {
+            Debug.Log(attackable[i].name);
         }
 
 
@@ -503,10 +508,13 @@ public class BaseChar : MonoBehaviour
 
 
 
+                if (x.CurrCHAR == this)
+                    continue;
 
-                if(!FOE)
+
+                if (!FOE)
                 {
-                    if (CharMng.Instance.CurrHeros.Contains(x.CurrCHAR))
+                    if (!x.CurrCHAR.FOE)
                     {
                         if (!x.CurrCHAR.Dying)
                             attackable.Add(x.CurrCHAR);
@@ -514,7 +522,7 @@ public class BaseChar : MonoBehaviour
                 }
                 else
                 {
-                    if (CharMng.Instance.CurrEnemys.Contains(x.CurrCHAR))
+                    if (x.CurrCHAR.FOE)
                     {
                         if (!x.CurrCHAR.Dying)
                             attackable.Add(x.CurrCHAR);
