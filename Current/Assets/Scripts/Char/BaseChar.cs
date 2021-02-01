@@ -7,6 +7,12 @@ public enum ClassType
     Hunter, Knight, Mage, Warrior, Lord
 }
 
+public enum ProjectileType
+{
+    Direct, Howitzer
+}
+
+
 public class BaseChar : MonoBehaviour
 {
 
@@ -75,6 +81,7 @@ public class BaseChar : MonoBehaviour
     protected string m_classname;
     protected ClassType m_classtype;
     protected Skillname m_skill;
+    protected ProjectileType m_projectiletype;
     #endregion
     //1 public property
     #region
@@ -129,6 +136,12 @@ public class BaseChar : MonoBehaviour
     {
         get { return m_skill; }
     }
+
+    public ProjectileType ProjectileType
+    {
+        get { return m_projectiletype; }
+    }
+
 
     public string Classname
     {

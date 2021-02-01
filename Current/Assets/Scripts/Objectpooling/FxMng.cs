@@ -57,7 +57,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Silence") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/BlackSkull") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/BlackBall") as GameObject);
-        m_prefabs.Add(Resources.Load("Prefab/FX/LightningBolt") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/ChainLightning") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/PolyMorphBomb") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/PolyMorpFx") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/MushroomCloud") as GameObject);
@@ -133,7 +133,7 @@ public class FxMng : MonoBehaviour
                 return FxInstant(19);
             case "BlackBall":
                 return FxInstant(20);
-            case "LightningBolt":
+            case "ChainLightning":
                 return FxInstant(21);
             case "PolyMorphBomb":
                 return FxInstant(22);

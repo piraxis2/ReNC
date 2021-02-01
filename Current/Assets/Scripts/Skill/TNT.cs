@@ -39,7 +39,7 @@ public class TNT : Skill
 
         while(!stop)
         {
-            elapsedtime += Time.deltaTime * 8;
+            elapsedtime += Time.deltaTime * 4;
             fx.transform.position = MathHelper.BezierCurve(start, new Vector3(start.x, start.y + 3, start.z), new Vector3(end.x, end.y + 3, end.z), end, elapsedtime);
 
             if (elapsedtime >=1)

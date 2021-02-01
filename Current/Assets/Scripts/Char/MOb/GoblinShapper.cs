@@ -17,6 +17,7 @@ public class GoblinShapper : Goblin
         base.StatusSet();
         MyStatus.RangeSet(4);
         m_skill = Skillname.TNT;
+        m_projectiletype = ProjectileType.Howitzer;
     }
 
 

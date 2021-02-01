@@ -274,9 +274,15 @@ public class CharActionMng : Mng
             elapsedtime = Mathf.Clamp01(elapsedtime);
 
 
-            projectile.transform.position = Vector3.Lerp(pos, enemypos, elapsedtime);
-            projectile.transform.rotation = Quaternion.Euler(45, 45, (MathHelper.GetAngle(pos, enemypos) + angle));
-            if(elapsedtime>=1)
+            if (Chara.ProjectileType == ProjectileType.Direct)
+            {
+                projectile.transform.position = Vector3.Lerp(pos, enemypos, elapsedtime);
+                projectile.transform.rotation = Quaternion.Euler(45, 45, (MathHelper.GetAngle(pos, enemypos) + angle));
+            }
+            else
+                projectile.transform.position = MathHelper.BezierCurve(pos, new Vector3(pos.x, pos.y + 2, pos.z), new Vector3(enemypos.x, enemypos.y + 2, enemypos.z), enemypos, elapsedtime);
+
+            if (elapsedtime>=1)
             {
                 stop = true;
             }

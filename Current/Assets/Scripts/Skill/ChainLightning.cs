@@ -27,21 +27,20 @@ public class ChainLightning : Skill
         if (chrange[0] != null)
         {
 
-            if (chrange[0].Dying)
-            {
-
-            }
-            else
+            if (!chrange[0].Dying)
             {
                 Range.Add(chrange[0]);
                 ch = chrange[0];
+
             }
         }
         else
         {
             return Range;
         }
+
         int count = 2;
+
         if (caster.Star >= 3)
             count = 3;
 
@@ -54,10 +53,12 @@ public class ChainLightning : Skill
                 return Range;
             }
 
-            if (se[0] != null)
+            int random = Random.Range(0, se.Count - 1);
+
+            if (se[random] != null)
             {
-                Range.Add(se[0]);
-                ch = se[0];
+                Range.Add(se[random]);
+                ch = se[random];
             }
             else
             {
@@ -96,14 +97,47 @@ public class ChainLightning : Skill
         {
 
 
-            LightningBoltFx fx = FxMng.Instance.FxCall("LightningBolt") as LightningBoltFx;
+            PixelFx fx = FxMng.Instance.FxCall("ChainLightning");
+            fx.transform.position = start.position;
             fx.gameObject.SetActive(true);
             end = skillrange[i].transform;
-            fx.BoltStart(start, end);
-            start = end;
-            skillrange[i].MyStatus.DamagedLife(m_damage[caster.Star - 1], caster, skillrange[i].CurrNode, DamageType.Skill);
+            bool stop = false;
+            float elapsedtime = 0;
+            Vector3 vec = new Vector3();
+            while(!stop)
+            {
 
-            yield return m_wait;
+                elapsedtime += Time.deltaTime * 4;
+                vec = Vector3.Lerp(start.position, end.position, elapsedtime);
+
+                float x = Random.Range(-0.25f, 0.25f);
+
+                if (elapsedtime <= 0.1f)
+                {
+                    fx.transform.position = vec;
+                }
+                else if (elapsedtime <= 0.9f)
+                    fx.transform.position = new Vector3(vec.x, vec.y, vec.z + x);
+
+
+
+                if (elapsedtime>=1)
+                {
+                    fx.transform.position = vec;
+                    stop = true;
+                    PixelFx lightning = FxMng.Instance.FxCall("Thunder");
+                    fx.ShutActive();
+                    lightning.transform.position = end.position;
+                    lightning.gameObject.SetActive(true);
+                }
+
+                yield return null;
+            }
+
+            start = end;
+            skillrange[i].MyStatus.DamagedLife(m_damage[caster.Star - 1] * (caster.MyStatus.AP / 100), caster, skillrange[i].CurrNode, DamageType.Skill);
+
+            yield return null;
         }
 
 
