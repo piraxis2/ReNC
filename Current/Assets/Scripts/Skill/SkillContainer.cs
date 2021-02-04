@@ -5,7 +5,7 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave
+    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery, ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave
 
 }
 
