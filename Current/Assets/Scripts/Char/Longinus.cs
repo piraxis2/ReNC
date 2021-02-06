@@ -13,15 +13,16 @@ public class Longinus : BaseChar
         m_hitfx = Resources.Load("Prefab/boom") as GameObject;
         m_projectileangle = 150;
         m_skill = Skillname.ShockWave;
+        m_projectiletype = ProjectileType.Invisible;
     }
     public override PixelFx FxCall()
     {
-        return FxMng.Instance.FxCall("Boom");
+        return FxMng.Instance.FxCall("Spike");
 
     }
     public override PixelFx ProjectileCall()
     {
-        return FxMng.Instance.FxCall("FireBall");
+        return null;
     }
 
     protected override void StatusSet()

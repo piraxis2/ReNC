@@ -9,7 +9,7 @@ public enum ClassType
 
 public enum ProjectileType
 {
-    Direct, Howitzer
+    Direct, Howitzer, Invisible
 }
 
 

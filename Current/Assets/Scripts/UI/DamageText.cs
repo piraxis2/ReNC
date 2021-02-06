@@ -49,7 +49,7 @@ public class DamageText : MonoBehaviour
         if (Mathf.Abs(x) > 30)
         {
             m_textmesh[0].fontSize = 60;
-            m_textmesh[0].SetText("{0}!", Mathf.Abs(x));
+            m_textmesh[0].SetText("{0}", Mathf.Abs(x));
         }
         else
         {

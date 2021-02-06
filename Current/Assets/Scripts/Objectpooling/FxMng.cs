@@ -64,6 +64,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Dynamite") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/TNT") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/ProtectProjectile") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Spike") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -147,6 +148,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(26);
             case "ProtectProjectile":
                 return FxInstant(27);
+            case "Spike":
+                return FxInstant(28);
                 
 
         }

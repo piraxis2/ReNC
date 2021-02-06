@@ -261,7 +261,8 @@ public class CharActionMng : Mng
         Vector3 enemypos = targetChar.transform.position + new Vector3(0, 0.5f, 0);
 
         PixelFx projectile = Chara.ProjectileCall();
-        projectile.gameObject.SetActive(true);
+        if (projectile != null)
+            projectile.gameObject.SetActive(true);
 
         int angle = Chara.m_projectileangle;
 
@@ -279,8 +280,9 @@ public class CharActionMng : Mng
                 projectile.transform.position = Vector3.Lerp(pos, enemypos, elapsedtime);
                 projectile.transform.rotation = Quaternion.Euler(45, 45, (MathHelper.GetAngle(pos, enemypos) + angle));
             }
-            else
+            else if( Chara.ProjectileType == ProjectileType.Howitzer)
                 projectile.transform.position = MathHelper.BezierCurve(pos, new Vector3(pos.x, pos.y + 2, pos.z), new Vector3(enemypos.x, enemypos.y + 2, enemypos.z), enemypos, elapsedtime);
+
 
             if (elapsedtime>=1)
             {
@@ -295,9 +297,13 @@ public class CharActionMng : Mng
             Chara.MyStatus.ManaGet(10);
             PixelFx hitfx = Chara.FxCall();
             hitfx.gameObject.SetActive(true);
-            hitfx.transform.position = enemypos;
+            if(Chara.ProjectileType == ProjectileType.Invisible)
+                hitfx.transform.position = target.transform.position;
+            else
+                hitfx.transform.position = enemypos;
         }
-        projectile.ShutActive();
+        if (projectile != null)
+            projectile.ShutActive();
         yield return null;
 
     }

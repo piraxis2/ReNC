@@ -449,9 +449,7 @@ public class Status
 
         float df = ((DF * 100) / (DF + 100));
         df = df / 100;
-
-        dm = (int)(dm -((df*dm)));
-
+        dm = (int)(dm - (df * dm));
         return dm;
     }
 
@@ -491,7 +489,7 @@ public class Status
                 }
             }
 
-            realdam = CalculateDamage(damage);
+            realdam = CalculateDamage(realdam);
 
             if (realdam <= 0)
             {
@@ -537,7 +535,6 @@ public class Status
         int reftdam = ShieldDamaged(realdam);
 
         m_life -= reftdam;
-
 
         Log.Instance.AddText(logtext);
         CanvasMng.Instance.DamageCall(realdam, m_baseChar, damagetext);
