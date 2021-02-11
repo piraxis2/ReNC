@@ -187,10 +187,13 @@ public class CharActionMng : Mng
             ChangeAttackAni(Direction(Chara.CurrNode, target), Chara);
             angle = MathHelper.GetAngle(Chara.transform.position, target.transform.position) + Chara.m_projectileangle;
             PixelFx Hit = Chara.FxCall();
-            Hit.gameObject.SetActive(true);
-            Hit.transform.position = target.CurrCHAR.transform.position + new Vector3(0, 0.5f, 0);
-            target.CurrCHAR.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
+            if (Hit != null)
+            {
+                Hit.gameObject.SetActive(true);
+                Hit.transform.position = target.CurrCHAR.transform.position + new Vector3(0, 0.5f, 0);
+            }
 
+            target.CurrCHAR.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Kinetic);
 
             //onhit
             if (Chara.Skill == Skillname.ManaSteal)//기사의 마나훔치기
@@ -275,12 +278,12 @@ public class CharActionMng : Mng
             elapsedtime = Mathf.Clamp01(elapsedtime);
 
 
-            if (Chara.ProjectileType == ProjectileType.Direct)
+            if (Chara.ProjectileType == Attacktype.Direct)
             {
                 projectile.transform.position = Vector3.Lerp(pos, enemypos, elapsedtime);
                 projectile.transform.rotation = Quaternion.Euler(45, 45, (MathHelper.GetAngle(pos, enemypos) + angle));
             }
-            else if( Chara.ProjectileType == ProjectileType.Howitzer)
+            else if( Chara.ProjectileType == Attacktype.Howitzer)
                 projectile.transform.position = MathHelper.BezierCurve(pos, new Vector3(pos.x, pos.y + 2, pos.z), new Vector3(enemypos.x, enemypos.y + 2, enemypos.z), enemypos, elapsedtime);
 
 
@@ -296,11 +299,14 @@ public class CharActionMng : Mng
             targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
             Chara.MyStatus.ManaGet(10);
             PixelFx hitfx = Chara.FxCall();
-            hitfx.gameObject.SetActive(true);
-            if(Chara.ProjectileType == ProjectileType.Invisible)
-                hitfx.transform.position = target.transform.position;
-            else
-                hitfx.transform.position = enemypos;
+            if (hitfx != null)
+            {
+                hitfx.gameObject.SetActive(true);
+                if (Chara.ProjectileType == Attacktype.Invisible)
+                    hitfx.transform.position = target.transform.position;
+                else
+                    hitfx.transform.position = enemypos;
+            }
         }
         if (projectile != null)
             projectile.ShutActive();

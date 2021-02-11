@@ -7,9 +7,9 @@ public enum ClassType
     Hunter, Knight, Mage, Warrior, Lord
 }
 
-public enum ProjectileType
+public enum Attacktype
 {
-    Direct, Howitzer, Invisible
+    Direct, Howitzer, Invisible, Wide
 }
 
 
@@ -81,7 +81,7 @@ public class BaseChar : MonoBehaviour
     protected string m_classname;
     protected ClassType m_classtype;
     protected Skillname m_skill;
-    protected ProjectileType m_projectiletype;
+    protected Attacktype m_attacktype;
     #endregion
     //1 public property
     #region
@@ -137,9 +137,9 @@ public class BaseChar : MonoBehaviour
         get { return m_skill; }
     }
 
-    public ProjectileType ProjectileType
+    public Attacktype ProjectileType
     {
-        get { return m_projectiletype; }
+        get { return m_attacktype; }
     }
 
 
