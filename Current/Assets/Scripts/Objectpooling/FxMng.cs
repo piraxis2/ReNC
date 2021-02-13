@@ -66,6 +66,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/ProtectProjectile") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Spike") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/HealingWave") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/BombMine") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -153,8 +154,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(28);
             case "HealingWave":
                 return FxInstant(29);
-                
-
+            case "BombMine":
+                return FxInstant(30);
         }
         return null;
     }

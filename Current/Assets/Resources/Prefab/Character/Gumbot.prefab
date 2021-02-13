@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3082581879727638592}
   - component: {fileID: 3082581879727638653}
   - component: {fileID: 3082581879727638594}
-  - component: {fileID: 3082581879727638595}
+  - component: {fileID: -6266143292667887283}
   - component: {fileID: 3082581879727638652}
   - component: {fileID: -7843430370446182209}
   m_Layer: 10
@@ -104,7 +104,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3082581879727638595
+--- !u!114 &-6266143292667887283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3082581879727638593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b1a3668ed99b842942c3263e3e3c2d, type: 3}
+  m_Script: {fileID: 11500000, guid: fba3e1d70d6a36049a31e7d9b2538624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_foe: 0
@@ -177,7 +177,7 @@ PrefabInstance:
     - target: {fileID: 3277366523443991223, guid: ac24b72b2a0ac654486cf9f2cade92f5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.26
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3277366523443991223, guid: ac24b72b2a0ac654486cf9f2cade92f5,
         type: 3}

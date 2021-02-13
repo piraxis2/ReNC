@@ -646,6 +646,20 @@ public class BaseChar : MonoBehaviour
         }
     }
 
+    public virtual void AttackAction(Node target)
+    {
+
+        SetAttacking(true);
+
+
+        if (MyStatus.Range == 1)
+            StartCoroutine(ActionContainer.Instance.IEAttack(this, target));
+        else if (MyStatus.Range >= 2)
+            StartCoroutine(ActionContainer.Instance.IELongRange(this, target));
+    }
+
+
+
     private Vector3 deathpoint = new Vector3();
 
     public void KillThis(string state = null)
