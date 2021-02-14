@@ -1,0 +1,907 @@
+fileFormatVersion: 2
+guid: f249b10c93f58c74a88722712c1546d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1122971385997609959
+    second: HighWayGoblin_0
+  - first:
+      213: -7548705171874397779
+    second: HighWayGoblin_1
+  - first:
+      213: -5042531295426416001
+    second: HighWayGoblin_2
+  - first:
+      213: -6785130602524869469
+    second: HighWayGoblin_3
+  - first:
+      213: -9024067876458178108
+    second: HighWayGoblin_4
+  - first:
+      213: 8631391680458826084
+    second: HighWayGoblin_5
+  - first:
+      213: -5020404022677260992
+    second: HighWayGoblin_6
+  - first:
+      213: -2648551779816389966
+    second: HighWayGoblin_7
+  - first:
+      213: 5683928964398574258
+    second: HighWayGoblin_8
+  - first:
+      213: -7792451780692538995
+    second: HighWayGoblin_9
+  - first:
+      213: -7445989318861465612
+    second: HighWayGoblin_10
+  - first:
+      213: 7315784068386276440
+    second: HighWayGoblin_11
+  - first:
+      213: 6936294473700414607
+    second: HighWayGoblin_12
+  - first:
+      213: 8307413415056942987
+    second: HighWayGoblin_13
+  - first:
+      213: -5800878790456542013
+    second: HighWayGoblin_14
+  - first:
+      213: 3234489970360363191
+    second: HighWayGoblin_15
+  - first:
+      213: -5450657651989728212
+    second: HighWayGoblin_16
+  - first:
+      213: 1085346522850581196
+    second: HighWayGoblin_17
+  - first:
+      213: -2476411258282070055
+    second: HighWayGoblin_18
+  - first:
+      213: 5375999517576907284
+    second: HighWayGoblin_19
+  - first:
+      213: -5680314951239412160
+    second: HighWayGoblin_20
+  - first:
+      213: 629409463621022012
+    second: HighWayGoblin_21
+  - first:
+      213: 3124635700528025245
+    second: HighWayGoblin_22
+  - first:
+      213: -6101834765613815121
+    second: HighWayGoblin_23
+  - first:
+      213: -3501242829294440649
+    second: HighWayGoblin_24
+  - first:
+      213: -1688037068915030382
+    second: HighWayGoblin_25
+  - first:
+      213: 7339667428467422158
+    second: HighWayGoblin_26
+  - first:
+      213: -7605376904034292633
+    second: HighWayGoblin_27
+  - first:
+      213: -8808595250844391132
+    second: HighWayGoblin_28
+  - first:
+      213: -7046720477480416518
+    second: HighWayGoblin_29
+  - first:
+      213: 5806878663023366111
+    second: HighWayGoblin_30
+  - first:
+      213: 4807742433607918082
+    second: HighWayGoblin_31
+  - first:
+      213: 2176275154345710868
+    second: HighWayGoblin_32
+  - first:
+      213: -2844847050280637912
+    second: HighWayGoblin_33
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HighWayGoblin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5541eb1aece11419592e964acb8934
+      internalID: -1122971385997609959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe78d430368e8a408702abcc98527d5
+      internalID: -7548705171874397779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b43fad173d42e4c85765025e9898a8
+      internalID: -5042531295426416001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe5207ee516754cba40c471479ecbd
+      internalID: -6785130602524869469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a87ce24a51b2cd4799cf9fdc81c3be1
+      internalID: -9024067876458178108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 416
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9f3f34c64b044428b98a7d3c29c933
+      internalID: 8631391680458826084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998e89965bdb9dc41bca7ac17e22e0ef
+      internalID: -5020404022677260992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3479cd71a3cc24f4ca253f299b1f070d
+      internalID: -2648551779816389966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c154882c03ef4d44881c1b88f6e2b682
+      internalID: 5683928964398574258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c1ce60dcb0d2a48bc730d0bc20455c
+      internalID: -7792451780692538995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bc22d68ac2c68488c0d7743854e621
+      internalID: -7445989318861465612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1683ef3f4f0c4ec4a9f3a0c3eefe1dcb
+      internalID: 7315784068386276440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519246fa5ff1853479a682ee2a40781c
+      internalID: 6936294473700414607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 312
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece693270c935944cabecb1554896c80
+      internalID: 8307413415056942987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ddfde3fbdd704ea5281046f861270
+      internalID: -5800878790456542013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686ea0fa4f75faf44baa411fe9d0a64d
+      internalID: 3234489970360363191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76665d14c7fd7474d8b3facfc92c88f0
+      internalID: -5450657651989728212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24e0682ccedb76439c9a0b0c7d830b7
+      internalID: 1085346522850581196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe0d8ad113a17e44ae09d1f3944eb4e
+      internalID: -2476411258282070055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cd4008a7738f74cb9f83a33a41107c
+      internalID: 5375999517576907284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd31db3dc113c04c9a8d19a40d4f67a
+      internalID: -5680314951239412160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 208
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2167fdd3a56e30c43b7be9614af8c21b
+      internalID: 629409463621022012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ca08fe4eb2a7b42a6025a6dad27fb1
+      internalID: 3124635700528025245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e344d17446537a40a7a21aa8a1acfff
+      internalID: -6101834765613815121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0c16cb83e95f044bff786abddfba50
+      internalID: -3501242829294440649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4e4877802d754e8aa41bcbf888537
+      internalID: -1688037068915030382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf000de5c4bb52747a44152d91ba304d
+      internalID: 7339667428467422158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d3111475d44084a977919491565235
+      internalID: -7605376904034292633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 104
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55a9b1865c5d2f4cbf813eb21552844
+      internalID: -8808595250844391132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fee991e5179844a8254a4f4d6b5c83
+      internalID: -7046720477480416518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15082d0ab2415e1438189a4b4628fec3
+      internalID: 5806878663023366111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b132756dfa71b884d91e9f802a5fc18c
+      internalID: 4807742433607918082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighWayGoblin_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cde6e3bc7785f44a5283d3e67ff042
+      internalID: 2176275154345710868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b35c12dc67c7fe849a79d7c8693a5614
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

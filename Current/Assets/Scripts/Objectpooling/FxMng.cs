@@ -23,8 +23,8 @@ public class FxMng : MonoBehaviour
 
 
 
-    private List<List<PixelFx>> m_FXs= new List<List<PixelFx>>();
-    private List<GameObject> m_prefabs= new List<GameObject>();
+    private List<List<PixelFx>> m_FXs = new List<List<PixelFx>>();
+    private List<GameObject> m_prefabs = new List<GameObject>();
     //_Thunders
     //_Hits
     //_Arrows

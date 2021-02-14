@@ -10,7 +10,7 @@ public class NodeMng : Mng
     private const int m_arrsize = 8;
     private bool m_over64 = false;
 
-    private Node[,] m_nodearr = new Node[m_arrsize, m_arrsize];
+    private Node[,] m_nodearr = new Node[8, 8];
     public Node[] m_subnode;
 
     public Node[,] NodeArr
