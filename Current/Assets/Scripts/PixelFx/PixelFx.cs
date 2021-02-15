@@ -5,8 +5,8 @@ using UnityEngine;
 public class PixelFx : MonoBehaviour
 {
     private string m_name;
-    private int m_ID;
-    private int m_count;
+    private int m_ID = -1;
+    private int m_count = -1;
 
 
     public virtual void Init()
@@ -41,9 +41,12 @@ public class PixelFx : MonoBehaviour
 
     public void ShutActive()
     {
-        if(ID>=m_count)
+        if (ID >= 0)
         {
-            Destroy(gameObject);
+            if (ID >= m_count)
+            {
+                Destroy(gameObject);
+            }
         }
         gameObject.SetActive(false);
     }
