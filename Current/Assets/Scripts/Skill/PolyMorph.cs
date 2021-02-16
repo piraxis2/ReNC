@@ -96,6 +96,13 @@ public class PolyMorph : Skill
         for (int i = 0; i < skillrange.Count; i++)
         {
             yield return m_wait;
+
+            if (caster.MyStatus.m_stuned)
+            {
+                caster.SetAttacking(false);
+                yield break;
+            }
+
             bool stop = false;
             float elapsedtime = 0;
             PixelFx projectile = FxMng.Instance.FxCall("PolyMorphFx");

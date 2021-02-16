@@ -714,9 +714,9 @@ public class Status
             switch (x.m_name)
             {
                 case "Enhance": m_equad += x.m_val; break;
-                case "SlowAS": m_equas *= x.m_percentage; break;
+                case "ASChange": m_equas *= x.m_percentage; break;
                 case "Silence": m_floatmaxmana = 1; break;
-                case "FastAS": m_equas *= x.m_percentage; break;
+                case "RapidShot": m_equas *= x.m_percentage; break;
             }
 
         }
@@ -797,6 +797,9 @@ public class Status
                 m_stuned = true;
                 m_baseChar.m_animator.SetBool("Poly", true);
                 break;
+            case "RapidShot":
+                m_baseChar.RapidOnOff(true);
+                break;
         }
 
         if (fx != null)
@@ -823,6 +826,9 @@ public class Status
                     bleedingcount += 0.5f;
                 }
             }
+
+            if(m_baseChar.m_rapidshot)
+
 
             if (elapsedtime >= buff.m_time)
             {

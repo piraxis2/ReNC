@@ -6,7 +6,7 @@ using System;
 public enum Skillname
 {
     none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot,
 
 
 }
@@ -38,6 +38,8 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.LoyalProtect, gameObject.AddComponent<LoyalProtect>());
         m_skills.Add(Skillname.HealingWave, gameObject.AddComponent<HealingWave>());
         m_skills.Add(Skillname.PointBlankShot, gameObject.AddComponent<PointBlankShot>());
+        m_skills.Add(Skillname.FanofKnives, gameObject.AddComponent<FanOfKnives>());
+        m_skills.Add(Skillname.RapidShot, gameObject.AddComponent<RapidShot>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -51,6 +53,8 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.LoyalProtect].Init(m_fxmng);
         m_skills[Skillname.HealingWave].Init(m_fxmng);
         m_skills[Skillname.PointBlankShot].Init(m_fxmng);
+        m_skills[Skillname.FanofKnives].Init(m_fxmng);
+        m_skills[Skillname.RapidShot].Init(m_fxmng);
     }
 
     public static SkillContainer Instance

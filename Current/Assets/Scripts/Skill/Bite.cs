@@ -36,6 +36,12 @@ public class Bite : Skill
         m_fx.transform.position = skillrange[0].transform.position;
         m_fx2.transform.position = caster.transform.position;
 
+        if (caster.MyStatus.m_stuned)
+        {
+            caster.SetAttacking(false);
+            yield break;
+        }
+
         if (skillrange[0].CurrCHAR == null)
         {
             caster.SetAttacking(false);
@@ -45,7 +51,7 @@ public class Bite : Skill
         if (skillrange[0].CurrCHAR.FOE != caster.FOE)
         {
             skillrange[0].CurrCHAR.MyStatus.DamagedLife(m_damage[caster.Star-1], caster, skillrange[0], DamageType.Skill);
-            skillrange[0].CurrCHAR.MyStatus.GetBuff("SlowAS", 3f, -1, -1, 0.5f);
+            skillrange[0].CurrCHAR.MyStatus.GetBuff("ASChange", 3f, -1, -1, 0.5f);
             caster.MyStatus.CuredLife(m_damage[caster.Star-1]/10);
         }
 

@@ -58,6 +58,13 @@ public class BaseChar : MonoBehaviour
     private bool m_attacking = false;
     private bool m_dying = false;
 
+
+
+
+    public bool m_rapidshot = false;
+
+
+
     public List<Node> m_Rangelist;
     protected List<Node> m_skillRangelist;
     protected List<BaseChar> m_attackablelist;
@@ -312,6 +319,11 @@ public class BaseChar : MonoBehaviour
     public void SetAttacking(bool val)
     {
         m_attacking = val;
+    }
+
+    public void RapidOnOff(bool val)
+    {
+        m_rapidshot = val;
     }
 
     public void ReSetExclud()

@@ -559,7 +559,7 @@ public class CharActionMng : Mng
 
     }
 
-    private bool IsExist(BaseChar Chara, Node target)
+    public bool IsExist(BaseChar Chara, Node target)
     {
         if (Chara == null||!Chara.gameObject.activeInHierarchy)
             return false;

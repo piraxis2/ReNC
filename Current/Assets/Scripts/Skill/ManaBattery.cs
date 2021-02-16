@@ -43,9 +43,15 @@ public class ManaBattery : Skill
     {
 
         yield return m_wait;
-       
 
-        foreach(var x in skillrange)
+        if (caster.MyStatus.m_stuned)
+        {
+            caster.SetAttacking(false);
+            yield break;
+        }
+
+
+        foreach (var x in skillrange)
         {
             PixelFx fx = FxMng.Instance.FxCall("ManaGet");
             if (x != caster)

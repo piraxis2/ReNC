@@ -16,7 +16,11 @@ public class BlackMagic : Skill
 
     public override void Skillshot(BaseChar caster, Node target)
     {
-        List<BaseChar> targets = SkillTargets(CharMng.Instance.CurrEnemys, target.CurrCHAR, caster);
+        List<BaseChar> targets = new List<BaseChar>();
+        if (caster.FOE)
+            targets = SkillTargets(CharMng.Instance.CurrEnemys, target.CurrCHAR, caster);
+        else
+            targets = SkillTargets(CharMng.Instance.CurrHeros, target.CurrCHAR, caster);
 
 
         if (targets.Count != 0)
@@ -53,6 +57,12 @@ public class BlackMagic : Skill
         BaseChar target = chararr[0];
         PixelFx projectile = FxMng.Instance.FxCall("BlackBall");
         yield return m_wait;
+
+        if (caster.MyStatus.m_stuned)
+        {
+            caster.SetAttacking(false);
+            yield break;
+        }
 
 
         bool stop = false;

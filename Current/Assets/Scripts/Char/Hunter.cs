@@ -5,6 +5,7 @@ using UnityEngine;
 public class Hunter : Hero
 {
 
+
     public override void Init()
     {
         base.Init();
@@ -14,7 +15,7 @@ public class Hunter : Hero
         m_projectile = Resources.Load("Prefab/Arrow") as GameObject;
         m_hitfx = Resources.Load("Prefab/HitEx") as GameObject;
         m_projectileangle = 0;
-        m_skill = Skillname.arrowpenetrate;
+        m_skill = Skillname.RapidShot;
     }
 
     public override PixelFx FxCall()
@@ -28,10 +29,22 @@ public class Hunter : Hero
         return FxMng.Instance.FxCall("Arrow");
     }
 
+    public override void AttackAction(Node target)
+    {
+        SetAttacking(true);
+
+        if (m_rapidshot)
+            StartCoroutine(ActionContainer.Instance.IERapidShot(this, target));
+        else
+            StartCoroutine(ActionContainer.Instance.IELongRange(this, target));
+
+    }
+
 
     protected override void StatusSet()
     {
 
+        MyStatus.SetLife(5000);
         MyStatus.RangeSet(5);
         MyStatus.PrioritySet(5);
         MyStatus.SetAS(0.75f);

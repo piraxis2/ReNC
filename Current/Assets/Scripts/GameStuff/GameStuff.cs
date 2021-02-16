@@ -168,6 +168,9 @@ public class Buff
                 target.m_stuned = false;
                 target.m_baseChar.m_animator.SetBool("Poly", false);
                 break;
+            case "RapidShot":
+                target.m_baseChar.RapidOnOff(false);
+                break;
         }
 
         target.BuffList.Remove(this);

@@ -93,6 +93,7 @@ public class ChainLightning : Skill
         Transform end = skillrange[0].transform;
 
 
+
         for (int i = 0; i < skillrange.Count; i++)
         {
 

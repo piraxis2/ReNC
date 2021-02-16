@@ -14,6 +14,8 @@ public class ActionContainer : MonoBehaviour
                 return m_attackcontainer;
 
             m_attackcontainer = new ActionContainer();
+            m_attackcontainer.Init();
+
             return m_attackcontainer;
         }
     }
@@ -21,6 +23,13 @@ public class ActionContainer : MonoBehaviour
 
     public float m_speed = 1;
 
+    private WaitForSeconds m_BarrageWait = new WaitForSeconds(0.025f);
+
+    private void Init()
+    {
+
+
+    }
 
     public IEnumerator IEAttack(BaseChar Chara, Node target)
     {
@@ -64,7 +73,7 @@ public class ActionContainer : MonoBehaviour
             target.CurrCHAR.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Kinetic);
 
             //onhit
-            if (Chara.Skill == Skillname.ManaSteal)//����� ������ġ��
+            if (Chara.Skill == Skillname.ManaSteal)
             { target.CurrCHAR.MyStatus.ManaCost(Knight.m_manasteal[Chara.Star]); }
 
 
@@ -86,7 +95,7 @@ public class ActionContainer : MonoBehaviour
     public IEnumerator IELongRange(BaseChar Chara, Node target)
     {
         float AS = Chara.MyStatus.CalculateAttackspeed();
-        WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
+        WaitForSeconds attackspeed = new WaitForSeconds(AS);
 
 
         while (IsExist(Chara, target))
@@ -101,12 +110,13 @@ public class ActionContainer : MonoBehaviour
             if (AS != Chara.MyStatus.CalculateAttackspeed())
             {
                 AS = Chara.MyStatus.CalculateAttackspeed();
-                attackspeed = new WaitForSecondsRealtime(AS);
+                attackspeed = new WaitForSeconds(AS);
             }
 
 
 
             ChangeAttackAni(Direction(Chara.CurrNode, target), Chara);
+
             Chara.StartCoroutine(IEProjectile(Chara, target));
 
             yield return attackspeed;
@@ -122,10 +132,53 @@ public class ActionContainer : MonoBehaviour
 
     }
 
+
+    public IEnumerator IERapidShot(BaseChar Chara, Node target)
+    {
+        float AS = Chara.MyStatus.CalculateAttackspeed();
+        WaitForSeconds attackspeed = new WaitForSeconds(AS);
+
+        while (IsExist(Chara, target))
+        {
+            if (Chara.MyStatus.Life <= 0)
+                yield break;
+
+            if (Chara.MyStatus.m_stuned)
+                yield break;
+
+
+            if (AS != Chara.MyStatus.CalculateAttackspeed())
+            {
+                AS = Chara.MyStatus.CalculateAttackspeed();
+                attackspeed = new WaitForSeconds(AS);
+            }
+
+
+            ChangeAttackAni(Direction(Chara.CurrNode, target), Chara);
+
+            Chara.StartCoroutine(IEBarrageProjectile(Chara, target));
+
+            yield return attackspeed;
+
+            if(!Chara.m_rapidshot)
+            {
+                Chara.SetAttacking(false);
+                yield break;
+            }
+
+
+        }
+        Chara.SetAttacking(false);
+        yield return null;
+
+
+    }
+
+
     public IEnumerator IEWideAttack(BaseChar Chara, Node target)
     {
         float AS = Chara.MyStatus.CalculateAttackspeed();
-        WaitForSecondsRealtime attackspeed = new WaitForSecondsRealtime(AS);
+        WaitForSeconds attackspeed = new WaitForSeconds(AS);
 
 
         while (IsExist(Chara, target))
@@ -140,7 +193,7 @@ public class ActionContainer : MonoBehaviour
             if (AS != Chara.MyStatus.CalculateAttackspeed())
             {
                 AS = Chara.MyStatus.CalculateAttackspeed();
-                attackspeed = new WaitForSecondsRealtime(AS);
+                attackspeed = new WaitForSeconds(AS);
             }
 
 
@@ -302,6 +355,78 @@ public class ActionContainer : MonoBehaviour
         yield return null;
 
     }
+
+    public IEnumerator IEBarrageProjectile(BaseChar Chara, Node target)
+    {
+        if (Chara == null)
+            yield break;
+
+        BaseChar targetChar = target.CurrCHAR;
+        Vector3 pos = Chara.transform.position + new Vector3(0, 0.5f, 0);
+        Vector3 enemypos = targetChar.transform.position + new Vector3(0, 0.5f, 0);
+
+        PixelFx[] projecs = new PixelFx[3];
+
+        for (int i = 0; i < 3; i++)
+        {
+            projecs[i] = Chara.ProjectileCall();
+            if (projecs[i] != null)
+                projecs[i].gameObject.SetActive(true);
+
+
+
+            int angle = Chara.m_projectileangle;
+
+            float elapsedtime = 0;
+            bool stop = false;
+
+            while (!stop)
+            {
+                elapsedtime += Time.deltaTime * 8f;
+                elapsedtime = Mathf.Clamp01(elapsedtime);
+
+
+                if (Chara.ProjectileType == Attacktype.Direct)
+                {
+                    projecs[i].transform.position = Vector3.Lerp(pos, enemypos, elapsedtime);
+                    projecs[i].transform.rotation = Quaternion.Euler(45, 45, (MathHelper.GetAngle(pos, enemypos) + angle));
+                }
+                else if (Chara.ProjectileType == Attacktype.Howitzer)
+                    projecs[i].transform.position = MathHelper.BezierCurve(pos, new Vector3(pos.x, pos.y + 2, pos.z), new Vector3(enemypos.x, enemypos.y + 2, enemypos.z), enemypos, elapsedtime);
+
+
+                if (elapsedtime >= 1)
+                {
+                    stop = true;
+                }
+
+                yield return null;
+            }
+            if (targetChar != null)
+            {
+                targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD / 2, Chara, target, DamageType.Kinetic);
+
+
+                PixelFx hitfx = Chara.FxCall();
+                if (hitfx != null)
+                {
+                    hitfx.gameObject.SetActive(true);
+                    if (Chara.ProjectileType == Attacktype.Invisible)
+                        hitfx.transform.position = target.transform.position;
+                    else
+                        hitfx.transform.position = enemypos;
+                }
+            }
+            if (projecs[i] != null)
+                projecs[i].ShutActive();
+
+            yield return m_BarrageWait;
+
+        }
+        yield return null;
+
+    }
+
 
 
     public IEnumerator IEMove(BaseChar Chara, Node target)
