@@ -827,8 +827,6 @@ public class Status
                 }
             }
 
-            if(m_baseChar.m_rapidshot)
-
 
             if (elapsedtime >= buff.m_time)
             {
