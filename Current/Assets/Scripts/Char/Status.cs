@@ -776,7 +776,7 @@ public class Status
     public IEnumerator IEbuff(Buff buff)
     {
 
-        float bleedingcount = 0.5f;
+        float bleedingcount = 0f;
         bool bleeding = false;
         bool stop = false;
         float elapsedtime = 0;
@@ -820,7 +820,7 @@ public class Status
             if (bleeding)
             {
                 fx.transform.position = m_baseChar.transform.position;
-                if (time >= bleedingcount)
+                if (elapsedtime >= bleedingcount)
                 {
                     DamagedLife(dotdmg, null, m_baseChar.CurrNode, DamageType.Skill, "BLEEDING");
                     bleedingcount += 0.5f;

@@ -9,8 +9,8 @@ public class Knives : PixelFx
 
     private int m_count2 = 0;
     private int m_rotate = 0;
-    [SerializeField]
     private int m_speed = 50;
+    private float m_plus = 0.025f;
 
     public override void Init()
     {
@@ -27,19 +27,29 @@ public class Knives : PixelFx
 
     public void ActiveStart()
     {
-        float voke = 0.08f;
+
+        for (int i = 0; i < m_knife.Length; i++)
+        {
+            m_knife[i].transform.localPosition = Vector3.zero;
+        }
+
+        float voke = m_plus;
         Knife(); 
         for (int i = 0; i < 14; i++)
         {
             Invoke("Knife", voke);
-            voke += 0.08f;
+            voke += m_plus;
         }
-        float voke2 = 0.12f;
+        float voke2 = 0.125f;
         for (int i = 0; i < 15; i++)
         {
             Invoke("Knife", voke2);
-            voke2 += 0.08f;
+            voke2 += m_plus;
         }
+
+        Invoke("ShutActive", voke2 + 0.125f);
+
+
 
     }
 

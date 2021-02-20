@@ -55,6 +55,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.PointBlankShot].Init(m_fxmng);
         m_skills[Skillname.FanofKnives].Init(m_fxmng);
         m_skills[Skillname.RapidShot].Init(m_fxmng);
+
     }
 
     public static SkillContainer Instance
