@@ -68,6 +68,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/HealingWave") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/BombMine") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Knives") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Incinerate") as GameObject);
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -159,6 +160,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(30);
             case "Knives":
                 return FxInstant(31);
+            case "Incinerate":
+                return FxInstant(32);
         }
         return null;
     }
