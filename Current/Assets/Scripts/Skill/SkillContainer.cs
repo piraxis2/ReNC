@@ -6,7 +6,7 @@ using System;
 public enum Skillname
 {
     none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas,
 
 
 }
@@ -41,6 +41,7 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.FanofKnives, gameObject.AddComponent<FanOfKnives>());
         m_skills.Add(Skillname.RapidShot, gameObject.AddComponent<RapidShot>());
         m_skills.Add(Skillname.Incinerate, gameObject.AddComponent<Incinerate>());
+        m_skills.Add(Skillname.DeSpellGas, gameObject.AddComponent<DeSpellGas>());
         m_skills[Skillname.thunderstrike].Init(m_fxmng);
         m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -57,6 +58,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.FanofKnives].Init(m_fxmng);
         m_skills[Skillname.RapidShot].Init(m_fxmng);
         m_skills[Skillname.Incinerate].Init(m_fxmng);
+        m_skills[Skillname.DeSpellGas].Init(m_fxmng);
 
     }
 
