@@ -9,7 +9,7 @@ public class Sans : BaseChar
         base.Init();
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
-        m_skill = Skillname.FanofKnives;
+        m_skill = Skillname.BigFist;
     }
 
     public override PixelFx FxCall()

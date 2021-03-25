@@ -724,7 +724,7 @@ public class Status
     }
 
 
-    public void GetBuff(string name, float time, int val = -1, int val2 = -1, float percentage = -1f, bool permanent = false)
+    public int GetBuff(string name, float time, int val = -1, int val2 = -1, float percentage = -1f, bool permanent = false)
     {
         if (m_bufflist.Count == 0)
             m_buffidxer = 0;
@@ -743,6 +743,8 @@ public class Status
         if (!permanent)
             m_baseChar.StartCoroutine(IEbuff(buff));
         StatReLoad();
+
+        return m_buffidxer;
 
     }
 
