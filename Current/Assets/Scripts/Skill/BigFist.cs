@@ -44,20 +44,25 @@ public class BigFist : Skill
 
         m_fx = FxMng.Instance.FxCall("Fist");
         m_fx.gameObject.SetActive(true);
+        Vector3 spos = skillrange[4].transform.position;
+        Vector3 epos = new Vector3(spos.x, spos.y + 5, spos.z);
+
 
         float elapsedtime = 0;
         bool stop = false;
-        while(stop)
+        while(!stop)
         {
 
-            elapsedtime += Time.deltaTime;
+            elapsedtime += Time.deltaTime * 8;
+            m_fx.transform.position = Vector3.Lerp(epos, spos, elapsedtime);
 
-            if(elapsedtime>=0.1f)
+            if(elapsedtime>=1f)
             {
-            
+
+                m_fx.transform.GetChild(0).gameObject.SetActive(true);
                 foreach (var x in skillrange)
                 {
-                    if (x.CurrCHAR != null)
+                    if (x.CurrCHAR != null && x != null)
                     {
                         if (caster.FOE != x.CurrCHAR.FOE)
                             x.CurrCHAR.MyStatus.DamagedLife(m_damage[caster.Star - 1], null, x, DamageType.Skill);

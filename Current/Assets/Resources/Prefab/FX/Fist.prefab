@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4288993203253014309}
   - component: {fileID: 4288993203253014491}
   - component: {fileID: 4288993203253014308}
-  - component: {fileID: 9022733426125290534}
+  - component: {fileID: 2961129722622189130}
   m_Layer: 0
   m_Name: dustwind_0
   m_TagString: Untagged
@@ -101,7 +101,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &9022733426125290534
+--- !u!114 &2961129722622189130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4288993203253014310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8706b1477da1f334893e819c5bdb77af, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ce4b0d6705863c419c7da307d1b4b4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4288993204496188687
@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 4288993204496188686}
   - component: {fileID: 4288993204496188675}
   - component: {fileID: 4288993204496188684}
-  - component: {fileID: 4288993204496188685}
   m_Layer: 0
   m_Name: Fist
   m_TagString: Untagged
@@ -207,22 +206,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8706b1477da1f334893e819c5bdb77af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &4288993204496188685
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4288993204496188687}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a41d3759a8767242ab11692a6c441f6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
