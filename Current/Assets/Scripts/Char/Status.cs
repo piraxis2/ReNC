@@ -59,6 +59,7 @@ public class Status
 
 
     public bool m_stuned = false;
+    public bool m_silence = false;
 
     private bool m_perk8stack = false;
     private bool m_buff = false;
@@ -301,6 +302,9 @@ public class Status
         get
         {
             if (m_floatmaxmana == 1)
+                return false;
+
+            if (m_silence)
                 return false;
 
             return (m_mana >= m_floatmaxmana);
@@ -715,7 +719,7 @@ public class Status
             {
                 case "Enhance": m_equad += x.m_val; break;
                 case "ASChange": m_equas *= x.m_percentage; break;
-                case "Silence": m_floatmaxmana = 1; break;
+                case "Silence": m_floatmaxmana = 1; m_silence = true; break;
                 case "RapidShot": m_equas *= x.m_percentage; break;
             }
 
