@@ -17,9 +17,9 @@ public class ShockWave : Skill
 
     public override List<Node> SkillRange(Node[,] nodearr, Node target, BaseChar caster)
     {
-
         DIR dir = CharActionMng.Direction(caster.CurrNode, target);
 
+        Debug.Log(dir.ToString());
         List<Node> range = new List<Node>();
 
         int x = 0;
@@ -27,19 +27,19 @@ public class ShockWave : Skill
         int wall = 0;
         int count = 0;
         int vec = 0;
-        int row = target.Row;
-        int col = target.Col;
+        int row = caster.CurrNode.Row;
+        int col = caster.CurrNode.Col;
 
         switch (dir)
         {
-            case DIR.WEST: x = 1; y = -1; wall = 0; count = col; vec = -1; break;
-            case DIR.NORTH: x = -1;y = -1; wall = 0; count = row; vec = -1; break;
-            case DIR.SOUTH: x = 1; y = 1; wall = 7;  count = row; vec = 1; break;
-            case DIR.EAST: x = -1; y = 1; wall = 7; count = col; vec = 1; break;
+            case DIR.WEST: x = -1; y = -1; wall = 0; count = col - 1; vec = -1; break;
+            case DIR.NORTH: x = -1; y = -1; wall = 0; count = row - 1; vec = -1; break;
+            case DIR.SOUTH: x = 1; y = -1; wall = 7; count = row + 1; vec = 1; break;
+            case DIR.EAST: x = -1; y = 1; wall = 7; count = col + 1; vec = 1; break;
         }
-    
 
-        row = row + x; 
+
+        row = row + x;
         col = col + y;
 
         if (row < 0 || row > 7 || col < 0 || col > 7)
@@ -48,29 +48,35 @@ public class ShockWave : Skill
         }
         else
         {
-            while (touchwall(wall,count))
+            while (touchwall(wall, count))
             {
                 for (int i = 0; i < 3; i++)
                 {
                     if (dir == DIR.EAST || dir == DIR.WEST)
                     {
-                        if ((col - 1 + i) >= 0 && (col - 1 + i) <= 7)
-                            range.Add(nodearr[count, col - 1 + i]);
+                        if ((row + i) >= 0 && (row + i) <= 7)
+                            range.Add(nodearr[row + i, count]);
+                        else
+                            range.Add(null);
                     }
                     else if (dir == DIR.NORTH || dir == DIR.SOUTH)
                     {
-                        if ((row - 1 + i) >= 0 && (row - 1 + i) <= 7)
-                            range.Add(nodearr[row - 1 + i, count]);
+                        if ((col + i) >= 0 && (col + i) <= 7)
+                            range.Add(nodearr[count, col + i]);
+                        else
+                            range.Add(null);
                     }
 
                 }
-                count += vec; 
+                count += vec;
             }
-
         }
 
-
-        return range;  
+        foreach (var xz in range)
+        {
+            xz.m_sprite.color = Color.blue;
+        }
+        return range;
     }
 
 
@@ -78,14 +84,14 @@ public class ShockWave : Skill
     {
         if(wall == 7)
         {
-            if (count >= wall)
+            if (count > wall)
             {
                 return false;
             }
         }
         else if( wall == 0)
         {
-            if(count<=wall)
+            if (count < wall)
             {
                 return false;
             }
@@ -96,6 +102,17 @@ public class ShockWave : Skill
 
     public override IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
     {
+
+        int idx = 0;
+
+
+
+
+        for (int i = 0; i < 3; i++)
+        {
+
+        }
+
 
 
         yield return null;

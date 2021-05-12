@@ -19,6 +19,7 @@ public class SkillRange : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
         }
+
         else if (Input.GetMouseButtonUp(0))
         {
             Node node = NRay();
@@ -43,6 +44,7 @@ public class SkillRange : MonoBehaviour
                 }
             }
         }
+
         else if (Input.GetMouseButtonUp(1))
         {
             if (m_caster != null) m_caster.m_sprite.color = m_caster.OriColor;
@@ -51,6 +53,7 @@ public class SkillRange : MonoBehaviour
             m_target = null;
             count = 0;
         }
+
         else if(Input.GetKeyUp(KeyCode.Space))
         {
             if (!onoff)
@@ -74,9 +77,7 @@ public class SkillRange : MonoBehaviour
                 onoff = false;
 
             }
-
         }
-
     }
 
     private List<Node> DebuGG(Node caster,Node target)
@@ -85,6 +86,7 @@ public class SkillRange : MonoBehaviour
 
         DIR dir = CharActionMng.Direction(caster, target);
 
+        Debug.Log(dir.ToString());
         List<Node> range = new List<Node>();
 
         int x = 0;
@@ -92,20 +94,21 @@ public class SkillRange : MonoBehaviour
         int wall = 0;
         int count = 0;
         int vec = 0;
-        int row = target.Row;
-        int col = target.Col;
+        int row = caster.Row;
+        int col = caster.Col;
 
         switch (dir)
         {
-            case DIR.WEST: x = 1; y = -1; wall = 0; count = col; vec = -1; break;
-            case DIR.NORTH: x = -1; y = -1; wall = 0; count = row; vec = -1; break;
-            case DIR.SOUTH: x = 1; y = 1; wall = 7; count = row; vec = 1; break;
-            case DIR.EAST: x = -1; y = 1; wall = 7; count = col; vec = 1; break;
+            case DIR.WEST: x = -1; y = -1; wall = 0; count = col-1; vec = -1; break;
+            case DIR.NORTH: x = -1; y = -1; wall = 0; count = row-1; vec = -1; break;
+            case DIR.SOUTH: x = 1; y = -1; wall = 7; count = row+1; vec = 1; break;
+            case DIR.EAST: x = -1; y = 1; wall = 7; count = col+1; vec = 1; break;
         }
 
 
         row = row + x;
         col = col + y;
+        Debug.Log(row.ToString()+ col.ToString());
 
         if (row < 0 || row > 7 || col < 0 || col > 7)
         {
@@ -119,19 +122,18 @@ public class SkillRange : MonoBehaviour
                 {
                     if (dir == DIR.EAST || dir == DIR.WEST)
                     {
-                        if ((col - 1 + i) >= 0 && (col - 1 + i) <= 7)
-                            range.Add(nodearr[count, col - 1 + i]);
+                        if ((row + i) >= 0 && (row + i) <= 7)
+                            range.Add(nodearr[row + i, count]);
                     }
                     else if (dir == DIR.NORTH || dir == DIR.SOUTH)
                     {
-                        if ((row - 1 + i) >= 0 && (row - 1 + i) <= 7)
-                            range.Add(nodearr[row - 1 + i, count]);
+                        if ((col  + i) >= 0 && (col  + i) <= 7)
+                            range.Add(nodearr[count, col + i]);
                     }
 
                 }
                 count += vec;
             }
-
         }
 
         foreach(var xz in range)
@@ -146,14 +148,14 @@ public class SkillRange : MonoBehaviour
     {
         if (wall == 7)
         {
-            if (count >= wall)
+            if (count > wall)
             {
                 return false;
             }
         }
         else if (wall == 0)
         {
-            if (count <= wall)
+            if (count < wall)
             {
                 return false;
             }
