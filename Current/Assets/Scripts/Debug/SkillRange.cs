@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SkillRange : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class SkillRange : MonoBehaviour
     bool onoff = false;
 
     List<Node> temp = new List<Node>();
+
     private void Update()
     {
 
@@ -61,6 +63,12 @@ public class SkillRange : MonoBehaviour
                 if (m_caster != null && m_target != null)
                 {
                     temp = DebuGG(m_caster, m_target);
+
+                    foreach (var xz in temp)
+                    {
+                        xz.m_sprite.color = Color.blue;
+                    }
+
                     onoff = true;
                 }
             }
@@ -78,7 +86,8 @@ public class SkillRange : MonoBehaviour
 
             }
         }
-    }
+
+     }
 
     private List<Node> DebuGG(Node caster,Node target)
     {
@@ -86,7 +95,6 @@ public class SkillRange : MonoBehaviour
 
         DIR dir = CharActionMng.Direction(caster, target);
 
-        Debug.Log(dir.ToString());
         List<Node> range = new List<Node>();
 
         int x = 0;
@@ -136,13 +144,31 @@ public class SkillRange : MonoBehaviour
             }
         }
 
-        foreach(var xz in range)
-        {
-            xz.m_sprite.color = Color.blue;
-        }
         return range;
 
     }
+
+
+    public void Testshot(Node caster, Node target)
+    {
+        List<Node> skillrange = DebuGG(caster, target);
+
+        if (skillrange.Count == 0)
+        {
+            return;
+        }
+
+
+        StartCoroutine(IESkillaction(skillrange, caster));
+
+    }
+    public IEnumerator IESkillaction(List<Node> skillrange, Node caster)
+    {
+
+
+        yield return null;
+    }
+
 
     private bool touchwall(int wall, int count)
     {
@@ -161,6 +187,18 @@ public class SkillRange : MonoBehaviour
             }
         }
         return true;
+    }
+
+
+    public void Button1()
+    {
+
+        if (m_caster == null)
+            return;
+
+        if (m_target == null)
+            return;
+        Testshot(m_caster, m_target);
     }
 
 
