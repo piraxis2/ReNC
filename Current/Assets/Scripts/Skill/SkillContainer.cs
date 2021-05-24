@@ -37,6 +37,7 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.TNT, gameObject.AddComponent<TNT>());
         m_skills.Add(Skillname.LoyalProtect, gameObject.AddComponent<LoyalProtect>());
         m_skills.Add(Skillname.HealingWave, gameObject.AddComponent<HealingWave>());
+        m_skills.Add(Skillname.ShockWave, gameObject.AddComponent<ShockWave>());
         m_skills.Add(Skillname.PointBlankShot, gameObject.AddComponent<PointBlankShot>());
         m_skills.Add(Skillname.FanofKnives, gameObject.AddComponent<FanOfKnives>());
         m_skills.Add(Skillname.RapidShot, gameObject.AddComponent<RapidShot>());
@@ -55,6 +56,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.TNT].Init(m_fxmng);
         m_skills[Skillname.LoyalProtect].Init(m_fxmng);
         m_skills[Skillname.HealingWave].Init(m_fxmng);
+        m_skills[Skillname.ShockWave].Init(m_fxmng);
         m_skills[Skillname.PointBlankShot].Init(m_fxmng);
         m_skills[Skillname.FanofKnives].Init(m_fxmng);
         m_skills[Skillname.RapidShot].Init(m_fxmng);

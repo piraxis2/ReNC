@@ -28,7 +28,7 @@ public class Longinus : BaseChar
     protected override void StatusSet()
     {
         MyStatus.SetAD(50);
-        MyStatus.RangeSet(3);
+        MyStatus.RangeSet(2);
         MyStatus.SetLife(500);
         MyStatus.PrioritySet(13);
         MyStatus.SetAS(0.6f);

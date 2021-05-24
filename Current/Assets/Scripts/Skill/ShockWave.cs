@@ -19,7 +19,6 @@ public class ShockWave : Skill
     {
         DIR dir = CharActionMng.Direction(caster.CurrNode, target);
 
-        Debug.Log(dir.ToString());
         List<Node> range = new List<Node>();
 
         int x = 0;
@@ -72,11 +71,8 @@ public class ShockWave : Skill
             }
         }
 
-        foreach (var xz in range)
-        {
-            xz.m_sprite.color = Color.blue;
-        }
         return range;
+
     }
 
 
@@ -103,17 +99,53 @@ public class ShockWave : Skill
     public override IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
     {
 
+
+        int idxnum = skillrange.Count / 3;
         int idx = 0;
 
+        yield return new WaitForSeconds(0.6f);
 
-
-
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < idxnum; i++)
         {
+            for (int j = 0; j < 3; j++)
+            {
+                PixelFx fx = FxMng.Instance.FxCall("Spike");
+                if (skillrange.Count <= idx)
+                    break;
 
+                if (skillrange[idx] != null)
+                {
+                    fx.gameObject.SetActive(true);
+                    fx.transform.position = skillrange[idx].transform.position;
+                }
+
+
+
+                if (skillrange[idx] == null)
+                {
+                    idx++;
+                    continue;
+                }
+
+                if (skillrange[idx].CurrCHAR == null)
+                {
+                    idx++;
+                    continue;
+                }
+
+                if (skillrange[idx].CurrCHAR.FOE != caster.FOE)
+                {
+                    skillrange[idx].CurrCHAR.MyStatus.DamagedLife(m_damage[caster.Star - 1], caster, skillrange[idx], DamageType.Skill);
+                    Debug.Log(skillrange[idx].CurrCHAR);
+                }
+                idx++;
+
+            }
+            yield return new WaitForSeconds(0.1f);
         }
 
 
+        caster.SetAttacking(false);
 
         yield return null;
     }

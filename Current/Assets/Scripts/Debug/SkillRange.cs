@@ -66,7 +66,8 @@ public class SkillRange : MonoBehaviour
 
                     foreach (var xz in temp)
                     {
-                        xz.m_sprite.color = Color.blue;
+                        if (xz != null)
+                            xz.m_sprite.color = Color.blue;
                     }
 
                     onoff = true;
@@ -78,7 +79,8 @@ public class SkillRange : MonoBehaviour
                 {
                     foreach(var x in temp)
                     {
-                        x.m_sprite.color = x.OriColor;
+                        if (x != null)
+                            x.m_sprite.color = x.OriColor;
                     }
                 }
                 temp = new List<Node>();
@@ -132,11 +134,15 @@ public class SkillRange : MonoBehaviour
                     {
                         if ((row + i) >= 0 && (row + i) <= 7)
                             range.Add(nodearr[row + i, count]);
+                        else
+                            range.Add(null);
                     }
                     else if (dir == DIR.NORTH || dir == DIR.SOUTH)
                     {
-                        if ((col  + i) >= 0 && (col  + i) <= 7)
+                        if ((col + i) >= 0 && (col + i) <= 7)
                             range.Add(nodearr[count, col + i]);
+                        else
+                            range.Add(null);
                     }
 
                 }
@@ -164,6 +170,21 @@ public class SkillRange : MonoBehaviour
     }
     public IEnumerator IESkillaction(List<Node> skillrange, Node caster)
     {
+
+        int idxnum = skillrange.Count / 3;
+        int idx = 0; 
+
+        for (int i = 0; i < idxnum; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (skillrange[idx] != null)
+                    skillrange[idx].m_sprite.color = Color.green;
+
+                idx++;
+            }
+            yield return new WaitForSeconds(0.15f);
+        }
 
 
         yield return null;
