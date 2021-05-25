@@ -27,5 +27,7 @@ public class MainMng : MonoBehaviour
         MulliganMng mulligan = MulliganMng.instance;
         TurnMng turn = TurnMng.Instance;
         PlayerINFO playerINFO = PlayerINFO.Instatnce;
+        GetComponentInChildren<SkillContainer>(true).init();
+
     }
 }

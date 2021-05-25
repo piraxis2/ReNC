@@ -14,7 +14,7 @@ public class Mage : Hero
         m_projectile = Resources.Load("Prefab/FireBall") as GameObject;
         m_hitfx = Resources.Load("Prefab/boom") as GameObject;
         m_projectileangle = 150;
-        m_skill = Skillname.thunderstrike;
+        m_skill = Skillname.ThunderStrike;
     }
     public override PixelFx FxCall()
     {

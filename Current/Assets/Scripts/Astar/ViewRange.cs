@@ -24,8 +24,12 @@ public class ViewRange : MonoBehaviour
         m_prevray = m_ray;
         m_ray = Ray();
 
+
         if (m_ray != null)
         {
+            if (m_ray.name == "Dummy")
+                return;
+
             foreach (var x in m_ray.RangeList)
             {
                 x.m_sprite.color =  new Color(0.7f,1, 0.8f);

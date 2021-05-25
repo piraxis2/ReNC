@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 6815432835670590527}
   - component: {fileID: 6815432835670590523}
   - component: {fileID: 6815432835670590524}
-  - component: {fileID: 6815432835670590522}
+  - component: {fileID: -7067604755883718350}
   - component: {fileID: 4386325479844777862}
   - component: {fileID: 6815432835670590526}
   m_Layer: 9
@@ -205,7 +205,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6815432835670590522
+--- !u!114 &-7067604755883718350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,14 +214,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6815432835670590512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d3e149663a34ed41acf835a63b458f2, type: 3}
+  m_Script: {fileID: 11500000, guid: e52ba332d3d14904089b7941751758a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_foe: 0
+  m_rapidshot: 0
   m_Rangelist: []
   m_animator: {fileID: 0}
+  m_starani: {fileID: 0}
   m_projectileangle: 0
-  m_myroom: 0
 --- !u!114 &4386325479844777862
 MonoBehaviour:
   m_ObjectHideFlags: 0

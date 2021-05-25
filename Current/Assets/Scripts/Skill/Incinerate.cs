@@ -50,6 +50,7 @@ public class Incinerate : Skill
         int damage = m_damage[caster.Star - 1];
         fx.gameObject.SetActive(true);
         fx.transform.position = skillrange[4].transform.position;
+        caster.SetAttacking(false);
 
 
         while (!stop)
@@ -88,8 +89,7 @@ public class Incinerate : Skill
 
 
 
-        caster.SetAttacking(false);
-
+    
         yield return null;
     }
 

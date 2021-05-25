@@ -5,8 +5,8 @@ using System;
 
 public enum Skillname
 {
-    none, thunderstrike, arrowpenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist,
+    none, ThunderStrike, ArrowPenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha
 
 
 }
@@ -25,8 +25,8 @@ public class SkillContainer : MonoBehaviour
         s_skillcontainer = this;
         m_fxmng = GetComponent<FxMng>();
        
-        m_skills.Add(Skillname.thunderstrike, gameObject.AddComponent<ThunderStrike>());
-        m_skills.Add(Skillname.arrowpenetrate, gameObject.AddComponent<ArrowPenetrate>());
+        m_skills.Add(Skillname.ThunderStrike, gameObject.AddComponent<ThunderStrike>());
+        m_skills.Add(Skillname.ArrowPenetrate, gameObject.AddComponent<ArrowPenetrate>());
         m_skills.Add(Skillname.Bite, gameObject.AddComponent<Bite>());
         m_skills.Add(Skillname.WhirlWind, gameObject.AddComponent<WhirlWind>());
         m_skills.Add(Skillname.HealBomb, gameObject.AddComponent<HealBomb>());
@@ -44,8 +44,9 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.Incinerate, gameObject.AddComponent<Incinerate>());
         m_skills.Add(Skillname.DeSpellGas, gameObject.AddComponent<DeSpellGas>());
         m_skills.Add(Skillname.BigFist, gameObject.AddComponent<BigFist>());
-        m_skills[Skillname.thunderstrike].Init(m_fxmng);
-        m_skills[Skillname.arrowpenetrate].Init(m_fxmng);
+        m_skills.Add(Skillname.Kamehameha, gameObject.AddComponent<Kamehameha>());
+        m_skills[Skillname.ThunderStrike].Init(m_fxmng);
+        m_skills[Skillname.ArrowPenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
         m_skills[Skillname.WhirlWind].Init(m_fxmng);
         m_skills[Skillname.HealBomb].Init(m_fxmng);
@@ -63,6 +64,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.Incinerate].Init(m_fxmng);
         m_skills[Skillname.DeSpellGas].Init(m_fxmng);
         m_skills[Skillname.BigFist].Init(m_fxmng);
+        m_skills[Skillname.Kamehameha].Init(m_fxmng);
 
     }
 
@@ -92,6 +94,7 @@ public class SkillContainer : MonoBehaviour
     public Skill FindSkill(string name)
     {
         Skillname skillnaeme = (Skillname)Enum.Parse(typeof(Skillname), name);
+        Debug.Log((Skillname)Enum.Parse(typeof(Skillname), name));
         if (m_skills.ContainsKey(skillnaeme))
         { return m_skills[skillnaeme]; }
         return null;

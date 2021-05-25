@@ -9,6 +9,7 @@ public class DebugConsole : MonoBehaviour
 
     InputField inputfield;
     SkillRange skilltest;
+    Skill testskill;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,8 @@ public class DebugConsole : MonoBehaviour
     {
         if(Input.GetKeyUp(KeyCode.BackQuote))
         {
-            
+
+            console = !console;
 
             inputfield.gameObject.SetActive(console);
 
@@ -34,9 +36,18 @@ public class DebugConsole : MonoBehaviour
 
             switch (inputfield.text)
             {
-                case "teststart": skilltest.gameObject.SetActive(true); break;
-                case "testend": skilltest.gameObject.SetActive(false); break;
+                case "teststart": skilltest.gameObject.SetActive(true); inputfield.text = "";
+                    break;
+                case "testend": skilltest.gameObject.SetActive(false); inputfield.text = "";
+                    break;
 
+            }
+
+            if(skilltest.gameObject.activeInHierarchy)
+            {
+                string text = inputfield.text;
+                if(text!="")
+                    skilltest.skill = SkillContainer.Instance.FindSkill(text);
             }
 
             inputfield.text = "";

@@ -67,6 +67,11 @@ public class HandDrag : Mng
             m_hero = HRay();
             if (m_hero != null)
             {
+                if(m_hero.name =="Dummy")
+                {
+                    return;
+                }
+
                 Sale.Instance.PopUp(m_hero);
                 m_draghelper = m_hero.GetComponent<DragHelper>();
                 m_draghelper.m_oripos = m_hero.CurrNode.transform.position;
@@ -89,6 +94,13 @@ public class HandDrag : Mng
             Node node = NRay();
             if (m_hero != null)
             {
+                if (m_hero.name == "Dummy")
+                {
+                    return;
+                }
+
+
+
                 m_hero.CurrNode.m_sprite.color = m_hero.CurrNode.OriColor;
                 Sale.Instance.PopOff();
 

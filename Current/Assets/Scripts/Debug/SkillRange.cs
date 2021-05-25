@@ -11,8 +11,15 @@ public class SkillRange : MonoBehaviour
     Node m_target;
     int count = 0;
     bool onoff = false;
+    public Skill skill;
+    BaseChar dummy;
 
     List<Node> temp = new List<Node>();
+
+    private void Awake()
+    {
+        dummy = GetComponentInChildren<BaseChar>(true);
+    }
 
     private void Update()
     {
@@ -29,6 +36,8 @@ public class SkillRange : MonoBehaviour
             {
                 if (count > 1)
                 {
+                    dummy.transform.position = transform.position;
+                    dummy.gameObject.SetActive(false);
                     m_caster.m_sprite.color = m_caster.OriColor;
                     m_target.m_sprite.color = m_target.OriColor;
                     m_caster = null;
@@ -40,7 +49,7 @@ public class SkillRange : MonoBehaviour
                     node.m_sprite.color = Color.red;
                     switch (count)
                     {
-                        case 0: count++; m_caster = node; break;
+                        case 0: count++; m_caster = node; dummy.transform.position = node.transform.position; dummy.gameObject.SetActive(true); break;
                         case 1: count++; m_target = node; break;
                     }
                 }
@@ -49,11 +58,25 @@ public class SkillRange : MonoBehaviour
 
         else if (Input.GetMouseButtonUp(1))
         {
+            dummy.transform.position = transform.position;
+            dummy.gameObject.SetActive(false);
             if (m_caster != null) m_caster.m_sprite.color = m_caster.OriColor;
             if (m_target != null) m_target.m_sprite.color = m_target.OriColor;
             m_caster = null;
             m_target = null;
             count = 0;
+
+            if (temp.Count > 0)
+            {
+                foreach (var x in temp)
+                {
+                    if (x != null)
+                        x.m_sprite.color = x.OriColor;
+                }
+            }
+            temp = new List<Node>();
+            onoff = false;
+
         }
 
         else if(Input.GetKeyUp(KeyCode.Space))
@@ -62,7 +85,12 @@ public class SkillRange : MonoBehaviour
             {
                 if (m_caster != null && m_target != null)
                 {
-                    temp = DebuGG(m_caster, m_target);
+                    if (skill != null)
+                    {
+                        temp = skill.SkillRange(NodeMng.instance.NodeArr, m_target, dummy);
+
+                    }
+
 
                     foreach (var xz in temp)
                     {
@@ -157,8 +185,7 @@ public class SkillRange : MonoBehaviour
 
     public void Testshot(Node caster, Node target)
     {
-        List<Node> skillrange = DebuGG(caster, target);
-
+        List<Node> skillrange = temp;
         if (skillrange.Count == 0)
         {
             return;
