@@ -87,6 +87,13 @@ public class Kamehameha : Skill
     }
 
 
+    private float Dir(Node target,Node caster)
+    {
+
+
+
+        return 0;
+    }
   
     public override IEnumerator IESkillaction(List<Node> skillrange, BaseChar caster)
     {
@@ -98,9 +105,68 @@ public class Kamehameha : Skill
         PixelFx fx = FxMng.Instance.FxCall("Kamehameha");
         int damage = m_damage[caster.Star - 1];
         fx.gameObject.SetActive(true);
-        fx.transform.position = skillrange[0].transform.position;
-        if (skillrange.Count < 2)
+        float angle = 0;
+        int x = skillrange[0].Row - caster.CurrNode.Row;
+        int y = skillrange[0].Col - caster.CurrNode.Col;
+
+
+        switch (x)
         {
+
+            case -1:
+                if (y == -1)
+                {
+                    fx.transform.position = caster.transform.GetChild(2).position;
+                    angle = 90;
+                }
+                else if (y == 0)
+                {
+                    fx.transform.position = caster.transform.GetChild(3).position;
+                    angle = 45;
+                }
+                else if (y == 1)
+                {
+                    fx.transform.position = caster.transform.GetChild(4).position;
+                    angle = 360;
+                }
+                break;
+            case 0:
+                if (y == -1)
+                {
+                    fx.transform.position = caster.transform.GetChild(5).position;
+                    angle = 315;
+                }
+                else if (y == 1)
+                {
+                    fx.transform.position = caster.transform.GetChild(6).position;
+                    angle = 270;
+                }
+                break;
+            case 1:
+                if (y == -1)
+                {
+                    fx.transform.position = caster.transform.GetChild(7).position;
+                    angle = 225;
+                }
+                else if (y == 0)
+                {
+                    fx.transform.position = caster.transform.GetChild(8).position;
+                    angle = 180;
+                }
+                else if (y == 1)
+                {
+                    fx.transform.position = caster.transform.GetChild(9).position;
+                    angle = 135;
+                }
+                break;
+
+        }
+
+        fx.transform.rotation = Quaternion.Euler(45, 45, angle);
+
+
+        if (skillrange.Count < 2)
+        { 
             damage = (int)(damage * 1.5f);
         }
 
@@ -110,12 +176,12 @@ public class Kamehameha : Skill
             elapsedtime += Time.deltaTime;
             if (elapsedtime >= dotdamgecount)
             {
-                foreach (var x in skillrange)
+                foreach (var z  in skillrange)
                 {
-                    if (x.CurrCHAR != null)
+                    if (z.CurrCHAR != null)
                     {
-                        if (caster.FOE != x.CurrCHAR.FOE)
-                            x.CurrCHAR.MyStatus.DamagedLife(damage / 3, null, x, DamageType.Skill);
+                        if (caster.FOE != z.CurrCHAR.FOE)
+                            z.CurrCHAR.MyStatus.DamagedLife(damage / 3, null, z, DamageType.Skill);
                     }
                 }
                 dotdamgecount += 0.333f;
@@ -128,6 +194,8 @@ public class Kamehameha : Skill
                 fx.gameObject.SetActive(false);
 
             }
+
+            yield return null;
 
 
         }
