@@ -6,7 +6,7 @@ using System;
 public enum Skillname
 {
     none, ThunderStrike, ArrowPenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha, SilverBullet
 
 
 }
@@ -81,13 +81,6 @@ public class SkillContainer : MonoBehaviour
         if (m_skills.ContainsKey(skill))
         { return m_skills[skill]; }
 
-        return null;
-    }
-
-    public Skill FindSkill(int idx)
-    {
-        if(m_skills.ContainsKey((Skillname)idx))
-        { return m_skills[(Skillname)idx]; }
         return null;
     }
 

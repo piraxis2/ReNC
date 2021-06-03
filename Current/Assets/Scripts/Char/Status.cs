@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum DamageType
 {
-    Kinetic, Skill, Trap, Heal, None, Dot
+    Kinetic, Skill, Trap, Heal, None, Dot, Onhit, Dtrue
 }
 
 
@@ -57,9 +57,9 @@ public class Status
     public int m_equran = 0;
     public int m_magicregest = 0;
 
-
     public bool m_stuned = false;
     public bool m_silence = false;
+
 
     private bool m_perk8stack = false;
     private bool m_buff = false;
@@ -474,6 +474,7 @@ public class Status
         return dam;
     }
 
+    int m_onhitstack = 0;
 
     public bool DamagedLife(int damage, BaseChar target, Node currnode, DamageType type, string text = null)
     {
@@ -481,7 +482,7 @@ public class Status
         string damagetext = text;
         string logtext = "";
 
-        if (type == DamageType.Kinetic)
+        if (type == DamageType.Kinetic || type == DamageType.Onhit)
         {
             if (target != null)
             {
@@ -495,12 +496,35 @@ public class Status
 
             realdam = CalculateDamage(realdam);
 
+            if (type == DamageType.Onhit)
+            {
+                m_onhitstack++;
+             
+                if(m_onhitstack>=3)
+                {
+                    Debug.Log(m_onhitstack);
+                    m_onhitstack = 0;
+                    m_baseChar.MyStatus.DamagedLife(90, target, currnode, DamageType.Dtrue, "TRUE");
+                    PixelFx WhiteSkull = FxMng.Instance.FxCall("WhiteSkull");
+                    WhiteSkull.gameObject.SetActive(true);
+                    WhiteSkull.transform.position = currnode.transform.position;
+                }
+
+            }
+
+
             if (realdam <= 0)
             {
                 realdam = 0;
                 damagetext = null;
             }
         }
+
+        if(type == DamageType.Dtrue)
+        {
+
+        }
+
 
         if (target != null)
         {

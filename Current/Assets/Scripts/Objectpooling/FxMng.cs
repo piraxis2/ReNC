@@ -71,6 +71,8 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Incinerate") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Fist") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/Kamehameha") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/WhtieSkull") as GameObject);
+
 
         for (int i = 0; i < m_prefabs.Count; i++)
         {
@@ -167,6 +169,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(33);
             case "Kamehameha":
                 return FxInstant(34);
+            case "WhiteSkull":
+                return FxInstant(35);
         }
         return null;
     }

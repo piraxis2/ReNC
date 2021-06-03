@@ -15,7 +15,7 @@ public class Hunter : Hero
         m_projectile = Resources.Load("Prefab/Arrow") as GameObject;
         m_hitfx = Resources.Load("Prefab/HitEx") as GameObject;
         m_projectileangle = 0;
-        m_skill = Skillname.RapidShot;
+        m_skill = Skillname.SilverBullet;
     }
 
     public override PixelFx FxCall()
@@ -44,6 +44,7 @@ public class Hunter : Hero
     protected override void StatusSet()
     {
 
+        MyStatus.SetMaxMana(1);
         MyStatus.SetLife(5000);
         MyStatus.RangeSet(5);
         MyStatus.PrioritySet(5);

@@ -338,7 +338,15 @@ public class ActionContainer : MonoBehaviour
         }
         if (targetChar != null)
         {
-            targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Kinetic);
+
+            if (Chara.Skill == Skillname.SilverBullet)
+            {
+                targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Onhit);
+            }
+            else
+            {
+                targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Kinetic);
+            }
             Chara.MyStatus.ManaGet(10);
             PixelFx hitfx = Chara.FxCall();
             if (hitfx != null)

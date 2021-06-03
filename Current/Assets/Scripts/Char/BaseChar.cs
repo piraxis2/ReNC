@@ -9,7 +9,7 @@ public enum ClassType
 
 public enum Attacktype
 {
-    Direct, Howitzer, Invisible, Wide
+    Direct, Howitzer, Invisible, Wide, Onhit
 }
 
 
@@ -89,6 +89,7 @@ public class BaseChar : MonoBehaviour
     protected ClassType m_classtype;
     protected Skillname m_skill;
     protected Attacktype m_attacktype;
+
     #endregion
     //1 public property
     #region

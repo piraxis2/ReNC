@@ -190,8 +190,7 @@ public class CharActionMng : Mng
             //onhit
             if (Chara.Skill == Skillname.ManaSteal)//기사의 마나훔치기
             { target.CurrCHAR.MyStatus.ManaCost(Knight.m_manasteal[Chara.Star]); }
-
-
+           
 
             Chara.MyStatus.ManaGet(5+Chara.MyStatus.MPS);
             yield return attackspeed;
@@ -288,8 +287,21 @@ public class CharActionMng : Mng
         }
         if (targetChar != null)
         {
-            targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target,DamageType.Kinetic);
+
+            if (Chara.Skill == Skillname.SilverBullet)
+            {
+                targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Onhit);
+                Debug.Log("yes");
+            }
+            else
+            {
+                targetChar.MyStatus.DamagedLife(Chara.MyStatus.AD, Chara, target, DamageType.Kinetic);
+                Debug.Log("no");
+            }
+
+
             Chara.MyStatus.ManaGet(10);
+
             PixelFx hitfx = Chara.FxCall();
             if (hitfx != null)
             {
