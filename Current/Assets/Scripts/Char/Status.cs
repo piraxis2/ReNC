@@ -474,7 +474,8 @@ public class Status
         return dam;
     }
 
-    int m_onhitstack = 0;
+    public int m_onhitstack = 0;
+    SilverBullet m_bullet;
 
     public bool DamagedLife(int damage, BaseChar target, Node currnode, DamageType type, string text = null)
     {
@@ -499,11 +500,20 @@ public class Status
             if (type == DamageType.Onhit)
             {
                 m_onhitstack++;
-             
+                if (m_bullet == null)
+                {
+                    m_bullet = FxMng.Instance.FxCall("SilverBullet") as SilverBullet;
+                    m_bullet.Bind(this);
+                }
+                m_bullet.Count(m_onhitstack);
+
+
                 if(m_onhitstack>=3)
                 {
                     Debug.Log(m_onhitstack);
                     m_onhitstack = 0;
+                    m_bullet.Anioff();
+                    m_bullet = null;
                     m_baseChar.MyStatus.DamagedLife(90, target, currnode, DamageType.Dtrue, "TRUE");
                     PixelFx WhiteSkull = FxMng.Instance.FxCall("WhiteSkull");
                     WhiteSkull.gameObject.SetActive(true);
