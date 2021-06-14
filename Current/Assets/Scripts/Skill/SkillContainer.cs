@@ -6,7 +6,7 @@ using System;
 public enum Skillname
 {
     none, ThunderStrike, ArrowPenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha, SilverBullet
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha, SilverBullet, Hammering
 
 
 }
@@ -45,6 +45,7 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.DeSpellGas, gameObject.AddComponent<DeSpellGas>());
         m_skills.Add(Skillname.BigFist, gameObject.AddComponent<BigFist>());
         m_skills.Add(Skillname.Kamehameha, gameObject.AddComponent<Kamehameha>());
+        m_skills.Add(Skillname.Hammering, gameObject.AddComponent<Hammering>());
         m_skills[Skillname.ThunderStrike].Init(m_fxmng);
         m_skills[Skillname.ArrowPenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -65,6 +66,7 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.DeSpellGas].Init(m_fxmng);
         m_skills[Skillname.BigFist].Init(m_fxmng);
         m_skills[Skillname.Kamehameha].Init(m_fxmng);
+        m_skills[Skillname.Hammering].Init(m_fxmng);
 
     }
 

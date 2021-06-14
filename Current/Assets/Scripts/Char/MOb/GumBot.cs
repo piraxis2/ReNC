@@ -36,6 +36,7 @@ public class GumBot : BaseChar
 
         MyStatus.SetName("GumBot");
         MyStatus.PrioritySet(11);
+        MyStatus.SetMaxMana(1);
         MyStatus.SetLife(600);
         MyStatus.SetAS(0.6f);
         base.StatusSet();

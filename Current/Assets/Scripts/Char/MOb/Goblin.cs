@@ -10,6 +10,8 @@ public class Goblin : BaseChar
         MyStatus.SetName("Goblin");
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
+        m_skill = Skillname.Hammering;
+
     }
 
     public override PixelFx FxCall()
