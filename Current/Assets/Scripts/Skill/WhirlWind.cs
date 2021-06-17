@@ -41,10 +41,11 @@ public class WhirlWind : Skill
             {
                 stop = true;
                 fx.ShutActive();
+                CharActionMng.ChangeDeadAni(CharActionMng.Direction(caster.CurrNode, null), caster);
             }
 
 
-            if(caster.m_animator.GetCurrentAnimatorStateInfo(0).IsName("Casting")||caster.m_animator.GetCurrentAnimatorStateInfo(0).IsName("Casting2"))
+            if (caster.m_animator.GetCurrentAnimatorStateInfo(0).IsName("Casting")||caster.m_animator.GetCurrentAnimatorStateInfo(0).IsName("Casting2"))
             {
                 caster.m_animator.Play("Casting");
             }
