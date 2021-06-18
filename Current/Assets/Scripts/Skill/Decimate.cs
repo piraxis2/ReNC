@@ -29,6 +29,10 @@ public class Decimate : Skill
     {
 
         int count = 0;
+        PixelFx fx = FxMng.Instance.FxCall("Decimate");
+        fx.gameObject.SetActive(true);
+        fx.transform.position = caster.transform.position;
+
 
         for (int j = 0; j < skillrange.Count; j++)
         {
@@ -48,7 +52,7 @@ public class Decimate : Skill
             PixelFx heal = FxMng.Instance.FxCall("Heal");
             heal.gameObject.SetActive(true);
             heal.transform.position = caster.transform.position;
-            caster.MyStatus.CuredLife(m_cure[count - 1]);
+            caster.MyStatus.CuredLife(m_cure[caster.Star - 1] * count);
         }
 
 

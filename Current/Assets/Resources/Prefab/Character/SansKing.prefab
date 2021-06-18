@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3082581879727638592}
   - component: {fileID: 3082581879727638653}
   - component: {fileID: 3082581879727638594}
-  - component: {fileID: 3082581879727638595}
   - component: {fileID: 3082581879727638652}
+  - component: {fileID: -4888678213900017856}
   - component: {fileID: -7843430370446182209}
   m_Layer: 10
   m_Name: SansKing
@@ -104,26 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3082581879727638595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3082581879727638593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b1a3668ed99b842942c3263e3e3c2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_exclude: 0
-  m_currnode: {fileID: 0}
-  m_prevnode: {fileID: 0}
-  m_fusionparent: {fileID: 0}
-  m_Rangelist: []
-  m_attackablelist: []
-  m_animator: {fileID: 0}
-  m_projectileangle: 0
 --- !u!136 &3082581879727638652
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -138,6 +118,24 @@ CapsuleCollider:
   m_Height: 0.8
   m_Direction: 1
   m_Center: {x: 0, y: 0.40572125, z: 0}
+--- !u!114 &-4888678213900017856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082581879727638593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8063041ac1ce04daaa2cff973628bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_foe: 0
+  m_rapidshot: 0
+  m_Rangelist: []
+  m_animator: {fileID: 0}
+  m_starani: {fileID: 0}
+  m_projectileangle: 0
 --- !u!114 &-7843430370446182209
 MonoBehaviour:
   m_ObjectHideFlags: 0

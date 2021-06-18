@@ -32,7 +32,7 @@ public class PlayerData
     private int[] m_onskills = new int[3];
     private int[] m_builds = new int[4];
     private Sprite[] m_icons = new Sprite[3];
-    private int[] m_exptable = { 2, 2, 6, 10, 20, 36, 56, 80 };
+    private int[] m_exptable = { 2, 2, 6, 10, 20, 36, 56, 80, 10000 };
     private bool m_iwin;
     private int m_winstack = 0;
 

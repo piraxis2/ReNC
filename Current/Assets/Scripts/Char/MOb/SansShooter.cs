@@ -25,7 +25,6 @@ public class SansShooter : BaseChar
     public override PixelFx FxCall()
     {
         return FxMng.Instance.FxCall("ArrowHit");
-
     }
 
   }

@@ -73,6 +73,7 @@ public class FxMng : MonoBehaviour
         m_prefabs.Add(Resources.Load("Prefab/FX/Kamehameha") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/WhtieSkull") as GameObject);
         m_prefabs.Add(Resources.Load("Prefab/FX/SilverBullet") as GameObject);
+        m_prefabs.Add(Resources.Load("Prefab/FX/Decimate") as GameObject);
 
 
         for (int i = 0; i < m_prefabs.Count; i++)
@@ -174,6 +175,8 @@ public class FxMng : MonoBehaviour
                 return FxInstant(35);
             case "SilverBullet":
                 return FxInstant(36);
+            case "Decimate":
+                return FxInstant(37);
         }
         return null;
     }
