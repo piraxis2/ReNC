@@ -11,6 +11,14 @@ public class MathHelper : MonoBehaviour
         return Mathf.Atan2(v.z, v.x) * Mathf.Rad2Deg;
     }
 
+    public static Vector3 AngleDistance(Vector3 oripoint, float angle, float distance)
+    {
+        Vector3 v3distance = new Vector3(distance, 0 , 0);
+        Quaternion rota = Quaternion.Euler(0, -angle, 0);
+        Vector3 temp = rota * v3distance;
+        return oripoint + temp;
+    }
+
     public static float EaseOutExpo(float start, float end, float delta)
     {
         end -= start;

@@ -6,7 +6,8 @@ using System;
 public enum Skillname
 {
     none, ThunderStrike, ArrowPenetrate, Bite, WhirlWind, HealBomb, BlackMagic, ManaSteal, ManaBattery,
-    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives, RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha, SilverBullet, Hammering, Decimate
+    ChainLightning, PolyMorph, TNT, LoyalProtect, HealingWave, ShockWave, PointBlankShot, FanofKnives,
+    RapidShot, Incinerate, DeSpellGas, BigFist, Kamehameha, SilverBullet, Hammering, Decimate, BoneBumerang, ChickenBite
 
 
 }
@@ -47,6 +48,8 @@ public class SkillContainer : MonoBehaviour
         m_skills.Add(Skillname.Kamehameha, gameObject.AddComponent<Kamehameha>());
         m_skills.Add(Skillname.Hammering, gameObject.AddComponent<Hammering>());
         m_skills.Add(Skillname.Decimate, gameObject.AddComponent<Decimate>());
+        m_skills.Add(Skillname.BoneBumerang, gameObject.AddComponent<BoneBumerang>());
+        m_skills.Add(Skillname.ChickenBite, gameObject.AddComponent<ChickenBite>());
         m_skills[Skillname.ThunderStrike].Init(m_fxmng);
         m_skills[Skillname.ArrowPenetrate].Init(m_fxmng);
         m_skills[Skillname.Bite].Init(m_fxmng);
@@ -69,6 +72,8 @@ public class SkillContainer : MonoBehaviour
         m_skills[Skillname.Kamehameha].Init(m_fxmng);
         m_skills[Skillname.Hammering].Init(m_fxmng);
         m_skills[Skillname.Decimate].Init(m_fxmng);
+        m_skills[Skillname.BoneBumerang].Init(m_fxmng);
+        m_skills[Skillname.ChickenBite].Init(m_fxmng);
 
     }
 

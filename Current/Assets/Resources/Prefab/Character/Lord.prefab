@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_foe: 0
+  m_rapidshot: 1
   m_Rangelist: []
   m_animator: {fileID: 0}
   m_starani: {fileID: 0}

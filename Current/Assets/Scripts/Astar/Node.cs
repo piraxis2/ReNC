@@ -55,7 +55,7 @@ public class Node : MonoBehaviour
         m_ishand = true;    
     }
 
-     public NodeType NodeType
+    public NodeType NodeType
     {
         get { return m_nodeType; }
     }
