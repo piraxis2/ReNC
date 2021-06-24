@@ -89,6 +89,7 @@ public class BaseChar : MonoBehaviour
     protected ClassType m_classtype;
     protected Skillname m_skill;
     protected Attacktype m_attacktype;
+    protected List<Race> m_race = new List<Race>();
 
     #endregion
     //1 public property
@@ -150,6 +151,10 @@ public class BaseChar : MonoBehaviour
         get { return m_attacktype; }
     }
 
+    public List<Race> Races
+    {
+        get { return m_race; }
+    }
 
     public string Classname
     {
@@ -337,6 +342,16 @@ public class BaseChar : MonoBehaviour
         m_fusionparent = mom;
     }
 
+    public void ReSetRace()
+    {
+        m_race = new List<Race>();
+    }
+
+    public void SetRace(Race race)
+    {
+        m_race.Add(race);
+    }
+
     #endregion
 
     protected virtual void StatusSet()
@@ -423,6 +438,7 @@ public class BaseChar : MonoBehaviour
 
         if (m_status.Range == 1)
         {
+
             for (int row = -m_status.Range; row <= m_status.Range; row++)
             {
                 for (int col = -m_status.Range; col <= m_status.Range; col++)

@@ -13,6 +13,7 @@ public class Elemental : BaseChar
         m_sprite = transform.Find("Core").GetComponent<SpriteRenderer>();
         m_animator = transform.Find("Core").GetComponent<Animator>();
         m_face = m_sprite.sprite;
+        SetRace(Race.Elemental);
 
     }
 

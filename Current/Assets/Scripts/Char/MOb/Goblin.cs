@@ -11,6 +11,7 @@ public class Goblin : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.Hammering;
+        SetRace(Race.Goblin);
 
     }
 

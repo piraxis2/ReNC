@@ -10,6 +10,8 @@ public class GumBot : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_attacktype = Attacktype.Howitzer;
+        SetRace(Race.Robot);
+        SetRace(Race.Bomber);
     }
 
     public override PixelFx ProjectileCall()

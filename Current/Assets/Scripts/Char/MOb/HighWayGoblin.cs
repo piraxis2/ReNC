@@ -6,6 +6,11 @@ public class HighWayGoblin : Goblin
 {
 
 
+    public override void Init()
+    {
+        base.Init();
+        SetRace(Race.Assassin);
+    }
 
     public override PixelFx FxCall()
     {

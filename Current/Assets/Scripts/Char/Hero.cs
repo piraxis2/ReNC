@@ -26,6 +26,7 @@ public class Hero : BaseChar
     {
         base.Init();
         SetTargetLayer(10);
+        SetRace(Race.Hero);
     }
 
     public void CardSet(int idx)

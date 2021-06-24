@@ -13,6 +13,8 @@ public class BlueChicken : Hero
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.ChickenBite;
+        SetRace(Race.Beast);
+        SetRace(Race.Healer);
     }
 
     public override PixelFx FxCall()

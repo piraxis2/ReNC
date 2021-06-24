@@ -10,6 +10,7 @@ public class SansMage : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.BlackMagic;
+        SetRace(Race.Mage);
     }
 
     public override PixelFx FxCall()

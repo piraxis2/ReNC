@@ -8,6 +8,7 @@ public class Wisp : Elemental
     {
         base.Init();
         m_skill = Skillname.DeSpellGas;
+        SetRace(Race.Undead);
     }
 
     public override PixelFx FxCall()

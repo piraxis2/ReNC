@@ -9,6 +9,8 @@ public class SansShooter : BaseChar
         base.Init();
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
+        SetRace(Race.Sniper);
+
     }
 
     protected override void StatusSet()

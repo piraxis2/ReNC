@@ -13,6 +13,7 @@ public class SansAssassin : Sans
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.FanofKnives;
+        SetRace(Race.Assassin);
     }
 
 

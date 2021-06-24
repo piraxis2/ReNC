@@ -5,6 +5,12 @@ using UnityEngine;
 public class GoblinShapper : Goblin
 {
 
+    public override void Init()
+    {
+        base.Init();
+        SetRace(Race.Bomber);
+    }
+
 
     public override PixelFx ProjectileCall()
     {

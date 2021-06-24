@@ -9,6 +9,8 @@ public class Shururu : BaseChar
         base.Init();
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 150;
+        SetRace(Race.White);
+        SetRace(Race.Sniper);
     }
 
     public override PixelFx FxCall()

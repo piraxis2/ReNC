@@ -151,6 +151,9 @@ public class HandMng : MonoBehaviour
     }
 
 
+    protected Race m_subrace;
+    protected Race m_subrace2;
+
 
     public void ReturnField(BaseChar ch)
     {
@@ -185,6 +188,8 @@ public class HandMng : MonoBehaviour
 
 
         m_fieldchars.Add(ch);
+        Synergy.instace.CountSynergy();
+
     }
 
     public void ReturnHand(BaseChar ch)
@@ -361,6 +366,7 @@ public class HandMng : MonoBehaviour
 
             }
         }
+        Synergy.instace.CountSynergy();
 
     }
 

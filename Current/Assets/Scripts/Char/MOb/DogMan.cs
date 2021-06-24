@@ -11,6 +11,8 @@ public class DogMan : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.BoneBumerang;
+        SetRace(Race.Beast);
+        SetRace(Race.Fighter);
 
     }
 
@@ -28,6 +30,7 @@ public class DogMan : BaseChar
         MyStatus.SetAS(0.65f);
         MyStatus.SetDF(40);
         base.StatusSet();
+
     }
 
 }

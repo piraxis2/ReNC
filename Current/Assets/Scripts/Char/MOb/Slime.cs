@@ -11,6 +11,8 @@ public class Slime : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.HealBomb;
+        SetRace(Race.Slime);
+        SetRace(Race.Healer);
     }
 
     public override PixelFx FxCall()

@@ -10,6 +10,7 @@ public class SansKing : BaseChar
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.Decimate;
+        SetRace(Race.Loyal);
     }
 
 

@@ -13,6 +13,9 @@ public class Engel : BaseChar
         m_hitfx = Resources.Load("Prefab/boom") as GameObject;
         m_projectileangle = 150;
         m_skill = Skillname.HealingWave;
+        SetRace(Race.Hero);
+        SetRace(Race.Healer);
+
     }
     public override PixelFx FxCall()
     {

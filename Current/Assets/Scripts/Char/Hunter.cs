@@ -16,6 +16,7 @@ public class Hunter : Hero
         m_hitfx = Resources.Load("Prefab/HitEx") as GameObject;
         m_projectileangle = 0;
         m_skill = Skillname.SilverBullet;
+        SetRace(Race.Sniper);
     }
 
     public override PixelFx FxCall()

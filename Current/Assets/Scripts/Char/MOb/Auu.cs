@@ -10,6 +10,9 @@ public class Auu : BaseChar
         MyStatus.SetName("Auu");
         m_hitfx = Resources.Load("Prefab/Attack") as GameObject;
         m_projectileangle = 0;
+        SetRace(Race.White);
+        SetRace(Race.Hero);
+
     }
 
     public override PixelFx FxCall()
@@ -27,6 +30,6 @@ public class Auu : BaseChar
         MyStatus.SetDF(40);
         m_skill = Skillname.Kamehameha;
         base.StatusSet();
-    }
+         }
 
 }

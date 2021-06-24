@@ -9,6 +9,7 @@ public class WilloWisp : Elemental
     {
         base.Init();
         m_skill = Skillname.ChainLightning;
+        SetRace(Race.Mage);
     }
 
     public override PixelFx FxCall()

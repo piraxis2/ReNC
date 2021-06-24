@@ -9,6 +9,7 @@ public class WaterElemental : Elemental
     {
         base.Init();
         m_skill = Skillname.ManaBattery;
+        SetRace(Race.Healer);
     }
 
     public override PixelFx FxCall()

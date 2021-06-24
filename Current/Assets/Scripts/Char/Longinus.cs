@@ -14,6 +14,8 @@ public class Longinus : BaseChar
         m_projectileangle = 150;
         m_skill = Skillname.ShockWave;
         m_attacktype = Attacktype.Invisible;
+        SetRace(Race.Hero);
+        SetRace(Race.Assassin);
     }
     public override PixelFx FxCall()
     {

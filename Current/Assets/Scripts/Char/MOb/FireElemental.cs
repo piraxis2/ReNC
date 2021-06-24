@@ -9,6 +9,7 @@ public class FireElemental : Elemental
     {
         base.Init();
         m_skill = Skillname.Incinerate;
+        SetRace(Race.Bomber);
     }
 
     public override PixelFx FxCall()
