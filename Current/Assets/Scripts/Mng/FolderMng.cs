@@ -64,13 +64,13 @@ public class FolderMng : MonoBehaviour
     void Update()
     {
         
-        if (!EventSystem.current.IsPointerOverGameObject())
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                FoldRest();
-            }
-        }
+        //if (!EventSystem.current.IsPointerOverGameObject())
+        //{
+        //    if (Input.GetMouseButtonDown(0))
+        //    {
+        //        FoldRest();
+        //    }
+        //}
 
 
 

@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public enum Race { Assassin, Beast, Bomber, Elemental, Goblin, Healer, Hero, Loyal, Mage, Robot, Slime, Sniper, Undead, Fighter, White, }
+public enum Race { Assassin, Beast, Bomber, Elemental, Fighter, Goblin, Healer, Hero, Loyal, Mage, Robot, Slime, Sniper, Undead, White, }
+
+
 
 public class Synergy : MonoBehaviour
 {
@@ -22,20 +25,41 @@ public class Synergy : MonoBehaviour
         }
     }
 
-    private int[] m_Synergys = new int[15];
+    private int[] m_races = new int[15];
+    private int[] m_maximumrace = { 4, 5, 4, 4, 4, 5, 3, 8, 4, 4, 2, 4, 4, 6, 4 };
     private List<RaceCard> m_card = new List<RaceCard>();
+    private List<Button> m_buttons = new List<Button>();
 
     private void Init()
     {
         m_card.AddRange(GetComponentsInChildren<RaceCard>(true));
 
+        int idx = 0;
+
+        foreach (var x in m_card)
+        {
+            x.Init(idx);
+            m_buttons.Add(x.m_button);
+            idx++;
+
+        }
+
     }
 
     public int GetSynergy(Race race)
     {
-        return m_Synergys[(int)race];
+        return m_races[(int)race];
     }
 
+    public int SynergyLV(Race race, int count) // Method mold
+    {
+        return 0;
+    }
+
+    public int SynergyLVCount(Race race, int count)// Method mold
+    {
+        return 0;
+    }
 
     public void CountSynergy()
     {
@@ -50,15 +74,15 @@ public class Synergy : MonoBehaviour
                 temp[(int)z]++;
             }
         }
-        m_Synergys = temp;
+        m_races = temp;
 
         for (int i = 0; i < 15; i++)
         {
             m_card[i].gameObject.SetActive(false);
-            if (m_Synergys[i] > 0)
+            if (m_races[i] > 0)
             {
                 m_card[i].gameObject.SetActive(true);
-                m_card[i].RaceCount(m_Synergys[i]);
+                m_card[i].RaceCount(m_races[i]);
             }
         }
     }
